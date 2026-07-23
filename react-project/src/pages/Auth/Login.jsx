@@ -84,7 +84,7 @@ export default function Login() {
 
                     {/* Logo */}
                     <Link to="/" className="auth-logo">
-                        <span className="material-symbols-outlined" style={{ fontVariationSettings: '"FILL" 1' }}>terminal</span>
+                        <img src="/logo.png" alt="Pan Học Code Logo" className="w-10 h-10 object-contain rounded-full shadow-sm" />
                         <span className="auth-logo-text">Pan Học Code</span>
                     </Link>
 

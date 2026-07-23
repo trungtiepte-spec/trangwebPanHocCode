@@ -30,14 +30,14 @@ export default function MainLayout() {
         <div className="bg-background text-on-surface min-h-screen flex flex-col">
             <header className="bg-surface dark:bg-on-surface border-b border-outline-variant dark:border-outline shadow-sm sticky top-0 z-50">
                 <div className="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
-                    <div className="flex items-center gap-sm">
-                        <span className="material-symbols-outlined text-primary text-3xl" style={{"fontVariationSettings":"\"FILL\" 1"}}>terminal</span>
+                    <div className="flex items-center gap-md">
+                        <img src="/logo.png" alt="Pan Học Code Logo" className="w-10 h-10 object-contain rounded-full shadow-sm" />
                         <Link className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed" to="/">Pan Học Code</Link>
                     </div>
-                    <nav className="hidden md:flex items-center gap-xl">
-                        <NavLink to="/" end className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold border-b-2 border-primary hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2" : "text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2"}>Dashboard</NavLink>
-                        <NavLink to="/result" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold border-b-2 border-primary hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2" : "text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2"}>My Results</NavLink>
-                        <NavLink to="/courses" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold border-b-2 border-primary hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2" : "text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-primary-fixed-dim transition-colors py-2"}>My Courses</NavLink>
+                    <nav className="hidden md:flex items-center gap-md">
+                        <NavLink to="/" end className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>Dashboard</NavLink>
+                        <NavLink to="/result" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>My Results</NavLink>
+                        <NavLink to="/courses" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>My Courses</NavLink>
                     </nav>
                     <div className="flex items-center gap-md">
                         <button className="material-symbols-outlined text-on-surface-variant dark:text-primary-fixed hover:bg-surface-container-low p-sm rounded-full transition-all">timer</button>
@@ -95,10 +95,13 @@ export default function MainLayout() {
 
             <ChatWidget />
 
-            <footer className="w-full py-xl px-lg flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto border-t border-outline-variant">
-                <div className="mb-md md:mb-0">
-                    <h2 className="font-headline-sm text-headline-sm font-bold text-primary">Pan Học Code</h2>
-                    <p className="font-label-sm text-label-sm text-secondary mt-xs">© 2024 Pan Học Code</p>
+            <footer className="w-full py-xl px-lg flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto border-t border-outline-variant bg-surface-bright">
+                <div className="flex items-center gap-md mb-md md:mb-0">
+                    <img src="/logo.png" alt="Pan Học Code Logo" className="w-12 h-12 object-contain rounded-full shadow-sm" />
+                    <div>
+                        <h2 className="font-headline-sm text-headline-sm font-bold text-primary">Pan Học Code</h2>
+                        <p className="font-label-sm text-label-sm text-secondary mt-xs">© 2024 Pan Học Code</p>
+                    </div>
                 </div>
                 <div className="flex flex-wrap justify-center gap-xl">
                     <Link className="font-label-sm text-label-sm text-secondary hover:text-primary transition-opacity" to="/privacy">Privacy Policy</Link>

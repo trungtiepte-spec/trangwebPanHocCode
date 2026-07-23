@@ -1,12 +1,12 @@
 body {
-            font-family: 'Inter', sans-serif;
-            -webkit-font-smoothing: antialiased;
-        }
-        .subject-card-selected {
-            border-color: #00288e !important;
-            background-color: #eff4ff !important;
-            box-shadow: 0px 4px 20px rgba(30, 64, 175, 0.12) !important;
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.subject-card-selected {
+    border-color: #EC4899 !important;
+    background-color: #FFF1F7 !important;
+    box-shadow: 0px 4px 20px rgba(236, 72, 153, 0.15) !important;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

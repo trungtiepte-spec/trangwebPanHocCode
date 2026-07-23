@@ -1,5 +1,5 @@
 /* ============================================================
-   CourseForm — Add / Edit Course Styles
+   CourseForm — Add / Edit Course Styles (Sakura Pink Theme)
    ============================================================ */
 
 .cf-page {
@@ -18,19 +18,19 @@
     display: flex;
     align-items: center;
     gap: 4px;
-    color: #444653;
+    color: #9d174d;
     font-size: 13px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 6px 10px;
     border-radius: 7px;
-    border: 1.5px solid #c4c5d5;
+    border: 1.5px solid #fbcfe8;
     transition: all 0.15s;
     background: #fff;
     flex-shrink: 0;
 }
-.cf-back:hover { border-color: #00288e; color: #00288e; background: #f0f4ff; }
+.cf-back:hover { border-color: #EC4899; color: #EC4899; background: #FFF1F7; }
 .cf-back .material-symbols-outlined { font-size: 17px; }
 
 .cf-title {
@@ -44,11 +44,11 @@
 /* ── Card sections ─────────────────────────────────────────── */
 .cf-card {
     background: #fff;
-    border: 1.5px solid #c4c5d5;
+    border: 1.5px solid #fbcfe8;
     border-radius: 12px;
     padding: 24px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 12px rgba(0,40,142,0.05);
+    box-shadow: 0 2px 12px rgba(236,72,153,0.06);
 }
 .cf-card-title {
     font-size: 15px;
@@ -57,12 +57,12 @@
     font-family: 'Inter', sans-serif;
     margin: 0 0 16px;
     padding-bottom: 10px;
-    border-bottom: 1.5px solid #e6eeff;
+    border-bottom: 1.5px solid #fce7f3;
     display: flex;
     align-items: center;
     gap: 7px;
 }
-.cf-card-title .material-symbols-outlined { font-size: 18px; color: #00288e; }
+.cf-card-title .material-symbols-outlined { font-size: 18px; color: #EC4899; }
 
 /* ── Fields ────────────────────────────────────────────────── */
 .cf-field {
@@ -84,12 +84,12 @@
 .cf-textarea,
 .cf-select {
     padding: 9px 12px;
-    border: 1.5px solid #c4c5d5;
+    border: 1.5px solid #fbcfe8;
     border-radius: 7px;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     color: #0d1c2e;
-    background: #f8f9ff;
+    background: #FFF1F7;
     outline: none;
     transition: border-color 0.18s, box-shadow 0.18s;
     width: 100%;
@@ -98,8 +98,8 @@
 .cf-input:focus,
 .cf-textarea:focus,
 .cf-select:focus {
-    border-color: #00288e;
-    box-shadow: 0 0 0 3px rgba(0,40,142,0.08);
+    border-color: #EC4899;
+    box-shadow: 0 0 0 3px rgba(236,72,153,0.10);
     background: #fff;
 }
 .cf-input.error,
@@ -116,11 +116,11 @@
 
 /* ── Question block ────────────────────────────────────────── */
 .cf-question-block {
-    border: 1.5px solid #e6eeff;
+    border: 1.5px solid #fce7f3;
     border-radius: 10px;
     padding: 18px;
     margin-bottom: 16px;
-    background: #f8f9ff;
+    background: #FFF1F7;
     position: relative;
 }
 .cf-question-header {
@@ -132,9 +132,9 @@
 .cf-question-num {
     font-size: 13px;
     font-weight: 700;
-    color: #00288e;
+    color: #EC4899;
     font-family: 'Inter', sans-serif;
-    background: #e6eeff;
+    background: #fce7f3;
     padding: 3px 10px;
     border-radius: 9999px;
 }
@@ -174,7 +174,7 @@
 .cf-option-label {
     font-size: 12px;
     font-weight: 700;
-    color: #50616b;
+    color: #9d174d;
     font-family: 'Inter', sans-serif;
     min-width: 20px;
 }
@@ -183,10 +183,10 @@
 .cf-add-q-btn {
     width: 100%;
     padding: 10px;
-    border: 2px dashed #c4c5d5;
+    border: 2px dashed #fbcfe8;
     border-radius: 9px;
     background: transparent;
-    color: #444653;
+    color: #9d174d;
     font-size: 13px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
@@ -198,7 +198,7 @@
     transition: all 0.15s;
     margin-top: 4px;
 }
-.cf-add-q-btn:hover { border-color: #00288e; color: #00288e; background: #f0f4ff; }
+.cf-add-q-btn:hover { border-color: #EC4899; color: #EC4899; background: #FFF1F7; }
 .cf-add-q-btn .material-symbols-outlined { font-size: 18px; }
 
 .cf-form-actions {
@@ -209,30 +209,30 @@
 }
 .cf-btn-cancel {
     padding: 10px 22px;
-    border: 1.5px solid #c4c5d5;
+    border: 1.5px solid #fbcfe8;
     border-radius: 8px;
     background: #fff;
     font-size: 14px;
     font-weight: 600;
-    color: #444653;
+    color: #9d174d;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: background 0.15s;
 }
-.cf-btn-cancel:hover { background: #f0f4ff; }
+.cf-btn-cancel:hover { background: #FFF1F7; }
 .cf-btn-save {
     padding: 10px 28px;
     border: none;
     border-radius: 8px;
-    background: #00288e;
+    background: linear-gradient(135deg, #F9A8D4, #EC4899);
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    transition: opacity 0.15s, transform 0.1s;
+    transition: opacity 0.15s, transform 0.1s, box-shadow 0.15s;
 }
-.cf-btn-save:hover:not(:disabled) { opacity: 0.88; }
+.cf-btn-save:hover:not(:disabled) { opacity: 0.88; box-shadow: 0 4px 12px rgba(236,72,153,0.35); }
 .cf-btn-save:active:not(:disabled) { transform: scale(0.97); }
 .cf-btn-save:disabled { opacity: 0.45; cursor: not-allowed; }
 
