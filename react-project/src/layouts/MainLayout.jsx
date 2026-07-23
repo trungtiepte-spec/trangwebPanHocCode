@@ -35,9 +35,9 @@ export default function MainLayout() {
                         <Link className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed" to="/">Pan Học Code</Link>
                     </div>
                     <nav className="hidden md:flex items-center gap-md">
-                        <NavLink to="/" end className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>Dashboard</NavLink>
-                        <NavLink to="/result" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>My Results</NavLink>
-                        <NavLink to="/courses" className={({ isActive }) => isActive ? "text-primary dark:text-primary-fixed font-bold bg-primary/10 rounded-lg px-md py-sm transition-all duration-300" : "text-on-surface-variant dark:text-on-tertiary-container hover:bg-primary/5 hover:text-primary rounded-lg px-md py-sm transition-all duration-300"}>My Courses</NavLink>
+                        <NavLink to="/" end className={({ isActive }) => isActive ? "text-white font-bold bg-gradient-to-r from-pink-400 to-pink-500 rounded-full px-md py-sm shadow-sm transition-all duration-300 relative after:content-['🌸'] after:absolute after:-top-1 after:-right-1.5 after:text-[10px] after:animate-bounce" : "text-on-surface-variant hover:bg-pink-50 hover:text-pink-600 rounded-full px-md py-sm transition-all duration-300"}>Dashboard</NavLink>
+                        <NavLink to="/result" className={({ isActive }) => isActive ? "text-white font-bold bg-gradient-to-r from-pink-400 to-pink-500 rounded-full px-md py-sm shadow-sm transition-all duration-300 relative after:content-['🌸'] after:absolute after:-top-1 after:-right-1.5 after:text-[10px] after:animate-bounce" : "text-on-surface-variant hover:bg-pink-50 hover:text-pink-600 rounded-full px-md py-sm transition-all duration-300"}>My Results</NavLink>
+                        <NavLink to="/courses" className={({ isActive }) => isActive ? "text-white font-bold bg-gradient-to-r from-pink-400 to-pink-500 rounded-full px-md py-sm shadow-sm transition-all duration-300 relative after:content-['🌸'] after:absolute after:-top-1 after:-right-1.5 after:text-[10px] after:animate-bounce" : "text-on-surface-variant hover:bg-pink-50 hover:text-pink-600 rounded-full px-md py-sm transition-all duration-300"}>My Courses</NavLink>
                     </nav>
                     <div className="flex items-center gap-md">
                         <button className="material-symbols-outlined text-on-surface-variant dark:text-primary-fixed hover:bg-surface-container-low p-sm rounded-full transition-all">timer</button>
@@ -82,7 +82,7 @@ export default function MainLayout() {
                             <Link
                                 to="/login"
                                 id="header-signin-btn"
-                                className="font-label-md text-label-md bg-primary text-on-primary px-md py-xs rounded-lg hover:opacity-90 transition-all"
+                                className="btn-sakura px-md py-xs rounded-full"
                             >
                                 Sign In
                             </Link>
@@ -95,19 +95,23 @@ export default function MainLayout() {
 
             <ChatWidget />
 
-            <footer className="w-full py-xl px-lg flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto border-t border-outline-variant bg-surface-bright">
-                <div className="flex items-center gap-md mb-md md:mb-0">
+            <footer className="w-full py-xl px-lg flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto border-t-2 border-pink-100 bg-pink-50/20 relative overflow-hidden">
+                {/* Petal patterns in background */}
+                <div className="absolute right-2 bottom-2 text-pink-200/20 text-4xl select-none pointer-events-none">🌸 🌸</div>
+                <div className="absolute left-2 top-2 text-pink-200/20 text-3xl select-none pointer-events-none">🌸</div>
+                
+                <div className="flex items-center gap-md mb-md md:mb-0 relative z-10">
                     <img src="/logo.png" alt="Pan Học Code Logo" className="w-12 h-12 object-contain rounded-full shadow-sm" />
                     <div>
-                        <h2 className="font-headline-sm text-headline-sm font-bold text-primary">Pan Học Code</h2>
-                        <p className="font-label-sm text-label-sm text-secondary mt-xs">© 2024 Pan Học Code</p>
+                        <h2 className="font-headline-sm text-headline-sm font-bold text-pink-600">Pan Học Code</h2>
+                        <p className="font-label-sm text-label-sm text-secondary mt-xs">© 2024 Pan Học Code - Sakura Coding Academy</p>
                     </div>
                 </div>
-                <div className="flex flex-wrap justify-center gap-xl">
-                    <Link className="font-label-sm text-label-sm text-secondary hover:text-primary transition-opacity" to="/privacy">Privacy Policy</Link>
-                    <Link className="font-label-sm text-label-sm text-secondary hover:text-primary transition-opacity" to="/terms">Terms of Service</Link>
-                    <Link className="font-label-sm text-label-sm text-secondary hover:text-primary transition-opacity" to="/help-center">Help Center</Link>
-                    <Link className="font-label-sm text-label-sm text-secondary hover:text-primary transition-opacity" to="#">Accessibility</Link>
+                <div className="flex flex-wrap justify-center gap-xl relative z-10">
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/privacy">Privacy Policy</Link>
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/terms">Terms of Service</Link>
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/help-center">Help Center</Link>
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="#">Accessibility</Link>
                 </div>
             </footer>
         </div>

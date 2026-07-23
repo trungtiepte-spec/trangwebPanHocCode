@@ -17,38 +17,37 @@ function Toast({ message, onDone }) {
 function DeleteModal({ count, onConfirm, onCancel }) {
     return (
         <div className="modal-overlay" role="dialog" aria-modal="true">
-            <div className="modal-box">
-                <span className="modal-icon">🗑️</span>
-                <h2 className="modal-title">Delete Course{count > 1 ? 's' : ''}</h2>
+            <div className="modal-box" style={{ border: '2px solid #fbcfe8', borderRadius: 16 }}>
+                <span className="modal-icon">🌸</span>
+                <h2 className="modal-title" style={{ color: '#9d174d' }}>Delete Course{count > 1 ? 's' : ''}</h2>
                 <p className="modal-desc">
                     Are you sure you want to move{' '}
                     <strong>{count} course{count > 1 ? 's' : ''}</strong> to the Recycle Bin?
                     You can restore them within 30 days.
                 </p>
                 <div className="modal-actions">
-                    <button className="btn-modal-cancel" onClick={onCancel}>Cancel</button>
-                    <button className="btn-modal-danger" onClick={onConfirm}>Delete</button>
+                    <button className="btn-modal-cancel" onClick={onCancel} style={{ borderRadius: '9999px', borderColor: '#fbcfe8' }}>Cancel</button>
+                    <button className="btn-modal-danger" onClick={onConfirm} style={{ borderRadius: '9999px', background: '#ba1a1a' }}>Delete</button>
                 </div>
             </div>
         </div>
     );
 }
 
-// ─── System Course Card ────────────────────────────────────────────────────────
 function SystemCourseCard({ course, onStart, onViewQuestions }) {
     const { getCourseStats } = useCourses();
     const stats = getCourseStats(course.id, course.questions || []);
 
     return (
-        <div className="course-card">
+        <div className="card-sakura p-5 flex flex-col gap-3">
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
-                <div className="course-card-icon">
-                    <span className="material-symbols-outlined">{course.icon}</span>
+                <div className="course-card-icon" style={{ borderRadius: '9999px' }}>
+                    <span className="material-symbols-outlined">{course.icon === 'school' ? 'local_florist' : course.icon}</span>
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap', marginBottom: 2 }}>
-                        <h4 className="course-card-title">{course.name}</h4>
-                        <span className="badge badge-system">
+                        <h4 className="course-card-title text-pink-700">{course.name}</h4>
+                        <span className="badge" style={{ background: '#FFF1F7', color: '#db2777', border: '1px solid #fbcfe8' }}>
                             <span className="material-symbols-outlined" style={{ fontSize: 11 }}>verified</span>
                             System Course
                         </span>
@@ -58,13 +57,13 @@ function SystemCourseCard({ course, onStart, onViewQuestions }) {
             </div>
 
             {/* Course Statistics Breakdown */}
-            <div className="course-card-meta" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 6 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#50616b', fontWeight: 600 }}>
+            <div className="course-card-meta" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 6, borderTopColor: '#fce7f3' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#9d174d', fontWeight: 600 }}>
                     <span>Progress: {stats.progressPercent}%</span>
                     <span>{stats.total} Questions</span>
                 </div>
-                <div style={{ width: '100%', height: 6, background: '#e0e3e5', borderRadius: 9999, overflow: 'hidden' }}>
-                    <div style={{ width: `${stats.progressPercent}%`, height: '100%', background: '#00288e', borderRadius: 9999, transition: 'width 0.3s ease' }}></div>
+                <div style={{ width: '100%', height: 6, background: '#fbcfe8', borderRadius: 9999, overflow: 'hidden' }}>
+                    <div style={{ width: `${stats.progressPercent}%`, height: '100%', background: '#EC4899', borderRadius: 9999, transition: 'width 0.3s ease' }}></div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: '#50616b', paddingTop: 2 }}>
                     <span style={{ color: '#059669', fontWeight: 600 }}>✓ {stats.correct} Correct</span>
@@ -74,11 +73,11 @@ function SystemCourseCard({ course, onStart, onViewQuestions }) {
             </div>
 
             <div className="course-card-actions">
-                <button className="btn-start-quiz" onClick={() => onStart(course)}>
+                <button className="btn-sakura px-4 py-1.5 rounded-full text-xs" style={{ flex: 1 }} onClick={() => onStart(course)}>
                     <span className="material-symbols-outlined">play_arrow</span>
                     Start Quiz
                 </button>
-                <button className="btn-action btn-secondary-action" style={{ padding: '8px 12px', fontSize: 12 }} onClick={() => onViewQuestions(course.id)}>
+                <button className="btn-action btn-secondary-action" style={{ padding: '8px 12px', fontSize: 12, borderRadius: '9999px' }} onClick={() => onViewQuestions(course.id)}>
                     <span className="material-symbols-outlined" style={{ fontSize: 16 }}>visibility</span>
                     View Questions
                 </button>
@@ -87,29 +86,29 @@ function SystemCourseCard({ course, onStart, onViewQuestions }) {
     );
 }
 
-// ─── Custom Course Card ────────────────────────────────────────────────────────
 function CustomCourseCard({ course, selected, onToggle, onStart, onViewQuestions, onEdit, onDelete }) {
     const { getCourseStats } = useCourses();
     const stats = getCourseStats(course.id, course.questions || []);
 
     return (
-        <div className={`course-card ${selected ? 'selected' : ''}`}>
+        <div className={`card-sakura p-5 flex flex-col gap-3 ${selected ? 'selected' : ''}`}>
             <input
                 type="checkbox"
                 className="course-card-checkbox"
+                style={{ accentColor: '#EC4899' }}
                 checked={selected}
                 onChange={() => onToggle(course.id)}
                 aria-label={`Select ${course.name}`}
                 onClick={e => e.stopPropagation()}
             />
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
-                <div className="course-card-icon" style={{ background: '#d3e5f1' }}>
+                <div className="course-card-icon" style={{ background: '#fbcfe8', borderRadius: '9999px' }}>
                     <span className="material-symbols-outlined">menu_book</span>
                 </div>
                 <div style={{ flex: 1, minWidth: 0, paddingRight: 24 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap', marginBottom: 2 }}>
-                        <h4 className="course-card-title">{course.name}</h4>
-                        <span className="badge badge-custom">
+                        <h4 className="course-card-title text-pink-700">{course.name}</h4>
+                        <span className="badge" style={{ background: 'linear-gradient(135deg, #F9A8D4, #EC4899)', color: '#fff' }}>
                             <span className="material-symbols-outlined" style={{ fontSize: 11 }}>person</span>
                             Custom Course
                         </span>
@@ -119,13 +118,13 @@ function CustomCourseCard({ course, selected, onToggle, onStart, onViewQuestions
             </div>
 
             {/* Course Statistics Breakdown */}
-            <div className="course-card-meta" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 6 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#50616b', fontWeight: 600 }}>
+            <div className="course-card-meta" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 6, borderTopColor: '#fce7f3' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#9d174d', fontWeight: 600 }}>
                     <span>Progress: {stats.progressPercent}%</span>
                     <span>{stats.total} Questions</span>
                 </div>
-                <div style={{ width: '100%', height: 6, background: '#e0e3e5', borderRadius: 9999, overflow: 'hidden' }}>
-                    <div style={{ width: `${stats.progressPercent}%`, height: '100%', background: '#00288e', borderRadius: 9999, transition: 'width 0.3s ease' }}></div>
+                <div style={{ width: '100%', height: 6, background: '#fbcfe8', borderRadius: 9999, overflow: 'hidden' }}>
+                    <div style={{ width: `${stats.progressPercent}%`, height: '100%', background: '#EC4899', borderRadius: 9999, transition: 'width 0.3s ease' }}></div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: '#50616b', paddingTop: 2 }}>
                     <span style={{ color: '#059669', fontWeight: 600 }}>✓ {stats.correct} Correct</span>
@@ -135,18 +134,18 @@ function CustomCourseCard({ course, selected, onToggle, onStart, onViewQuestions
             </div>
 
             <div className="course-card-actions">
-                <button className="btn-start-quiz" onClick={() => onStart(course)}>
+                <button className="btn-sakura px-4 py-1.5 rounded-full text-xs" style={{ flex: 1 }} onClick={() => onStart(course)}>
                     <span className="material-symbols-outlined">play_arrow</span>
                     Start Quiz
                 </button>
-                <button className="btn-action btn-secondary-action" style={{ padding: '8px 12px', fontSize: 12 }} onClick={() => onViewQuestions(course.id)}>
+                <button className="btn-action btn-secondary-action" style={{ padding: '8px 12px', fontSize: 12, borderRadius: '9999px' }} onClick={() => onViewQuestions(course.id)}>
                     <span className="material-symbols-outlined" style={{ fontSize: 16 }}>visibility</span>
                     View Questions
                 </button>
-                <button className="btn-icon btn-icon-edit" title="Edit" onClick={() => onEdit(course.id)}>
+                <button className="btn-icon btn-icon-edit" style={{ borderRadius: '9999px' }} title="Edit" onClick={() => onEdit(course.id)}>
                     <span className="material-symbols-outlined">edit</span>
                 </button>
-                <button className="btn-icon btn-icon-delete" title="Delete" onClick={() => onDelete([course.id])}>
+                <button className="btn-icon btn-icon-delete" style={{ borderRadius: '9999px' }} title="Delete" onClick={() => onDelete([course.id])}>
                     <span className="material-symbols-outlined">delete</span>
                 </button>
             </div>
@@ -243,16 +242,16 @@ export default function Courses() {
 
                     {/* ── Action Bar ───────────────────────────────────────── */}
                     <div className="courses-action-bar">
-                        <button className="btn-action btn-primary-action" onClick={() => navigate('/courses/new')}>
+                        <button className="btn-sakura px-6 py-2 rounded-full text-sm" onClick={() => navigate('/courses/new')}>
                             <span className="material-symbols-outlined">add</span>
                             Add Course
                         </button>
-                        <button className="btn-action btn-danger-action" onClick={handleDeleteSelected}>
+                        <button className="btn-action btn-danger-action" style={{ borderRadius: '9999px' }} onClick={handleDeleteSelected}>
                             <span className="material-symbols-outlined">delete_sweep</span>
                             Delete Selected
                             {selected.length > 0 && <span style={{ background: '#ba1a1a', color: '#fff', borderRadius: '9999px', padding: '0 6px', fontSize: 11 }}>{selected.length}</span>}
                         </button>
-                        <Link to="/courses/trash" className="btn-action btn-secondary-action" style={{ textDecoration: 'none' }}>
+                        <Link to="/courses/trash" className="btn-action btn-secondary-action" style={{ textDecoration: 'none', borderRadius: '9999px' }}>
                             <span className="material-symbols-outlined">recycling</span>
                             Recycle Bin
                         </Link>
@@ -294,10 +293,10 @@ export default function Courses() {
                         </div>
 
                         {customCourses.length === 0 ? (
-                            <div className="courses-empty">
-                                <span className="material-symbols-outlined">menu_book</span>
-                                <h4>No Custom Courses Yet</h4>
-                                <p>Create your first custom course using the <strong>Add Course</strong> button above.</p>
+                            <div className="courses-empty" style={{ border: '2px dashed #fbcfe8', background: '#FFF1F7/30', borderRadius: 16 }}>
+                                <span className="material-symbols-outlined text-pink-500 animate-float" style={{ fontSize: 54 }}>local_florist</span>
+                                <h4 className="text-pink-700">No Custom Courses Yet 🌸</h4>
+                                <p>Begin your coding journey by adding your first custom course using the button above.</p>
                             </div>
                         ) : (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">

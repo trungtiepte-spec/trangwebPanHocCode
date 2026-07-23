@@ -109,3 +109,125 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ============================================================
+   Sakura Coding Academy Design System Tokens & Animations
+   ============================================================ */
+
+/* Floating animation for icons */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Pulsing glow animation */
+@keyframes sakuraGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.4); }
+  50% { box-shadow: 0 0 12px 4px rgba(236, 72, 153, 0.15); }
+}
+.animate-sakura-glow {
+  animation: sakuraGlow 2s infinite ease-in-out;
+}
+
+/* Sakura Button Style */
+.btn-sakura {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #F9A8D4, #EC4899);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  border-radius: 9999px; /* Rounded pill */
+  border: none;
+  box-shadow: 0 4px 14px rgba(236, 72, 153, 0.3);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+}
+
+.btn-sakura:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.45);
+}
+
+.btn-sakura:active {
+  transform: translateY(-1px);
+}
+
+/* Sakura hover particles indicator */
+.btn-sakura::after {
+  content: '🌸';
+  position: absolute;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  right: -8px;
+  top: -8px;
+  transform: scale(0.5) rotate(-15deg);
+}
+.btn-sakura:hover::after {
+  opacity: 1;
+  transform: scale(1.1) rotate(15deg);
+}
+
+/* Sakura Card Style */
+.card-sakura {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(251, 207, 232, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(236, 72, 153, 0.05);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-sakura:hover {
+  transform: translateY(-4px);
+  border-color: #EC4899;
+  box-shadow: 0 12px 36px rgba(236, 72, 153, 0.12);
+}
+
+/* Add petal decoration to top-right corner of cards */
+.card-sakura::before {
+  content: '🌸';
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 14px;
+  opacity: 0.15;
+  transition: opacity 0.3s;
+}
+.card-sakura:hover::before {
+  opacity: 0.4;
+}
+
+/* Sakura Input Field Style */
+.input-sakura {
+  border-radius: 9999px; /* Pill input */
+  border: 1.5px solid #fbcfe8;
+  background: #FFF1F7;
+  padding: 10px 18px;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+}
+
+.input-sakura:focus {
+  border-color: #EC4899;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.15);
+}
+
+.input-sakura::placeholder {
+  color: #9ca3af;
+}
+

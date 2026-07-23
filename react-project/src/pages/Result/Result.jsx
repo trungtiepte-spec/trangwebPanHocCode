@@ -57,63 +57,63 @@ export default function Result() {
 <span className="material-symbols-outlined text-headline-md" style={{"fontVariationSettings":"\"FILL\" 1"}}>emoji_events</span>
 </div>
 </div>
-<h1 className="font-headline-lg text-headline-lg md:text-headline-lg mb-sm text-on-surface">Exam Completed!</h1>
-<p className="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto">Outstanding effort! You've successfully completed the <span className="font-bold text-primary">{subject} Final</span>. Your results have been recorded.</p>
+<h1 className="font-headline-lg text-headline-lg md:text-headline-lg mb-sm text-pink-700">Exam Completed!</h1>
+<p className="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto">Outstanding effort! You've successfully completed the <span className="font-bold text-pink-600">{subject} Final 🌸</span>. Your results have been recorded.</p>
 </section>
 {/**/}
 <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-xxl">
 {/**/}
-<div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col items-center justify-center text-center shadow-sm hover:border-primary transition-colors">
-<span className="material-symbols-outlined text-primary mb-sm text-headline-md">assessment</span>
+<div className="card-sakura p-lg flex flex-col items-center justify-center text-center">
+<span className="material-symbols-outlined text-pink-500 mb-sm text-headline-md animate-float">assessment</span>
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Total Score</span>
-<span className="font-headline-md text-headline-md text-on-surface">{score.total}/{questions.length * 10}</span>
+<span className="font-headline-md text-headline-md text-pink-700">{score.total}/{questions.length * 10}</span>
 </div>
 {/**/}
-<div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col items-center justify-center text-center shadow-sm hover:border-primary transition-colors">
+<div className="card-sakura p-lg flex flex-col items-center justify-center text-center">
 <span className="material-symbols-outlined text-[#059669] mb-sm text-headline-md">check_circle</span>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Correct</span>
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Correct 🌸</span>
 <span className="font-headline-md text-headline-md text-on-surface">{score.correct}</span>
 </div>
 {/**/}
-<div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col items-center justify-center text-center shadow-sm hover:border-primary transition-colors">
+<div className="card-sakura p-lg flex flex-col items-center justify-center text-center">
 <span className="material-symbols-outlined text-error mb-sm text-headline-md">cancel</span>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Incorrect</span>
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Incorrect 🥀</span>
 <span className="font-headline-md text-headline-md text-on-surface">{score.incorrect}</span>
 </div>
 {/**/}
-<div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col items-center justify-center text-center shadow-sm hover:border-primary transition-colors">
-<span className="material-symbols-outlined text-secondary mb-sm text-headline-md">schedule</span>
+<div className="card-sakura p-lg flex flex-col items-center justify-center text-center">
+<span className="material-symbols-outlined text-pink-500 mb-sm text-headline-md">schedule</span>
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-xs">Time Taken</span>
-<span className="font-headline-md text-headline-md text-on-surface">{formatTime(timeTaken)}</span>
+<span className="font-headline-md text-headline-md text-pink-700">{formatTime(timeTaken)}</span>
 </div>
 </div>
 {/**/}
 <div className="flex flex-col md:flex-row gap-lg justify-center items-center">
-<button onClick={() => navigate('/exam')} className="w-full md:w-auto min-w-[200px] py-md px-xl bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-md hover:opacity-90 active:scale-95 transition-all flex items-center justify-center gap-sm">
+<button onClick={() => navigate('/exam')} className="w-full md:w-auto min-w-[200px] py-md px-xl btn-sakura rounded-full shadow-md transition-all flex items-center justify-center gap-sm">
 <span className="material-symbols-outlined">refresh</span>
                 Restart Exam
             </button>
-<button onClick={() => navigate('/review')} className="w-full md:w-auto min-w-[200px] py-md px-xl bg-secondary-container text-primary font-label-md text-label-md rounded-lg shadow-sm border border-outline-variant hover:bg-surface-container-high active:scale-95 transition-all flex items-center justify-center gap-sm">
+<button onClick={() => navigate('/review')} className="w-full md:w-auto min-w-[200px] py-md px-xl bg-white text-pink-600 font-label-md text-label-md rounded-full shadow-sm border border-pink-200 hover:bg-pink-50 active:scale-95 transition-all flex items-center justify-center gap-sm">
 <span className="material-symbols-outlined">visibility</span>
                 Review Answers
             </button>
-<button className="w-full md:w-auto min-w-[200px] py-md px-xl bg-surface-container-lowest text-secondary font-label-md text-label-md rounded-lg border border-outline hover:border-primary transition-all flex items-center justify-center gap-sm">
+<button className="w-full md:w-auto min-w-[200px] py-md px-xl bg-white text-pink-600 font-label-md text-label-md rounded-full border border-pink-200 hover:border-pink-500 hover:bg-pink-50 transition-all flex items-center justify-center gap-sm">
 <span className="material-symbols-outlined">share</span>
                 Download Certificate
             </button>
 </div>
 {/**/}
 <section className="mt-xxl grid grid-cols-1 lg:grid-cols-3 gap-gutter">
-<div className="lg:col-span-2 bg-surface-container-low rounded-xl p-xl border border-outline-variant relative overflow-hidden">
+<div className="lg:col-span-2 card-sakura p-xl relative overflow-hidden">
 <div className="relative z-10">
-<h3 className="font-headline-sm text-headline-sm mb-md text-primary">Performance Insight</h3>
-<p className="font-body-md text-body-md text-on-surface-variant mb-lg">You performed 15% better than the average student on this assessment. Your strongest area was <span className="font-bold">Electromagnetic Theory</span>, while you might benefit from reviewing <span className="font-bold">Particle Dynamics</span>.</p>
-<div className="w-full bg-secondary-container h-2 rounded-full overflow-hidden">
-<div className="bg-primary h-full w-[85%] rounded-full"></div>
+<h3 className="font-headline-sm text-headline-sm mb-md text-pink-700">Performance Insight 🌸</h3>
+<p className="font-body-md text-body-md text-on-surface-variant mb-lg">You performed 15% better than the average student on this assessment. Your strongest area was <span className="font-bold text-pink-600">Electromagnetic Theory</span>, while you might benefit from reviewing <span className="font-bold text-pink-600">Particle Dynamics</span>.</p>
+<div className="w-full bg-pink-100 h-2 rounded-full overflow-hidden">
+<div className="bg-pink-500 h-full w-[85%] rounded-full"></div>
 </div>
 <div className="flex justify-between mt-sm">
 <span className="font-label-sm text-label-sm text-secondary">Class Average: 70%</span>
-<span className="font-label-sm text-label-sm text-primary font-bold">Your Score: 85%</span>
+<span className="font-label-sm text-label-sm text-pink-600 font-bold">Your Score: 85%</span>
 </div>
 </div>
 {/**/}
@@ -121,21 +121,21 @@ export default function Result() {
 <span className="material-symbols-outlined text-[120px]">insights</span>
 </div>
 </div>
-<div className="bg-white rounded-xl p-lg border border-outline-variant shadow-sm">
-<h3 className="font-label-md text-label-md font-bold mb-md text-on-surface">Upcoming Exams</h3>
+<div className="card-sakura p-lg">
+<h3 className="font-label-md text-label-md font-bold mb-md text-pink-700">Upcoming Exams 🌸</h3>
 <ul className="space-y-md">
-<li className="flex items-center gap-md p-sm hover:bg-surface-container rounded-lg transition-colors cursor-pointer">
-<div className="bg-secondary-container p-sm rounded-lg">
-<span className="material-symbols-outlined text-primary">science</span>
+<li className="flex items-center gap-md p-sm hover:bg-pink-50/50 rounded-xl transition-colors cursor-pointer border border-transparent hover:border-pink-200">
+<div className="bg-pink-50 p-sm rounded-full text-pink-600 flex items-center justify-center">
+<span className="material-symbols-outlined">science</span>
 </div>
 <div>
 <p className="font-label-md text-label-md text-on-surface">Chemistry 101</p>
 <p className="font-label-sm text-label-sm text-secondary">Oct 24, 2024</p>
 </div>
 </li>
-<li className="flex items-center gap-md p-sm hover:bg-surface-container rounded-lg transition-colors cursor-pointer">
-<div className="bg-secondary-container p-sm rounded-lg">
-<span className="material-symbols-outlined text-primary">functions</span>
+<li className="flex items-center gap-md p-sm hover:bg-pink-50/50 rounded-xl transition-colors cursor-pointer border border-transparent hover:border-pink-200">
+<div className="bg-pink-50 p-sm rounded-full text-pink-600 flex items-center justify-center">
+<span className="material-symbols-outlined">functions</span>
 </div>
 <div>
 <p className="font-label-md text-label-md text-on-surface">Calculus II</p>
@@ -148,11 +148,11 @@ export default function Result() {
 </main>
 ) : (
 <main className="flex-grow w-full max-w-container-max mx-auto px-lg py-xxl flex flex-col items-center justify-center text-center">
-<div className="bg-surface-container-lowest rounded-xl p-xl border border-outline-variant max-w-md w-full shadow-sm mx-auto my-xxl">
-<span className="material-symbols-outlined text-6xl text-on-surface-variant mb-md">history</span>
-<h2 className="font-headline-md text-headline-md text-on-surface mb-sm">No Quiz Results Yet</h2>
+<div className="card-sakura p-xl max-w-md w-full mx-auto my-xxl">
+<span className="material-symbols-outlined text-6xl text-pink-500 mb-md animate-float">local_florist</span>
+<h2 className="font-headline-md text-headline-md text-pink-700 mb-sm">No Quiz Results Yet 🌸</h2>
 <p className="font-body-md text-body-md text-secondary mb-lg">You haven't completed any quizzes yet.<br/>Start your first quiz to see your results here.</p>
-<button onClick={() => navigate('/courses')} className="py-md px-xl bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-md hover:opacity-90 active:scale-95 transition-all w-full">
+<button onClick={() => navigate('/courses')} className="py-md px-xl btn-sakura rounded-full w-full">
 Start Quiz
 </button>
 </div>

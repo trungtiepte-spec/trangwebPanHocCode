@@ -53,18 +53,17 @@ export default function Home() {
                             <div
                                 key={course.id}
                                 onClick={() => handleStartSubject(course)}
-                                className="group cursor-pointer bg-white border border-outline-variant rounded-xl p-lg transition-all duration-200 hover:border-primary flex flex-col gap-md relative"
-                                style={{ boxShadow: "0px 4px 20px rgba(30, 64, 175, 0.05)" }}
+                                className="group cursor-pointer card-sakura p-lg flex flex-col gap-md relative"
                             >
-                                <div className="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center text-primary">
-                                    <span className="material-symbols-outlined text-3xl">{course.icon}</span>
+                                <div className="w-12 h-12 rounded-full bg-pink-100/60 flex items-center justify-center text-pink-600 animate-float">
+                                    <span className="material-symbols-outlined text-3xl">{course.icon === 'school' ? 'local_florist' : course.icon}</span>
                                 </div>
                                 <div>
-                                    <h4 className="font-headline-sm text-headline-sm mb-xs">{course.name}</h4>
-                                    <p className="font-label-sm text-label-sm text-on-surface-variant">{course.description}</p>
+                                    <h4 className="font-headline-sm text-headline-sm mb-xs text-pink-700">{course.name}</h4>
+                                    <p className="font-label-sm text-label-sm text-secondary">{course.description}</p>
                                 </div>
-                                <div className="mt-auto flex flex-col gap-xs border-t border-outline-variant pt-md">
-                                    <div className="flex justify-between items-center text-on-surface-variant">
+                                <div className="mt-auto flex flex-col gap-xs border-t border-pink-100 pt-md">
+                                    <div className="flex justify-between items-center text-secondary">
                                         <span className="font-label-md text-label-md flex items-center gap-xs">
                                             <span className="material-symbols-outlined text-md">quiz</span> {course.questions?.length || 0} Questions
                                         </span>
@@ -75,7 +74,7 @@ export default function Home() {
                                         e.stopPropagation();
                                         handleStartSubject(course);
                                     }}
-                                    className="mt-sm bg-primary text-on-primary py-xs px-md rounded-lg font-label-md text-label-md hover:bg-primary-container transition-all flex items-center justify-center gap-xs"
+                                    className="mt-sm btn-sakura py-xs px-md rounded-full font-label-md text-label-md transition-all flex items-center justify-center gap-xs"
                                 >
                                     <span className="material-symbols-outlined" style={{ fontSize: 18 }}>play_arrow</span>
                                     Start Quiz
@@ -88,7 +87,7 @@ export default function Home() {
                     <div className="mt-xxl flex flex-col items-center gap-md">
                         <button
                             onClick={() => setShowSubjectModal(true)}
-                            className="bg-primary text-on-primary px-xxl py-md rounded-lg font-headline-sm transition-all duration-300 shadow-lg active:scale-95 inline-block text-center hover:bg-primary-container hover:shadow-xl"
+                            className="btn-sakura px-xxl py-md rounded-full font-headline-sm transition-all duration-300 shadow-lg active:scale-95 inline-block text-center"
                             id="start-exam-btn"
                         >
                             Start Exam
@@ -111,8 +110,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex items-start gap-md">
-                            <div className="bg-white p-sm rounded-lg shadow-sm">
-                                <span className="material-symbols-outlined text-primary">save</span>
+                            <div className="bg-white p-sm rounded-lg shadow-sm border border-pink-100">
+                                <span className="material-symbols-outlined text-pink-600">save</span>
                             </div>
                             <div>
                                 <h5 className="font-label-md text-label-md text-on-surface">Auto-Save</h5>
@@ -120,8 +119,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex items-start gap-md">
-                            <div className="bg-white p-sm rounded-lg shadow-sm">
-                                <span className="material-symbols-outlined text-primary">support_agent</span>
+                            <div className="bg-white p-sm rounded-lg shadow-sm border border-pink-100">
+                                <span className="material-symbols-outlined text-pink-600">support_agent</span>
                             </div>
                             <div>
                                 <h5 className="font-label-md text-label-md text-on-surface">Instant Support</h5>
@@ -135,12 +134,12 @@ export default function Home() {
             {/* Subject Selection Modal */}
             {showSubjectModal && (
                 <div className="modal-overlay" role="dialog" aria-modal="true" onClick={() => setShowSubjectModal(false)}>
-                    <div className="modal-box" style={{ maxWidth: 480 }} onClick={e => e.stopPropagation()}>
+                    <div className="modal-box" style={{ maxWidth: 480, border: '2px solid #fbcfe8' }} onClick={e => e.stopPropagation()}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
-                            <h2 className="font-headline-sm" style={{ fontSize: 20, margin: 0, color: '#0d1c2e' }}>
-                                Choose a Subject
+                            <h2 className="font-headline-sm" style={{ fontSize: 20, margin: 0, color: '#9d174d' }}>
+                                Choose a Subject 🌸
                             </h2>
-                            <button className="btn-icon" onClick={() => setShowSubjectModal(false)} aria-label="Close modal">
+                            <button className="btn-icon" onClick={() => setShowSubjectModal(false)} aria-label="Close modal" style={{ borderRadius: '9999px', borderColor: '#fbcfe8' }}>
                                 <span className="material-symbols-outlined">close</span>
                             </button>
                         </div>
@@ -158,30 +157,30 @@ export default function Home() {
                                         alignItems: 'center',
                                         justifyContent: 'space-between',
                                         padding: '12px 16px',
-                                        border: '1.5px solid #c4c5d5',
-                                        borderRadius: 12,
+                                        border: '1.5px solid #fbcfe8',
+                                        borderRadius: 16,
                                         background: '#fff',
                                         cursor: 'pointer',
                                         transition: 'all 0.15s'
                                     }}
-                                    className="hover:border-primary hover:bg-surface-container-low"
+                                    className="hover:border-pink-500 hover:bg-pink-50/50"
                                 >
                                     <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                                        <div className="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary" style={{ flexShrink: 0 }}>
-                                            <span className="material-symbols-outlined text-2xl">{course.icon}</span>
+                                        <div className="w-10 h-10 rounded-full bg-pink-50 flex items-center justify-center text-pink-600" style={{ flexShrink: 0 }}>
+                                            <span className="material-symbols-outlined text-2xl">{course.icon === 'school' ? 'local_florist' : course.icon}</span>
                                         </div>
                                         <div>
                                             <h4 style={{ margin: 0, fontSize: 15, fontWeight: 700, color: '#0d1c2e', fontFamily: 'Inter, sans-serif' }}>
                                                 {course.name}
                                             </h4>
-                                            <span style={{ fontSize: 12, color: '#50616b', fontFamily: 'Inter, sans-serif' }}>
+                                            <span style={{ fontSize: 12, color: '#9d174d', fontFamily: 'Inter, sans-serif' }}>
                                                 {course.questions?.length || 0} Questions
                                             </span>
                                         </div>
                                     </div>
                                     <button
-                                        className="btn-start-quiz"
-                                        style={{ padding: '6px 16px', fontSize: 13, flex: 'none', width: 'auto' }}
+                                        className="btn-sakura px-md py-xs rounded-full"
+                                        style={{ fontSize: 13, flex: 'none', width: 'auto' }}
                                         onClick={(e) => {
                                             e.stopPropagation();
                                             setShowSubjectModal(false);
