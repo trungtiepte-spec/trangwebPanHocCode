@@ -1,0 +1,50 @@
+/* ============================================================
+   Sakura Falling Animation Styles
+   ============================================================ */
+
+.sakura-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.sakura-petal {
+  position: absolute;
+  top: -40px;
+  pointer-events: none;
+  user-select: none;
+  animation-name: sakuraFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: drop-shadow(0 2px 4px rgba(236, 72, 153, 0.15));
+}
+
+.sakura-petal svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@keyframes sakuraFall {
+  0% {
+    top: -40px;
+    opacity: 0;
+    transform: translateX(0px) rotate(0deg) rotateY(0deg);
+  }
+  10% {
+    opacity: 0.85;
+  }
+  90% {
+    opacity: 0.85;
+  }
+  100% {
+    top: 105vh;
+    opacity: 0;
+    transform: translateX(var(--sway-x, 80px)) rotate(var(--rot-z, 360deg)) rotateY(var(--rot-y, 180deg));
+  }
+}

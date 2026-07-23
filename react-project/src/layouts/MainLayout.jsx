@@ -91,7 +91,9 @@ export default function MainLayout() {
                 </div>
             </header>
 
-            <Outlet />
+            <div className="relative z-10 flex-grow flex flex-col">
+                <Outlet />
+            </div>
 
             <ChatWidget />
 

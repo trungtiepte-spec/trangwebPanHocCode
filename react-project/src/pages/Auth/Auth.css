@@ -8,7 +8,9 @@
     align-items: center;
     justify-content: center;
     padding: 48px 24px;
-    background: #FFF1F7; /* Light Pink Background */
+    background: transparent;
+    position: relative;
+    z-index: 1;
 }
 
 .auth-card {
