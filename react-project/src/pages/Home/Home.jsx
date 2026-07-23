@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCourses } from '../../context/CourseContext';
 import { useQuiz } from '../../context/QuizContext';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Home.css';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 
     return (
         <>
+            <SakuraBackground intensity="medium" />
             <main className="flex-grow">
                 <section className="max-w-container-max mx-auto px-lg py-xxl">
                     {/* Hero Banner */}

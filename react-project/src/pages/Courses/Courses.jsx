@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useCourses } from '../../context/CourseContext';
 import { useQuiz } from '../../context/QuizContext';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Courses.css';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -217,9 +218,10 @@ export default function Courses() {
 
     return (
         <>
+            <SakuraBackground intensity="low" />
             <main className="flex-grow">
                 {/* ── Hero Banner ──────────────────────────────────────────── */}
-                <section style={{ background: 'linear-gradient(135deg, #1e40af 0%, #00288e 100%)', padding: '40px 0' }}>
+                <section style={{ background: 'linear-gradient(135deg, #F9A8D4 0%, #EC4899 100%)', padding: '40px 0' }}>
                     <div className="max-w-container-max mx-auto px-lg">
                         <div style={{ display: 'flex', items: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
                             <div style={{ color: '#fff' }}>
@@ -267,7 +269,7 @@ export default function Courses() {
                     {/* ── SECTION: System Courses ───────────────────────────── */}
                     <div style={{ marginBottom: 40 }}>
                         <div className="courses-section-heading">
-                            <span className="material-symbols-outlined" style={{ color: '#00288e', fontSize: 22 }}>verified</span>
+                            <span className="material-symbols-outlined" style={{ color: '#EC4899', fontSize: 22 }}>verified</span>
                             <h3>System Courses</h3>
                             <span className="courses-section-count">{systemCourses.length}</span>
                         </div>

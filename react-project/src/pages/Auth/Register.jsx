@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Auth.css';
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -100,6 +101,7 @@ export default function Register() {
 
     return (
         <>
+            <SakuraBackground intensity="high" />
             <div className="auth-page">
                 <div className="auth-card">
 

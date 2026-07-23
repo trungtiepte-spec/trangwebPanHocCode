@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useQuiz } from '../../context/QuizContext';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Exam.css';
 
 export default function Exam() {
@@ -58,7 +59,9 @@ export default function Exam() {
     const progressPercent = ((currentIndex + 1) / questions.length) * 100;
 
     return (
-        <div className="bg-background text-on-surface min-h-screen flex flex-col">
+        <>
+            <SakuraBackground intensity="minimal" />
+            <div className="bg-background text-on-surface min-h-screen flex flex-col">
             <header className="fixed top-0 left-0 right-0 z-50 bg-surface border-b border-outline-variant shadow-sm transition-all duration-200">
                 <div className="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
                     <div className="flex items-center gap-md">
@@ -186,5 +189,6 @@ export default function Exam() {
                 </div>
             )}
         </div>
+        </>
     );
 }

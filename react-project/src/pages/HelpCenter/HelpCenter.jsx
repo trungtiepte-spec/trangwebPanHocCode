@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SakuraBackground from '../../components/SakuraBackground';
 import './HelpCenter.css';
 
 const FAQ_ITEMS = [
@@ -70,8 +71,10 @@ export default function HelpCenter() {
     );
 
     return (
-        <main className="flex-grow bg-background">
-            <div className="hc-container">
+        <>
+            <SakuraBackground intensity="low" />
+            <main className="flex-grow bg-background">
+                <div className="hc-container">
 
                 <h1 className="hc-title">Frequently Asked Questions</h1>
                 <p className="hc-subtitle">Find answers to common questions about Pan Học Code</p>
@@ -149,5 +152,6 @@ export default function HelpCenter() {
 
             </div>
         </main>
+        </>
     );
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useQuiz } from '../../context/QuizContext';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Result.css';
 
 export default function Result() {
@@ -40,6 +41,7 @@ export default function Result() {
     };
     return (
         <>
+            <SakuraBackground intensity="low" />
 {hasResult ? (
 <main className="flex-grow w-full max-w-container-max mx-auto px-lg py-xxl">
 {/**/}

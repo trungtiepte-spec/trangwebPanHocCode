@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { isTosAccepted } from '../TermsOfService/TermsOfService';
+import SakuraBackground from '../../components/SakuraBackground';
 import './Auth.css';
 
 
@@ -79,6 +80,7 @@ export default function Login() {
 
     return (
         <>
+            <SakuraBackground intensity="high" />
             <div className="auth-page">
                 <div className="auth-card">
 
