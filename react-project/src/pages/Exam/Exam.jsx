@@ -16,6 +16,12 @@ export default function Exam() {
         }
     }, [subject, questions, navigate]);
 
+    const handleSubmit = () => {
+        const timeSpent = (45 * 60) - timeLeft;
+        submitQuiz(timeSpent);
+        navigate('/result');
+    };
+
     useEffect(() => {
         const timer = setInterval(() => {
             setTimeLeft(prev => {
@@ -28,7 +34,7 @@ export default function Exam() {
             });
         }, 1000);
         return () => clearInterval(timer);
-    }, []);
+    }, [handleSubmit]);
 
     if (!subject || !questions || questions.length === 0) return null;
 
@@ -40,12 +46,6 @@ export default function Exam() {
 
     const handlePrev = () => {
         if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
-    };
-
-    const handleSubmit = () => {
-        const timeSpent = (45 * 60) - timeLeft;
-        submitQuiz(timeSpent);
-        navigate('/result');
     };
 
     const formatTime = (seconds) => {
