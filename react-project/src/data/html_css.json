@@ -1,0 +1,2802 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary function of `div` in web development?",
+        "options": [
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content.",
+            "It connects to a database.",
+            "It manages application state."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "div",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 2,
+        "question": "How do you correctly implement `div`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL.",
+            "By compiling it with GCC."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "div",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is true regarding `div`?",
+        "options": [
+            "`div` is a fundamental part of frontend development.",
+            "`div` is a backend framework.",
+            "`div` requires a Node server.",
+            "`div` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "div",
+        "explanation": "The correct answer is '`div` is a fundamental part of frontend development.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 4,
+        "question": "When should a developer avoid using `div`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When building a web page."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "div",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 5,
+        "question": "What is a common styling issue related to `div`?",
+        "options": [
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts.",
+            "Conflicts with other CSS rules affecting `div`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "div",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `div`.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 6,
+        "question": "Does `div` impact accessibility (a11y)?",
+        "options": [
+            "No, it's only for databases.",
+            "Only in C programming.",
+            "Yes, proper use of `div` can improve or affect screen readers.",
+            "No, it's a server-side concept."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "div",
+        "explanation": "The correct answer is 'Yes, proper use of `div` can improve or affect screen readers.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 7,
+        "question": "Can `div` be manipulated using JavaScript?",
+        "options": [
+            "No, it is strictly read-only.",
+            "Only if compiled first.",
+            "No, it runs on the GPU only.",
+            "Yes, via the Document Object Model (DOM)."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "div",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 8,
+        "question": "Which layout technique often involves `div`?",
+        "options": [
+            "Binary search trees.",
+            "Database normalization.",
+            "Microservices architecture.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "div",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 9,
+        "question": "What happens if `div` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "Data is erased from the database.",
+            "The computer shuts down."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "div",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 10,
+        "question": "Is `div` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "div",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `div` in this context."
+    },
+    {
+        "id": 11,
+        "question": "What is the primary function of `span` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It manages application state.",
+            "It is used to define backend routes.",
+            "It connects to a database."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "span",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 12,
+        "question": "How do you correctly implement `span`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL.",
+            "By compiling it with GCC."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "span",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 13,
+        "question": "Which of the following is true regarding `span`?",
+        "options": [
+            "`span` is a fundamental part of frontend development.",
+            "`span` is used for memory allocation.",
+            "`span` requires a Node server.",
+            "`span` is a backend framework."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "span",
+        "explanation": "The correct answer is '`span` is a fundamental part of frontend development.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 14,
+        "question": "When should a developer avoid using `span`?",
+        "options": [
+            "When building a web page.",
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "span",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 15,
+        "question": "What is a common styling issue related to `span`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `span`.",
+            "Infinite loops in JavaScript.",
+            "Null pointer exceptions.",
+            "Database connection timeouts."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "span",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `span`.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 16,
+        "question": "Does `span` impact accessibility (a11y)?",
+        "options": [
+            "No, it's a server-side concept.",
+            "Yes, proper use of `span` can improve or affect screen readers.",
+            "Only in C programming.",
+            "No, it's only for databases."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "span",
+        "explanation": "The correct answer is 'Yes, proper use of `span` can improve or affect screen readers.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 17,
+        "question": "Can `span` be manipulated using JavaScript?",
+        "options": [
+            "Only if compiled first.",
+            "No, it is strictly read-only.",
+            "Yes, via the Document Object Model (DOM).",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "span",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 18,
+        "question": "Which layout technique often involves `span`?",
+        "options": [
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Database normalization.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "span",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 19,
+        "question": "What happens if `span` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "span",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 20,
+        "question": "Is `span` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "span",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `span` in this context."
+    },
+    {
+        "id": 21,
+        "question": "What is the primary function of `header` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 22,
+        "question": "How do you correctly implement `header`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By injecting it via SQL.",
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "header",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 23,
+        "question": "Which of the following is true regarding `header`?",
+        "options": [
+            "`header` is a fundamental part of frontend development.",
+            "`header` is a backend framework.",
+            "`header` requires a Node server.",
+            "`header` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "header",
+        "explanation": "The correct answer is '`header` is a fundamental part of frontend development.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 24,
+        "question": "When should a developer avoid using `header`?",
+        "options": [
+            "When the browser supports it.",
+            "When building a web page.",
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "header",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 25,
+        "question": "What is a common styling issue related to `header`?",
+        "options": [
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Conflicts with other CSS rules affecting `header`."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "header",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `header`.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 26,
+        "question": "Does `header` impact accessibility (a11y)?",
+        "options": [
+            "Yes, proper use of `header` can improve or affect screen readers.",
+            "Only in C programming.",
+            "No, it's only for databases.",
+            "No, it's a server-side concept."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "header",
+        "explanation": "The correct answer is 'Yes, proper use of `header` can improve or affect screen readers.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 27,
+        "question": "Can `header` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 28,
+        "question": "Which layout technique often involves `header`?",
+        "options": [
+            "Binary search trees.",
+            "Database normalization.",
+            "Responsive web design and standard document flow.",
+            "Microservices architecture."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "header",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 29,
+        "question": "What happens if `header` is used incorrectly?",
+        "options": [
+            "The server crashes.",
+            "Data is erased from the database.",
+            "The computer shuts down.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "header",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 30,
+        "question": "Is `header` compatible with modern browsers?",
+        "options": [
+            "Yes, it is widely supported in modern web browsers.",
+            "Only in desktop environments.",
+            "No, it only works in IE6.",
+            "No, it is a proprietary backend tool."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `header` in this context."
+    },
+    {
+        "id": 31,
+        "question": "What is the primary function of `footer` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content.",
+            "It manages application state."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "footer",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 32,
+        "question": "How do you correctly implement `footer`?",
+        "options": [
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "footer",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 33,
+        "question": "Which of the following is true regarding `footer`?",
+        "options": [
+            "`footer` is a fundamental part of frontend development.",
+            "`footer` is a backend framework.",
+            "`footer` requires a Node server.",
+            "`footer` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "footer",
+        "explanation": "The correct answer is '`footer` is a fundamental part of frontend development.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 34,
+        "question": "When should a developer avoid using `footer`?",
+        "options": [
+            "When the browser supports it.",
+            "When building a web page.",
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "footer",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 35,
+        "question": "What is a common styling issue related to `footer`?",
+        "options": [
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Conflicts with other CSS rules affecting `footer`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "footer",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `footer`.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 36,
+        "question": "Does `footer` impact accessibility (a11y)?",
+        "options": [
+            "Yes, proper use of `footer` can improve or affect screen readers.",
+            "No, it's a server-side concept.",
+            "Only in C programming.",
+            "No, it's only for databases."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "footer",
+        "explanation": "The correct answer is 'Yes, proper use of `footer` can improve or affect screen readers.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 37,
+        "question": "Can `footer` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "Only if compiled first.",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "footer",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 38,
+        "question": "Which layout technique often involves `footer`?",
+        "options": [
+            "Responsive web design and standard document flow.",
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Database normalization."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "footer",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 39,
+        "question": "What happens if `footer` is used incorrectly?",
+        "options": [
+            "The computer shuts down.",
+            "Data is erased from the database.",
+            "The server crashes.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "footer",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 40,
+        "question": "Is `footer` compatible with modern browsers?",
+        "options": [
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6.",
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "footer",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `footer` in this context."
+    },
+    {
+        "id": 41,
+        "question": "What is the primary function of `section` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It manages application state."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "section",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 42,
+        "question": "How do you correctly implement `section`?",
+        "options": [
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL.",
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "section",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 43,
+        "question": "Which of the following is true regarding `section`?",
+        "options": [
+            "`section` requires a Node server.",
+            "`section` is a backend framework.",
+            "`section` is a fundamental part of frontend development.",
+            "`section` is used for memory allocation."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "section",
+        "explanation": "The correct answer is '`section` is a fundamental part of frontend development.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 44,
+        "question": "When should a developer avoid using `section`?",
+        "options": [
+            "When building a web page.",
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When the browser supports it."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "section",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 45,
+        "question": "What is a common styling issue related to `section`?",
+        "options": [
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts.",
+            "Conflicts with other CSS rules affecting `section`."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "section",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `section`.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 46,
+        "question": "Does `section` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `section` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "section",
+        "explanation": "The correct answer is 'Yes, proper use of `section` can improve or affect screen readers.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 47,
+        "question": "Can `section` be manipulated using JavaScript?",
+        "options": [
+            "No, it runs on the GPU only.",
+            "Only if compiled first.",
+            "No, it is strictly read-only.",
+            "Yes, via the Document Object Model (DOM)."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "section",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 48,
+        "question": "Which layout technique often involves `section`?",
+        "options": [
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Database normalization.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "section",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 49,
+        "question": "What happens if `section` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "section",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 50,
+        "question": "Is `section` compatible with modern browsers?",
+        "options": [
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6.",
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "section",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `section` in this context."
+    },
+    {
+        "id": 51,
+        "question": "What is the primary function of `article` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It connects to a database.",
+            "It manages application state.",
+            "It is used to define backend routes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "article",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 52,
+        "question": "How do you correctly implement `article`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By injecting it via SQL.",
+            "By wrapping it in a Python function.",
+            "By compiling it with GCC."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "article",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 53,
+        "question": "Which of the following is true regarding `article`?",
+        "options": [
+            "`article` is a fundamental part of frontend development.",
+            "`article` is a backend framework.",
+            "`article` requires a Node server.",
+            "`article` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "article",
+        "explanation": "The correct answer is '`article` is a fundamental part of frontend development.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 54,
+        "question": "When should a developer avoid using `article`?",
+        "options": [
+            "When the browser supports it.",
+            "When building a web page.",
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "article",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 55,
+        "question": "What is a common styling issue related to `article`?",
+        "options": [
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Conflicts with other CSS rules affecting `article`.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "article",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `article`.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 56,
+        "question": "Does `article` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "Yes, proper use of `article` can improve or affect screen readers.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "article",
+        "explanation": "The correct answer is 'Yes, proper use of `article` can improve or affect screen readers.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 57,
+        "question": "Can `article` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it runs on the GPU only.",
+            "Only if compiled first.",
+            "No, it is strictly read-only."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "article",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 58,
+        "question": "Which layout technique often involves `article`?",
+        "options": [
+            "Binary search trees.",
+            "Responsive web design and standard document flow.",
+            "Database normalization.",
+            "Microservices architecture."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "article",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 59,
+        "question": "What happens if `article` is used incorrectly?",
+        "options": [
+            "Data is erased from the database.",
+            "The computer shuts down.",
+            "The server crashes.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "article",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 60,
+        "question": "Is `article` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "article",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `article` in this context."
+    },
+    {
+        "id": 61,
+        "question": "What is the primary function of `nav` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "nav",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 62,
+        "question": "How do you correctly implement `nav`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "nav",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 63,
+        "question": "Which of the following is true regarding `nav`?",
+        "options": [
+            "`nav` is a fundamental part of frontend development.",
+            "`nav` is used for memory allocation.",
+            "`nav` is a backend framework.",
+            "`nav` requires a Node server."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "nav",
+        "explanation": "The correct answer is '`nav` is a fundamental part of frontend development.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 64,
+        "question": "When should a developer avoid using `nav`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "nav",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 65,
+        "question": "What is a common styling issue related to `nav`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `nav`.",
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "nav",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `nav`.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 66,
+        "question": "Does `nav` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `nav` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "nav",
+        "explanation": "The correct answer is 'Yes, proper use of `nav` can improve or affect screen readers.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 67,
+        "question": "Can `nav` be manipulated using JavaScript?",
+        "options": [
+            "No, it runs on the GPU only.",
+            "Only if compiled first.",
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "nav",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 68,
+        "question": "Which layout technique often involves `nav`?",
+        "options": [
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Database normalization.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "nav",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 69,
+        "question": "What happens if `nav` is used incorrectly?",
+        "options": [
+            "The server crashes.",
+            "The computer shuts down.",
+            "The visual layout or semantics may break.",
+            "Data is erased from the database."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "nav",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 70,
+        "question": "Is `nav` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it is a proprietary backend tool."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "nav",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `nav` in this context."
+    },
+    {
+        "id": 71,
+        "question": "What is the primary function of `aside` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "aside",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 72,
+        "question": "How do you correctly implement `aside`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL.",
+            "By wrapping it in a Python function."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "aside",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 73,
+        "question": "Which of the following is true regarding `aside`?",
+        "options": [
+            "`aside` is a backend framework.",
+            "`aside` is used for memory allocation.",
+            "`aside` requires a Node server.",
+            "`aside` is a fundamental part of frontend development."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "aside",
+        "explanation": "The correct answer is '`aside` is a fundamental part of frontend development.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 74,
+        "question": "When should a developer avoid using `aside`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "aside",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 75,
+        "question": "What is a common styling issue related to `aside`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `aside`.",
+            "Database connection timeouts.",
+            "Infinite loops in JavaScript.",
+            "Null pointer exceptions."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "aside",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `aside`.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 76,
+        "question": "Does `aside` impact accessibility (a11y)?",
+        "options": [
+            "Yes, proper use of `aside` can improve or affect screen readers.",
+            "No, it's only for databases.",
+            "Only in C programming.",
+            "No, it's a server-side concept."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "aside",
+        "explanation": "The correct answer is 'Yes, proper use of `aside` can improve or affect screen readers.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 77,
+        "question": "Can `aside` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "aside",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 78,
+        "question": "Which layout technique often involves `aside`?",
+        "options": [
+            "Responsive web design and standard document flow.",
+            "Database normalization.",
+            "Binary search trees.",
+            "Microservices architecture."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "aside",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 79,
+        "question": "What happens if `aside` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "aside",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 80,
+        "question": "Is `aside` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "aside",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `aside` in this context."
+    },
+    {
+        "id": 81,
+        "question": "What is the primary function of `table` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It manages application state.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "table",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 82,
+        "question": "How do you correctly implement `table`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL.",
+            "By compiling it with GCC."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "table",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 83,
+        "question": "Which of the following is true regarding `table`?",
+        "options": [
+            "`table` is used for memory allocation.",
+            "`table` is a backend framework.",
+            "`table` requires a Node server.",
+            "`table` is a fundamental part of frontend development."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "table",
+        "explanation": "The correct answer is '`table` is a fundamental part of frontend development.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 84,
+        "question": "When should a developer avoid using `table`?",
+        "options": [
+            "When building a web page.",
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "table",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 85,
+        "question": "What is a common styling issue related to `table`?",
+        "options": [
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Conflicts with other CSS rules affecting `table`."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "table",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `table`.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 86,
+        "question": "Does `table` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `table` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "table",
+        "explanation": "The correct answer is 'Yes, proper use of `table` can improve or affect screen readers.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 87,
+        "question": "Can `table` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "table",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 88,
+        "question": "Which layout technique often involves `table`?",
+        "options": [
+            "Microservices architecture.",
+            "Database normalization.",
+            "Responsive web design and standard document flow.",
+            "Binary search trees."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "table",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 89,
+        "question": "What happens if `table` is used incorrectly?",
+        "options": [
+            "Data is erased from the database.",
+            "The computer shuts down.",
+            "The server crashes.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "table",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 90,
+        "question": "Is `table` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "table",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `table` in this context."
+    },
+    {
+        "id": 91,
+        "question": "What is the primary function of `form` in web development?",
+        "options": [
+            "It manages application state.",
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "form",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 92,
+        "question": "How do you correctly implement `form`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "form",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 93,
+        "question": "Which of the following is true regarding `form`?",
+        "options": [
+            "`form` is a backend framework.",
+            "`form` is used for memory allocation.",
+            "`form` is a fundamental part of frontend development.",
+            "`form` requires a Node server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "form",
+        "explanation": "The correct answer is '`form` is a fundamental part of frontend development.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 94,
+        "question": "When should a developer avoid using `form`?",
+        "options": [
+            "When building a web page.",
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "form",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 95,
+        "question": "What is a common styling issue related to `form`?",
+        "options": [
+            "Null pointer exceptions.",
+            "Conflicts with other CSS rules affecting `form`.",
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "form",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `form`.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 96,
+        "question": "Does `form` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "Yes, proper use of `form` can improve or affect screen readers.",
+            "No, it's only for databases."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "form",
+        "explanation": "The correct answer is 'Yes, proper use of `form` can improve or affect screen readers.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 97,
+        "question": "Can `form` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "Only if compiled first.",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "form",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 98,
+        "question": "Which layout technique often involves `form`?",
+        "options": [
+            "Microservices architecture.",
+            "Responsive web design and standard document flow.",
+            "Database normalization.",
+            "Binary search trees."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "form",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 99,
+        "question": "What happens if `form` is used incorrectly?",
+        "options": [
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "form",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 100,
+        "question": "Is `form` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "form",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `form` in this context."
+    },
+    {
+        "id": 101,
+        "question": "What is the primary function of `input` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It manages application state.",
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "input",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 102,
+        "question": "How do you correctly implement `input`?",
+        "options": [
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "input",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 103,
+        "question": "Which of the following is true regarding `input`?",
+        "options": [
+            "`input` is a fundamental part of frontend development.",
+            "`input` is a backend framework.",
+            "`input` requires a Node server.",
+            "`input` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "input",
+        "explanation": "The correct answer is '`input` is a fundamental part of frontend development.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 104,
+        "question": "When should a developer avoid using `input`?",
+        "options": [
+            "When building a web page.",
+            "When the browser supports it.",
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "input",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 105,
+        "question": "What is a common styling issue related to `input`?",
+        "options": [
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Conflicts with other CSS rules affecting `input`."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "input",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `input`.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 106,
+        "question": "Does `input` impact accessibility (a11y)?",
+        "options": [
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Only in C programming.",
+            "Yes, proper use of `input` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "input",
+        "explanation": "The correct answer is 'Yes, proper use of `input` can improve or affect screen readers.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 107,
+        "question": "Can `input` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "Only if compiled first.",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "input",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 108,
+        "question": "Which layout technique often involves `input`?",
+        "options": [
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Responsive web design and standard document flow.",
+            "Database normalization."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "input",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 109,
+        "question": "What happens if `input` is used incorrectly?",
+        "options": [
+            "Data is erased from the database.",
+            "The computer shuts down.",
+            "The server crashes.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "input",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 110,
+        "question": "Is `input` compatible with modern browsers?",
+        "options": [
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "No, it is a proprietary backend tool.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "input",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `input` in this context."
+    },
+    {
+        "id": 111,
+        "question": "What is the primary function of `button` in web development?",
+        "options": [
+            "It manages application state.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content.",
+            "It connects to a database."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "button",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 112,
+        "question": "How do you correctly implement `button`?",
+        "options": [
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "button",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 113,
+        "question": "Which of the following is true regarding `button`?",
+        "options": [
+            "`button` is a backend framework.",
+            "`button` requires a Node server.",
+            "`button` is used for memory allocation.",
+            "`button` is a fundamental part of frontend development."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "button",
+        "explanation": "The correct answer is '`button` is a fundamental part of frontend development.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 114,
+        "question": "When should a developer avoid using `button`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "button",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 115,
+        "question": "What is a common styling issue related to `button`?",
+        "options": [
+            "Database connection timeouts.",
+            "Conflicts with other CSS rules affecting `button`.",
+            "Infinite loops in JavaScript.",
+            "Null pointer exceptions."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "button",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `button`.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 116,
+        "question": "Does `button` impact accessibility (a11y)?",
+        "options": [
+            "Yes, proper use of `button` can improve or affect screen readers.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Only in C programming."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "button",
+        "explanation": "The correct answer is 'Yes, proper use of `button` can improve or affect screen readers.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 117,
+        "question": "Can `button` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "button",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 118,
+        "question": "Which layout technique often involves `button`?",
+        "options": [
+            "Responsive web design and standard document flow.",
+            "Microservices architecture.",
+            "Binary search trees.",
+            "Database normalization."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "button",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 119,
+        "question": "What happens if `button` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "button",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 120,
+        "question": "Is `button` compatible with modern browsers?",
+        "options": [
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6.",
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "button",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `button` in this context."
+    },
+    {
+        "id": 121,
+        "question": "What is the primary function of `a` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It manages application state.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "a",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 122,
+        "question": "How do you correctly implement `a`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "a",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 123,
+        "question": "Which of the following is true regarding `a`?",
+        "options": [
+            "`a` is used for memory allocation.",
+            "`a` is a fundamental part of frontend development.",
+            "`a` is a backend framework.",
+            "`a` requires a Node server."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "a",
+        "explanation": "The correct answer is '`a` is a fundamental part of frontend development.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 124,
+        "question": "When should a developer avoid using `a`?",
+        "options": [
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "a",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 125,
+        "question": "What is a common styling issue related to `a`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `a`.",
+            "Null pointer exceptions.",
+            "Database connection timeouts.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "a",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `a`.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 126,
+        "question": "Does `a` impact accessibility (a11y)?",
+        "options": [
+            "Yes, proper use of `a` can improve or affect screen readers.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Only in C programming."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "a",
+        "explanation": "The correct answer is 'Yes, proper use of `a` can improve or affect screen readers.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 127,
+        "question": "Can `a` be manipulated using JavaScript?",
+        "options": [
+            "No, it is strictly read-only.",
+            "Only if compiled first.",
+            "Yes, via the Document Object Model (DOM).",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "a",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 128,
+        "question": "Which layout technique often involves `a`?",
+        "options": [
+            "Database normalization.",
+            "Binary search trees.",
+            "Responsive web design and standard document flow.",
+            "Microservices architecture."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "a",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 129,
+        "question": "What happens if `a` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The computer shuts down.",
+            "Data is erased from the database.",
+            "The server crashes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "a",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 130,
+        "question": "Is `a` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "a",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `a` in this context."
+    },
+    {
+        "id": 131,
+        "question": "What is the primary function of `img` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "img",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 132,
+        "question": "How do you correctly implement `img`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "img",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 133,
+        "question": "Which of the following is true regarding `img`?",
+        "options": [
+            "`img` requires a Node server.",
+            "`img` is a fundamental part of frontend development.",
+            "`img` is a backend framework.",
+            "`img` is used for memory allocation."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "img",
+        "explanation": "The correct answer is '`img` is a fundamental part of frontend development.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 134,
+        "question": "When should a developer avoid using `img`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When building a web page."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "img",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 135,
+        "question": "What is a common styling issue related to `img`?",
+        "options": [
+            "Infinite loops in JavaScript.",
+            "Conflicts with other CSS rules affecting `img`.",
+            "Null pointer exceptions.",
+            "Database connection timeouts."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "img",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `img`.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 136,
+        "question": "Does `img` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's only for databases.",
+            "Yes, proper use of `img` can improve or affect screen readers.",
+            "No, it's a server-side concept."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "img",
+        "explanation": "The correct answer is 'Yes, proper use of `img` can improve or affect screen readers.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 137,
+        "question": "Can `img` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "img",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 138,
+        "question": "Which layout technique often involves `img`?",
+        "options": [
+            "Binary search trees.",
+            "Microservices architecture.",
+            "Database normalization.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "img",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 139,
+        "question": "What happens if `img` is used incorrectly?",
+        "options": [
+            "The server crashes.",
+            "The visual layout or semantics may break.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "img",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 140,
+        "question": "Is `img` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "img",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `img` in this context."
+    },
+    {
+        "id": 141,
+        "question": "What is the primary function of `ul` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It manages application state.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "ul",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 142,
+        "question": "How do you correctly implement `ul`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By compiling it with GCC.",
+            "By injecting it via SQL."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ul",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 143,
+        "question": "Which of the following is true regarding `ul`?",
+        "options": [
+            "`ul` is a fundamental part of frontend development.",
+            "`ul` is a backend framework.",
+            "`ul` requires a Node server.",
+            "`ul` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "ul",
+        "explanation": "The correct answer is '`ul` is a fundamental part of frontend development.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 144,
+        "question": "When should a developer avoid using `ul`?",
+        "options": [
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When a more semantically appropriate alternative exists.",
+            "When building a web page."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "ul",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 145,
+        "question": "What is a common styling issue related to `ul`?",
+        "options": [
+            "Null pointer exceptions.",
+            "Database connection timeouts.",
+            "Infinite loops in JavaScript.",
+            "Conflicts with other CSS rules affecting `ul`."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "ul",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `ul`.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 146,
+        "question": "Does `ul` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `ul` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "ul",
+        "explanation": "The correct answer is 'Yes, proper use of `ul` can improve or affect screen readers.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 147,
+        "question": "Can `ul` be manipulated using JavaScript?",
+        "options": [
+            "Only if compiled first.",
+            "No, it runs on the GPU only.",
+            "No, it is strictly read-only.",
+            "Yes, via the Document Object Model (DOM)."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "ul",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 148,
+        "question": "Which layout technique often involves `ul`?",
+        "options": [
+            "Microservices architecture.",
+            "Responsive web design and standard document flow.",
+            "Database normalization.",
+            "Binary search trees."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "ul",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 149,
+        "question": "What happens if `ul` is used incorrectly?",
+        "options": [
+            "The computer shuts down.",
+            "The server crashes.",
+            "Data is erased from the database.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "ul",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 150,
+        "question": "Is `ul` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "ul",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `ul` in this context."
+    },
+    {
+        "id": 151,
+        "question": "What is the primary function of `ol` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It manages application state.",
+            "It connects to a database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ol",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 152,
+        "question": "How do you correctly implement `ol`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By compiling it with GCC.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "ol",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 153,
+        "question": "Which of the following is true regarding `ol`?",
+        "options": [
+            "`ol` is used for memory allocation.",
+            "`ol` is a backend framework.",
+            "`ol` is a fundamental part of frontend development.",
+            "`ol` requires a Node server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "ol",
+        "explanation": "The correct answer is '`ol` is a fundamental part of frontend development.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 154,
+        "question": "When should a developer avoid using `ol`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When writing CSS.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ol",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 155,
+        "question": "What is a common styling issue related to `ol`?",
+        "options": [
+            "Database connection timeouts.",
+            "Null pointer exceptions.",
+            "Conflicts with other CSS rules affecting `ol`.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "ol",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `ol`.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 156,
+        "question": "Does `ol` impact accessibility (a11y)?",
+        "options": [
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Only in C programming.",
+            "Yes, proper use of `ol` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "ol",
+        "explanation": "The correct answer is 'Yes, proper use of `ol` can improve or affect screen readers.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 157,
+        "question": "Can `ol` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ol",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 158,
+        "question": "Which layout technique often involves `ol`?",
+        "options": [
+            "Binary search trees.",
+            "Microservices architecture.",
+            "Database normalization.",
+            "Responsive web design and standard document flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "ol",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 159,
+        "question": "What happens if `ol` is used incorrectly?",
+        "options": [
+            "Data is erased from the database.",
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "ol",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 160,
+        "question": "Is `ol` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "ol",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `ol` in this context."
+    },
+    {
+        "id": 161,
+        "question": "What is the primary function of `li` in web development?",
+        "options": [
+            "It manages application state.",
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It connects to a database."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "li",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 162,
+        "question": "How do you correctly implement `li`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By injecting it via SQL.",
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "li",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 163,
+        "question": "Which of the following is true regarding `li`?",
+        "options": [
+            "`li` is a fundamental part of frontend development.",
+            "`li` requires a Node server.",
+            "`li` is a backend framework.",
+            "`li` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "li",
+        "explanation": "The correct answer is '`li` is a fundamental part of frontend development.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 164,
+        "question": "When should a developer avoid using `li`?",
+        "options": [
+            "When writing CSS.",
+            "When a more semantically appropriate alternative exists.",
+            "When building a web page.",
+            "When the browser supports it."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "li",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 165,
+        "question": "What is a common styling issue related to `li`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `li`.",
+            "Null pointer exceptions.",
+            "Database connection timeouts.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "li",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `li`.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 166,
+        "question": "Does `li` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `li` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "li",
+        "explanation": "The correct answer is 'Yes, proper use of `li` can improve or affect screen readers.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 167,
+        "question": "Can `li` be manipulated using JavaScript?",
+        "options": [
+            "Only if compiled first.",
+            "No, it runs on the GPU only.",
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "li",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 168,
+        "question": "Which layout technique often involves `li`?",
+        "options": [
+            "Binary search trees.",
+            "Database normalization.",
+            "Responsive web design and standard document flow.",
+            "Microservices architecture."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "li",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 169,
+        "question": "What happens if `li` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "li",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 170,
+        "question": "Is `li` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it is a proprietary backend tool."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "li",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `li` in this context."
+    },
+    {
+        "id": 171,
+        "question": "What is the primary function of `display: flex` in web development?",
+        "options": [
+            "It manages application state.",
+            "It connects to a database.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 172,
+        "question": "How do you correctly implement `display: flex`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 173,
+        "question": "Which of the following is true regarding `display: flex`?",
+        "options": [
+            "`display: flex` is a backend framework.",
+            "`display: flex` is a fundamental part of frontend development.",
+            "`display: flex` is used for memory allocation.",
+            "`display: flex` requires a Node server."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "display: flex",
+        "explanation": "The correct answer is '`display: flex` is a fundamental part of frontend development.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 174,
+        "question": "When should a developer avoid using `display: flex`?",
+        "options": [
+            "When writing CSS.",
+            "When the browser supports it.",
+            "When a more semantically appropriate alternative exists.",
+            "When building a web page."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 175,
+        "question": "What is a common styling issue related to `display: flex`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `display: flex`.",
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript.",
+            "Database connection timeouts."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `display: flex`.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 176,
+        "question": "Does `display: flex` impact accessibility (a11y)?",
+        "options": [
+            "No, it's a server-side concept.",
+            "Only in C programming.",
+            "No, it's only for databases.",
+            "Yes, proper use of `display: flex` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'Yes, proper use of `display: flex` can improve or affect screen readers.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 177,
+        "question": "Can `display: flex` be manipulated using JavaScript?",
+        "options": [
+            "No, it is strictly read-only.",
+            "No, it runs on the GPU only.",
+            "Only if compiled first.",
+            "Yes, via the Document Object Model (DOM)."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 178,
+        "question": "Which layout technique often involves `display: flex`?",
+        "options": [
+            "Microservices architecture.",
+            "Database normalization.",
+            "Responsive web design and standard document flow.",
+            "Binary search trees."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 179,
+        "question": "What happens if `display: flex` is used incorrectly?",
+        "options": [
+            "The computer shuts down.",
+            "Data is erased from the database.",
+            "The server crashes.",
+            "The visual layout or semantics may break."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 180,
+        "question": "Is `display: flex` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers.",
+            "Only in desktop environments."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "display: flex",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `display: flex` in this context."
+    },
+    {
+        "id": 181,
+        "question": "What is the primary function of `display: grid` in web development?",
+        "options": [
+            "It is used for structuring or styling web content.",
+            "It is used to define backend routes.",
+            "It manages application state.",
+            "It connects to a database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 182,
+        "question": "How do you correctly implement `display: grid`?",
+        "options": [
+            "By compiling it with GCC.",
+            "By injecting it via SQL.",
+            "By wrapping it in a Python function.",
+            "By following W3C HTML/CSS specifications."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 183,
+        "question": "Which of the following is true regarding `display: grid`?",
+        "options": [
+            "`display: grid` is a backend framework.",
+            "`display: grid` is used for memory allocation.",
+            "`display: grid` is a fundamental part of frontend development.",
+            "`display: grid` requires a Node server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "display: grid",
+        "explanation": "The correct answer is '`display: grid` is a fundamental part of frontend development.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 184,
+        "question": "When should a developer avoid using `display: grid`?",
+        "options": [
+            "When the browser supports it.",
+            "When writing CSS.",
+            "When building a web page.",
+            "When a more semantically appropriate alternative exists."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 185,
+        "question": "What is a common styling issue related to `display: grid`?",
+        "options": [
+            "Database connection timeouts.",
+            "Conflicts with other CSS rules affecting `display: grid`.",
+            "Null pointer exceptions.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `display: grid`.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 186,
+        "question": "Does `display: grid` impact accessibility (a11y)?",
+        "options": [
+            "No, it's a server-side concept.",
+            "Yes, proper use of `display: grid` can improve or affect screen readers.",
+            "No, it's only for databases.",
+            "Only in C programming."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'Yes, proper use of `display: grid` can improve or affect screen readers.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 187,
+        "question": "Can `display: grid` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it runs on the GPU only.",
+            "Only if compiled first.",
+            "No, it is strictly read-only."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 188,
+        "question": "Which layout technique often involves `display: grid`?",
+        "options": [
+            "Database normalization.",
+            "Microservices architecture.",
+            "Responsive web design and standard document flow.",
+            "Binary search trees."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 189,
+        "question": "What happens if `display: grid` is used incorrectly?",
+        "options": [
+            "The visual layout or semantics may break.",
+            "The server crashes.",
+            "The computer shuts down.",
+            "Data is erased from the database."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 190,
+        "question": "Is `display: grid` compatible with modern browsers?",
+        "options": [
+            "No, it is a proprietary backend tool.",
+            "Only in desktop environments.",
+            "No, it only works in IE6.",
+            "Yes, it is widely supported in modern web browsers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "display: grid",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `display: grid` in this context."
+    },
+    {
+        "id": 191,
+        "question": "What is the primary function of `margin` in web development?",
+        "options": [
+            "It connects to a database.",
+            "It is used to define backend routes.",
+            "It is used for structuring or styling web content.",
+            "It manages application state."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "margin",
+        "explanation": "The correct answer is 'It is used for structuring or styling web content.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 192,
+        "question": "How do you correctly implement `margin`?",
+        "options": [
+            "By following W3C HTML/CSS specifications.",
+            "By wrapping it in a Python function.",
+            "By injecting it via SQL.",
+            "By compiling it with GCC."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "margin",
+        "explanation": "The correct answer is 'By following W3C HTML/CSS specifications.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 193,
+        "question": "Which of the following is true regarding `margin`?",
+        "options": [
+            "`margin` is a fundamental part of frontend development.",
+            "`margin` is a backend framework.",
+            "`margin` requires a Node server.",
+            "`margin` is used for memory allocation."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "margin",
+        "explanation": "The correct answer is '`margin` is a fundamental part of frontend development.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 194,
+        "question": "When should a developer avoid using `margin`?",
+        "options": [
+            "When a more semantically appropriate alternative exists.",
+            "When the browser supports it.",
+            "When writing CSS.",
+            "When building a web page."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "margin",
+        "explanation": "The correct answer is 'When a more semantically appropriate alternative exists.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 195,
+        "question": "What is a common styling issue related to `margin`?",
+        "options": [
+            "Conflicts with other CSS rules affecting `margin`.",
+            "Null pointer exceptions.",
+            "Database connection timeouts.",
+            "Infinite loops in JavaScript."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "margin",
+        "explanation": "The correct answer is 'Conflicts with other CSS rules affecting `margin`.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 196,
+        "question": "Does `margin` impact accessibility (a11y)?",
+        "options": [
+            "Only in C programming.",
+            "No, it's a server-side concept.",
+            "No, it's only for databases.",
+            "Yes, proper use of `margin` can improve or affect screen readers."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "margin",
+        "explanation": "The correct answer is 'Yes, proper use of `margin` can improve or affect screen readers.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 197,
+        "question": "Can `margin` be manipulated using JavaScript?",
+        "options": [
+            "Yes, via the Document Object Model (DOM).",
+            "No, it is strictly read-only.",
+            "Only if compiled first.",
+            "No, it runs on the GPU only."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "margin",
+        "explanation": "The correct answer is 'Yes, via the Document Object Model (DOM).' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 198,
+        "question": "Which layout technique often involves `margin`?",
+        "options": [
+            "Responsive web design and standard document flow.",
+            "Database normalization.",
+            "Microservices architecture.",
+            "Binary search trees."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "margin",
+        "explanation": "The correct answer is 'Responsive web design and standard document flow.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 199,
+        "question": "What happens if `margin` is used incorrectly?",
+        "options": [
+            "The computer shuts down.",
+            "The visual layout or semantics may break.",
+            "Data is erased from the database.",
+            "The server crashes."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "margin",
+        "explanation": "The correct answer is 'The visual layout or semantics may break.' because it accurately describes `margin` in this context."
+    },
+    {
+        "id": 200,
+        "question": "Is `margin` compatible with modern browsers?",
+        "options": [
+            "Only in desktop environments.",
+            "Yes, it is widely supported in modern web browsers.",
+            "No, it only works in IE6.",
+            "No, it is a proprietary backend tool."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "margin",
+        "explanation": "The correct answer is 'Yes, it is widely supported in modern web browsers.' because it accurately describes `margin` in this context."
+    }
+]

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ExamCore | Detailed Review</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#484c4e",
+                    "inverse-surface": "#233144",
+                    "surface-dim": "#ccdbf3",
+                    "primary-fixed-dim": "#b8c4ff",
+                    "surface-container-low": "#eff4ff",
+                    "primary-fixed": "#dde1ff",
+                    "on-tertiary-container": "#b9bcbe",
+                    "surface-tint": "#3755c3",
+                    "surface-container-highest": "#d5e3fc",
+                    "on-secondary": "#ffffff",
+                    "tertiary": "#323537",
+                    "secondary-fixed": "#d3e5f1",
+                    "surface-variant": "#d5e3fc",
+                    "on-tertiary-fixed": "#191c1e",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-fixed-dim": "#b7c9d5",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#0c1e26",
+                    "on-primary-fixed": "#001453",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#d3e5f1",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#0d1c2e",
+                    "surface-container": "#e6eeff",
+                    "on-secondary-container": "#566771",
+                    "secondary": "#50616b",
+                    "on-tertiary-fixed-variant": "#444749",
+                    "on-surface-variant": "#444653",
+                    "surface-bright": "#f8f9ff",
+                    "on-primary-container": "#a8b8ff",
+                    "primary": "#00288e",
+                    "inverse-on-surface": "#eaf1ff",
+                    "inverse-primary": "#b8c4ff",
+                    "surface": "#f8f9ff",
+                    "primary-container": "#1e40af",
+                    "surface-container-high": "#dce9ff",
+                    "outline-variant": "#c4c5d5",
+                    "on-error": "#ffffff",
+                    "on-background": "#0d1c2e",
+                    "outline": "#757684",
+                    "tertiary-fixed-dim": "#c4c7c9",
+                    "on-primary": "#ffffff",
+                    "on-primary-fixed-variant": "#173bab",
+                    "error-container": "#ffdad6",
+                    "background": "#f8f9ff",
+                    "on-secondary-fixed-variant": "#384953",
+                    "tertiary-fixed": "#e0e3e5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "32px",
+                    "xxl": "48px",
+                    "lg": "24px",
+                    "gutter": "24px",
+                    "md": "16px",
+                    "sm": "8px",
+                    "xs": "4px",
+                    "base": "4px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "headline-sm": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9ff; color: #0d1c2e; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(8px); }
+        .correct-border { border-left: 4px solid #10b981; }
+        .incorrect-border { border-left: 4px solid #ef4444; }
+        .custom-shadow { box-shadow: 0px 4px 20px rgba(30, 64, 175, 0.05); }
+    </style>
+</head>
+<body class="bg-background">
+<!-- TopNavBar -->
+<nav class="bg-surface docked full-width top-0 border-b border-outline-variant shadow-sm sticky z-50">
+<div class="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
+<div class="flex items-center gap-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">ExamCore</span>
+<div class="h-6 w-[1px] bg-outline-variant mx-sm hidden md:block"></div>
+<div class="hidden md:flex gap-md items-center">
+<span class="font-label-md text-label-md text-primary font-bold border-b-2 border-primary py-xs">Review Session</span>
+<span class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer">Dashboard</span>
+</div>
+</div>
+<div class="flex items-center gap-lg">
+<div class="flex items-center gap-sm text-secondary">
+<span class="material-symbols-outlined text-[20px]" data-icon="timer">timer</span>
+<span class="font-label-md text-label-md">00:45:12 Elapsed</span>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-[24px] text-on-surface-variant" data-icon="account_circle">account_circle</span>
+</div>
+</div>
+</div>
+</nav>
+<main class="max-w-[1280px] mx-auto px-gutter py-xl flex flex-col md:flex-row gap-lg">
+<!-- Sidebar Navigation (Exam Stats & Back Action) -->
+<aside class="w-full md:w-1/4 space-y-md">
+<button class="flex items-center gap-sm text-primary font-label-md text-label-md hover:translate-x-[-4px] transition-transform duration-200 group" onclick="window.history.back()">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+<span>Back to Results</span>
+</button>
+<div class="bg-surface-container-lowest border border-outline-variant p-lg rounded-xl custom-shadow">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-md">Summary</h3>
+<div class="space-y-md">
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-secondary">Correct</span>
+<span class="px-sm py-xs bg-green-100 text-green-700 rounded-full font-label-sm text-label-sm">18 / 20</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-secondary">Accuracy</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">90%</span>
+</div>
+<div class="w-full bg-secondary-container h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[90%]"></div>
+</div>
+</div>
+</div>
+<!-- Question Navigator -->
+<div class="bg-surface-container-lowest border border-outline-variant p-lg rounded-xl custom-shadow hidden md:block">
+<h4 class="font-label-md text-label-md text-on-surface mb-md">Question Map</h4>
+<div class="grid grid-cols-5 gap-xs">
+<!-- Correct -->
+<button class="w-8 h-8 rounded bg-green-100 text-green-700 flex items-center justify-center font-label-sm text-label-sm border border-green-200">1</button>
+<button class="w-8 h-8 rounded bg-green-100 text-green-700 flex items-center justify-center font-label-sm text-label-sm border border-green-200">2</button>
+<!-- Incorrect -->
+<button class="w-8 h-8 rounded bg-red-100 text-red-700 flex items-center justify-center font-label-sm text-label-sm border border-red-200">3</button>
+<button class="w-8 h-8 rounded bg-green-100 text-green-700 flex items-center justify-center font-label-sm text-label-sm border border-green-200">4</button>
+<button class="w-8 h-8 rounded bg-green-100 text-green-700 flex items-center justify-center font-label-sm text-label-sm border border-green-200">5</button>
+<!-- More placeholders... -->
+<div class="w-8 h-8 rounded bg-surface-container-high flex items-center justify-center font-label-sm text-label-sm opacity-50">...</div>
+</div>
+</div>
+</aside>
+<!-- Main Content: Review List -->
+<section class="flex-1 space-y-lg">
+<header class="mb-xl">
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Detailed Question Review</h1>
+<p class="font-body-md text-body-md text-secondary mt-xs">Advanced Macroeconomics Final Examination - Session A</p>
+</header>
+<!-- Question Card 1 (Correct Example) -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl custom-shadow overflow-hidden correct-border transition-all hover:border-primary">
+<div class="p-lg">
+<div class="flex justify-between items-start mb-md">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-sm py-xs rounded">Question 1</span>
+<div class="flex items-center gap-xs text-green-600">
+<span class="material-symbols-outlined" data-icon="check_circle">check_circle</span>
+<span class="font-label-md text-label-md">Correct</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface mb-lg">What is the primary effect of an increase in the central bank's discount rate on the broader economy?</p>
+<div class="space-y-sm">
+<!-- Options -->
+<div class="flex items-center p-md rounded-lg border border-outline-variant bg-surface-bright">
+<span class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-md font-label-sm text-label-sm">A</span>
+<span class="font-body-md text-body-md">Increased consumer spending and business investment</span>
+</div>
+<div class="flex items-center p-md rounded-lg border border-green-500 bg-green-50">
+<span class="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center mr-md font-label-sm text-label-sm">B</span>
+<span class="font-body-md text-body-md flex-1 text-green-900">Reduced inflation and slower economic growth</span>
+<span class="material-symbols-outlined text-green-600 ml-sm" data-icon="done">done</span>
+</div>
+<div class="flex items-center p-md rounded-lg border border-outline-variant bg-surface-bright">
+<span class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-md font-label-sm text-label-sm">C</span>
+<span class="font-body-md text-body-md">Decline in the exchange rate of the national currency</span>
+</div>
+</div>
+<!-- Explanation Toggle -->
+<div class="mt-lg pt-lg border-t border-outline-variant">
+<details class="group">
+<summary class="list-none flex items-center justify-between cursor-pointer text-primary font-label-md text-label-md">
+<span class="flex items-center gap-sm">
+<span class="material-symbols-outlined" data-icon="info">info</span>
+                                    View Explanation
+                                </span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="mt-md p-md bg-surface-container-low rounded-lg text-secondary font-body-md text-body-md">
+                                Increasing the discount rate makes borrowing more expensive for commercial banks, which in turn raises interest rates for consumers and businesses. This tightening of monetary policy typically leads to reduced spending, which cools down inflation but may slow overall economic growth.
+                            </div>
+</details>
+</div>
+</div>
+</div>
+<!-- Question Card 2 (Incorrect Example) -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl custom-shadow overflow-hidden incorrect-border transition-all hover:border-error">
+<div class="p-lg">
+<div class="flex justify-between items-start mb-md">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-sm py-xs rounded">Question 2</span>
+<div class="flex items-center gap-xs text-error">
+<span class="material-symbols-outlined" data-icon="cancel">cancel</span>
+<span class="font-label-md text-label-md">Incorrect</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface mb-lg">According to the Solow Growth Model, what is the primary driver of long-term sustainable growth in income per capita?</p>
+<div class="space-y-sm">
+<!-- Options -->
+<div class="flex items-center p-md rounded-lg border border-error bg-error-container/20">
+<span class="w-6 h-6 rounded-full bg-error text-white flex items-center justify-center mr-md font-label-sm text-label-sm">A</span>
+<span class="font-body-md text-body-md flex-1 text-error">High rates of physical capital accumulation</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-error font-bold">Your Choice</span>
+</div>
+<div class="flex items-center p-md rounded-lg border border-green-500 bg-green-50">
+<span class="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center mr-md font-label-sm text-label-sm">B</span>
+<span class="font-body-md text-body-md flex-1 text-green-900">Exogenous technological progress</span>
+<span class="material-symbols-outlined text-green-600 ml-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="flex items-center p-md rounded-lg border border-outline-variant bg-surface-bright">
+<span class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-md font-label-sm text-label-sm">C</span>
+<span class="font-body-md text-body-md">Expansion of the labor force</span>
+</div>
+</div>
+<div class="mt-lg pt-lg border-t border-outline-variant">
+<div class="p-md bg-surface-container-low rounded-lg">
+<div class="flex items-center gap-sm text-primary mb-sm font-label-md text-label-md">
+<span class="material-symbols-outlined" data-icon="lightbulb">lightbulb</span>
+<span>Explanation</span>
+</div>
+<p class="text-secondary font-body-md text-body-md">
+                                While capital accumulation increases the level of income, it cannot sustain long-term growth due to diminishing returns to capital. In the basic Solow model, only continuous technological progress (exogenous) can explain long-run growth in output per worker.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Question Card 3 (Correct Example with Image) -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl custom-shadow overflow-hidden correct-border transition-all hover:border-primary">
+<div class="p-lg">
+<div class="flex justify-between items-start mb-md">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-sm py-xs rounded">Question 3</span>
+<div class="flex items-center gap-xs text-green-600">
+<span class="material-symbols-outlined" data-icon="check_circle">check_circle</span>
+<span class="font-label-md text-label-md">Correct</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface mb-md">Based on the following Supply and Demand curve, identify the equilibrium price point.</p>
+<div class="mb-lg rounded-xl overflow-hidden border border-outline-variant aspect-video">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist vector illustration of a supply and demand graph for an economics textbook. The background is a crisp white with a faint blue grid. The demand curve is a solid primary blue line, and the supply curve is a solid secondary blue line. A bright green dot marks the equilibrium point where they intersect, labeled P-star and Q-star. The overall style is professional, corporate, and educational, emphasizing clarity and academic focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCy0vcC4pDzuK-DIZ_D-Rb6raNaM0SeawZWz6LdZTAy6uInHZbVwUGbDTXsM6da1njD8gFnfz3eIyUjxvbFRTLwqFBRkUO7FisS3oxyyqExj_qqmDEDDiLqiJPytpPAV3rm5Ga_bXFdmC9Fd-mQTNC9lh_SNWxJZQYVr-9N78fEA5GIwH6xcAVJx7RW3TyKYsAV1JjW08ZfVkRoaYRYiKbg7kUGsHjNDZ789mmf8sBw-yoQnIsJwYT_0escl0A4zf1LTQnvkMQN39ne"/>
+</div>
+<div class="space-y-sm">
+<div class="flex items-center p-md rounded-lg border border-green-500 bg-green-50">
+<span class="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center mr-md font-label-sm text-label-sm">A</span>
+<span class="font-body-md text-body-md flex-1 text-green-900">$45.00</span>
+</div>
+<div class="flex items-center p-md rounded-lg border border-outline-variant bg-surface-bright">
+<span class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-md font-label-sm text-label-sm">B</span>
+<span class="font-body-md text-body-md">$60.00</span>
+</div>
+</div>
+<div class="mt-lg pt-lg border-t border-outline-variant">
+<details class="group">
+<summary class="list-none flex items-center justify-between cursor-pointer text-primary font-label-md text-label-md">
+<span class="flex items-center gap-sm">
+<span class="material-symbols-outlined" data-icon="info">info</span>
+                                    View Explanation
+                                </span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="mt-md p-md bg-surface-container-low rounded-lg text-secondary font-body-md text-body-md">
+                                The equilibrium is reached at the intersection of the Supply and Demand curves. Following the horizontal axis from the intersection point leads to the price of $45.00.
+                            </div>
+</details>
+</div>
+</div>
+</div>
+<!-- Pagination/Footer Actions -->
+<div class="flex flex-col sm:flex-row justify-between items-center pt-xl border-t border-outline-variant gap-md">
+<button class="px-lg py-md border border-outline-variant text-secondary rounded-lg font-label-md text-label-md hover:bg-surface-container-low transition-colors w-full sm:w-auto">
+                    Previous Page
+                </button>
+<div class="flex gap-sm">
+<button class="w-10 h-10 rounded-lg bg-primary text-white flex items-center justify-center font-label-md text-label-md">1</button>
+<button class="w-10 h-10 rounded-lg border border-outline-variant text-secondary flex items-center justify-center font-label-md text-label-md hover:bg-surface-container-low">2</button>
+<button class="w-10 h-10 rounded-lg border border-outline-variant text-secondary flex items-center justify-center font-label-md text-label-md hover:bg-surface-container-low">3</button>
+</div>
+<button class="px-lg py-md bg-primary text-white rounded-lg font-label-md text-label-md hover:bg-primary-container transition-colors w-full sm:w-auto">
+                    Next Page
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low w-full py-xl px-lg border-t border-outline-variant">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center">
+<div class="mb-lg md:mb-0">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">ExamCore</span>
+<p class="font-label-sm text-label-sm text-secondary mt-xs">© 2024 ExamCore Assessment Systems</p>
+</div>
+<div class="flex gap-xl">
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Help Center</a>
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+<!-- Interactive Micro-interactions -->
+<script>
+        document.querySelectorAll('details').forEach((el) => {
+            el.addEventListener('toggle', () => {
+                if (el.open) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            });
+        });
+
+        // Simple highlight logic for the sidebar map
+        const mapButtons = document.querySelectorAll('.grid-cols-5 button');
+        mapButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                mapButtons.forEach(b => b.classList.remove('ring-2', 'ring-primary'));
+                btn.classList.add('ring-2', 'ring-primary');
+            });
+        });
+    </script>
+</body></html>

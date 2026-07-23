@@ -1,0 +1,254 @@
+/* ============================================================
+   CourseForm — Add / Edit Course Styles
+   ============================================================ */
+
+.cf-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+}
+
+.cf-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.cf-back {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #444653;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 7px;
+    border: 1.5px solid #c4c5d5;
+    transition: all 0.15s;
+    background: #fff;
+    flex-shrink: 0;
+}
+.cf-back:hover { border-color: #00288e; color: #00288e; background: #f0f4ff; }
+.cf-back .material-symbols-outlined { font-size: 17px; }
+
+.cf-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0d1c2e;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── Card sections ─────────────────────────────────────────── */
+.cf-card {
+    background: #fff;
+    border: 1.5px solid #c4c5d5;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,40,142,0.05);
+}
+.cf-card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0d1c2e;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #e6eeff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.cf-card-title .material-symbols-outlined { font-size: 18px; color: #00288e; }
+
+/* ── Fields ────────────────────────────────────────────────── */
+.cf-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 14px;
+}
+.cf-field:last-child { margin-bottom: 0; }
+
+.cf-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0d1c2e;
+    font-family: 'Inter', sans-serif;
+}
+
+.cf-input,
+.cf-textarea,
+.cf-select {
+    padding: 9px 12px;
+    border: 1.5px solid #c4c5d5;
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #0d1c2e;
+    background: #f8f9ff;
+    outline: none;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cf-input:focus,
+.cf-textarea:focus,
+.cf-select:focus {
+    border-color: #00288e;
+    box-shadow: 0 0 0 3px rgba(0,40,142,0.08);
+    background: #fff;
+}
+.cf-input.error,
+.cf-textarea.error { border-color: #ba1a1a; }
+
+.cf-textarea { resize: vertical; min-height: 70px; }
+
+.cf-error {
+    font-size: 12px;
+    color: #ba1a1a;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── Question block ────────────────────────────────────────── */
+.cf-question-block {
+    border: 1.5px solid #e6eeff;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 16px;
+    background: #f8f9ff;
+    position: relative;
+}
+.cf-question-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.cf-question-num {
+    font-size: 13px;
+    font-weight: 700;
+    color: #00288e;
+    font-family: 'Inter', sans-serif;
+    background: #e6eeff;
+    padding: 3px 10px;
+    border-radius: 9999px;
+}
+.cf-remove-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 10px;
+    border: 1.5px solid #ba1a1a;
+    border-radius: 7px;
+    background: #fff;
+    color: #ba1a1a;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.cf-remove-btn:hover { background: #ffdad6; }
+.cf-remove-btn .material-symbols-outlined { font-size: 15px; }
+
+.cf-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+    .cf-options-grid { grid-template-columns: 1fr; }
+}
+
+.cf-option-wrap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.cf-option-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #50616b;
+    font-family: 'Inter', sans-serif;
+    min-width: 20px;
+}
+
+/* ── Bottom actions ────────────────────────────────────────── */
+.cf-add-q-btn {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #c4c5d5;
+    border-radius: 9px;
+    background: transparent;
+    color: #444653;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.15s;
+    margin-top: 4px;
+}
+.cf-add-q-btn:hover { border-color: #00288e; color: #00288e; background: #f0f4ff; }
+.cf-add-q-btn .material-symbols-outlined { font-size: 18px; }
+
+.cf-form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+.cf-btn-cancel {
+    padding: 10px 22px;
+    border: 1.5px solid #c4c5d5;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444653;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.cf-btn-cancel:hover { background: #f0f4ff; }
+.cf-btn-save {
+    padding: 10px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #00288e;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: opacity 0.15s, transform 0.1s;
+}
+.cf-btn-save:hover:not(:disabled) { opacity: 0.88; }
+.cf-btn-save:active:not(:disabled) { transform: scale(0.97); }
+.cf-btn-save:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ── Global error ──────────────────────────────────────────── */
+.cf-global-error {
+    background: #ffdad6;
+    border: 1px solid #ba1a1a;
+    border-radius: 8px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #93000a;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.cf-global-error .material-symbols-outlined { font-size: 18px; }

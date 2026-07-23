@@ -1,0 +1,2802 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary use of `pointers` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 2,
+        "question": "Why is `pointers` considered powerful but dangerous?",
+        "options": [
+            "It slows down JavaScript execution.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 3,
+        "question": "How is `pointers` typically declared in C?",
+        "options": [
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using specific C syntax and standard libraries.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 4,
+        "question": "What happens if you forget to properly handle `pointers`?",
+        "options": [
+            "React will throw a Hook error.",
+            "The webpage will look ugly.",
+            "Undefined behavior or program crashes.",
+            "The database will not normalize."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 5,
+        "question": "Can `pointers` be used to implement complex data structures?",
+        "options": [
+            "Yes, `pointers` is foundational for things like trees and graphs.",
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'Yes, `pointers` is foundational for things like trees and graphs.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 6,
+        "question": "How does `pointers` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage.",
+            "It only exists in the database."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 7,
+        "question": "Is `pointers` evaluated at compile-time or run-time?",
+        "options": [
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time.",
+            "It is interpreted by Node.js.",
+            "It depends; some aspects are compile-time, others run-time."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 8,
+        "question": "Which standard library header is commonly associated with `pointers`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "pointers",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 9,
+        "question": "What is a common alternative to using `pointers`?",
+        "options": [
+            "Using HTML tables.",
+            "Using CSS flexbox.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 10,
+        "question": "Does `pointers` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "pointers",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `pointers` in this context."
+    },
+    {
+        "id": 11,
+        "question": "What is the primary use of `malloc` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 12,
+        "question": "Why is `malloc` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "It slows down JavaScript execution.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 13,
+        "question": "How is `malloc` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 14,
+        "question": "What happens if you forget to properly handle `malloc`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 15,
+        "question": "Can `malloc` be used to implement complex data structures?",
+        "options": [
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "Yes, `malloc` is foundational for things like trees and graphs.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'Yes, `malloc` is foundational for things like trees and graphs.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 16,
+        "question": "How does `malloc` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 17,
+        "question": "Is `malloc` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 18,
+        "question": "Which standard library header is commonly associated with `malloc`?",
+        "options": [
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<css.h>`"
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "malloc",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 19,
+        "question": "What is a common alternative to using `malloc`?",
+        "options": [
+            "Using CSS flexbox.",
+            "There might be safer but less efficient approaches.",
+            "Using HTML tables.",
+            "Using JavaScript instead."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 20,
+        "question": "Does `malloc` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "malloc",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `malloc` in this context."
+    },
+    {
+        "id": 21,
+        "question": "What is the primary use of `free` in C programming?",
+        "options": [
+            "To build a React component.",
+            "To run a SQL query.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "free",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 22,
+        "question": "Why is `free` considered powerful but dangerous?",
+        "options": [
+            "It can break CSS layouts.",
+            "It slows down JavaScript execution.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can cause SQL injections."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "free",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 23,
+        "question": "How is `free` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "free",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 24,
+        "question": "What happens if you forget to properly handle `free`?",
+        "options": [
+            "React will throw a Hook error.",
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "The webpage will look ugly."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "free",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 25,
+        "question": "Can `free` be used to implement complex data structures?",
+        "options": [
+            "Yes, `free` is foundational for things like trees and graphs.",
+            "No, it's for UI rendering.",
+            "No, it's only for basic math.",
+            "Only in Python."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "free",
+        "explanation": "The correct answer is 'Yes, `free` is foundational for things like trees and graphs.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 26,
+        "question": "How does `free` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It only exists in the database.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "free",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 27,
+        "question": "Is `free` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "free",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 28,
+        "question": "Which standard library header is commonly associated with `free`?",
+        "options": [
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`",
+            "`<sql.h>`",
+            "`<css.h>`"
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "free",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 29,
+        "question": "What is a common alternative to using `free`?",
+        "options": [
+            "Using CSS flexbox.",
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "free",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 30,
+        "question": "Does `free` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature.",
+            "Yes, exactly the same way.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "free",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `free` in this context."
+    },
+    {
+        "id": 31,
+        "question": "What is the primary use of `structs` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To run a SQL query.",
+            "To build a React component."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "structs",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 32,
+        "question": "Why is `structs` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "structs",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 33,
+        "question": "How is `structs` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using the `const` keyword in JS.",
+            "Using HTML tags.",
+            "Using a SELECT statement."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "structs",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 34,
+        "question": "What happens if you forget to properly handle `structs`?",
+        "options": [
+            "The database will not normalize.",
+            "The webpage will look ugly.",
+            "Undefined behavior or program crashes.",
+            "React will throw a Hook error."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "structs",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 35,
+        "question": "Can `structs` be used to implement complex data structures?",
+        "options": [
+            "Only in Python.",
+            "No, it's for UI rendering.",
+            "No, it's only for basic math.",
+            "Yes, `structs` is foundational for things like trees and graphs."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "structs",
+        "explanation": "The correct answer is 'Yes, `structs` is foundational for things like trees and graphs.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 36,
+        "question": "How does `structs` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "structs",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 37,
+        "question": "Is `structs` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time.",
+            "It depends; some aspects are compile-time, others run-time."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "structs",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 38,
+        "question": "Which standard library header is commonly associated with `structs`?",
+        "options": [
+            "`<sql.h>`",
+            "`<css.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`"
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "structs",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 39,
+        "question": "What is a common alternative to using `structs`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using CSS flexbox.",
+            "Using JavaScript instead.",
+            "Using HTML tables."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "structs",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 40,
+        "question": "Does `structs` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "structs",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `structs` in this context."
+    },
+    {
+        "id": 41,
+        "question": "What is the primary use of `arrays` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component.",
+            "To run a SQL query."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 42,
+        "question": "Why is `arrays` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 43,
+        "question": "How is `arrays` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 44,
+        "question": "What happens if you forget to properly handle `arrays`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 45,
+        "question": "Can `arrays` be used to implement complex data structures?",
+        "options": [
+            "Yes, `arrays` is foundational for things like trees and graphs.",
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'Yes, `arrays` is foundational for things like trees and graphs.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 46,
+        "question": "How does `arrays` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 47,
+        "question": "Is `arrays` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 48,
+        "question": "Which standard library header is commonly associated with `arrays`?",
+        "options": [
+            "`<css.h>`",
+            "`<react.h>`",
+            "`<sql.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "arrays",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 49,
+        "question": "What is a common alternative to using `arrays`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using JavaScript instead.",
+            "Using CSS flexbox.",
+            "Using HTML tables."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 50,
+        "question": "Does `arrays` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "arrays",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `arrays` in this context."
+    },
+    {
+        "id": 51,
+        "question": "What is the primary use of `functions` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To run a SQL query.",
+            "To build a React component."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "functions",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 52,
+        "question": "Why is `functions` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It slows down JavaScript execution.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "functions",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 53,
+        "question": "How is `functions` typically declared in C?",
+        "options": [
+            "Using HTML tags.",
+            "Using the `const` keyword in JS.",
+            "Using specific C syntax and standard libraries.",
+            "Using a SELECT statement."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "functions",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 54,
+        "question": "What happens if you forget to properly handle `functions`?",
+        "options": [
+            "The webpage will look ugly.",
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "React will throw a Hook error."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "functions",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 55,
+        "question": "Can `functions` be used to implement complex data structures?",
+        "options": [
+            "No, it's only for basic math.",
+            "Yes, `functions` is foundational for things like trees and graphs.",
+            "No, it's for UI rendering.",
+            "Only in Python."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "functions",
+        "explanation": "The correct answer is 'Yes, `functions` is foundational for things like trees and graphs.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 56,
+        "question": "How does `functions` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It is stored in localStorage.",
+            "It only exists in the database.",
+            "It runs in the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "functions",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 57,
+        "question": "Is `functions` evaluated at compile-time or run-time?",
+        "options": [
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the browser at render time.",
+            "It depends; some aspects are compile-time, others run-time."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "functions",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 58,
+        "question": "Which standard library header is commonly associated with `functions`?",
+        "options": [
+            "`<css.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`",
+            "`<sql.h>`"
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "functions",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 59,
+        "question": "What is a common alternative to using `functions`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using JavaScript instead.",
+            "Using HTML tables.",
+            "Using CSS flexbox."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "functions",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 60,
+        "question": "Does `functions` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "functions",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `functions` in this context."
+    },
+    {
+        "id": 61,
+        "question": "What is the primary use of `macros` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component.",
+            "To run a SQL query."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "macros",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 62,
+        "question": "Why is `macros` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "macros",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 63,
+        "question": "How is `macros` typically declared in C?",
+        "options": [
+            "Using the `const` keyword in JS.",
+            "Using specific C syntax and standard libraries.",
+            "Using a SELECT statement.",
+            "Using HTML tags."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "macros",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 64,
+        "question": "What happens if you forget to properly handle `macros`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error.",
+            "The database will not normalize."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "macros",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 65,
+        "question": "Can `macros` be used to implement complex data structures?",
+        "options": [
+            "No, it's only for basic math.",
+            "Yes, `macros` is foundational for things like trees and graphs.",
+            "Only in Python.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "macros",
+        "explanation": "The correct answer is 'Yes, `macros` is foundational for things like trees and graphs.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 66,
+        "question": "How does `macros` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "macros",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 67,
+        "question": "Is `macros` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time.",
+            "It depends; some aspects are compile-time, others run-time."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "macros",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 68,
+        "question": "Which standard library header is commonly associated with `macros`?",
+        "options": [
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`",
+            "`<sql.h>`",
+            "`<css.h>`"
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "macros",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 69,
+        "question": "What is a common alternative to using `macros`?",
+        "options": [
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches.",
+            "Using CSS flexbox."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "macros",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 70,
+        "question": "Does `macros` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "No, it was invented for SQL."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "macros",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `macros` in this context."
+    },
+    {
+        "id": 71,
+        "question": "What is the primary use of `typedef` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To build a React component.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 72,
+        "question": "Why is `typedef` considered powerful but dangerous?",
+        "options": [
+            "It slows down JavaScript execution.",
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 73,
+        "question": "How is `typedef` typically declared in C?",
+        "options": [
+            "Using the `const` keyword in JS.",
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 74,
+        "question": "What happens if you forget to properly handle `typedef`?",
+        "options": [
+            "The webpage will look ugly.",
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "React will throw a Hook error."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 75,
+        "question": "Can `typedef` be used to implement complex data structures?",
+        "options": [
+            "Yes, `typedef` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering.",
+            "Only in Python."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'Yes, `typedef` is foundational for things like trees and graphs.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 76,
+        "question": "How does `typedef` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It only exists in the database.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 77,
+        "question": "Is `typedef` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 78,
+        "question": "Which standard library header is commonly associated with `typedef`?",
+        "options": [
+            "`<sql.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<css.h>`",
+            "`<react.h>`"
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "typedef",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 79,
+        "question": "What is a common alternative to using `typedef`?",
+        "options": [
+            "Using CSS flexbox.",
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 80,
+        "question": "Does `typedef` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "No, it was invented for SQL."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "typedef",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `typedef` in this context."
+    },
+    {
+        "id": 81,
+        "question": "What is the primary use of `file I/O` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component.",
+            "To run a SQL query."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 82,
+        "question": "Why is `file I/O` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution.",
+            "It can break CSS layouts."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 83,
+        "question": "How is `file I/O` typically declared in C?",
+        "options": [
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement.",
+            "Using HTML tags.",
+            "Using specific C syntax and standard libraries."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 84,
+        "question": "What happens if you forget to properly handle `file I/O`?",
+        "options": [
+            "The database will not normalize.",
+            "React will throw a Hook error.",
+            "Undefined behavior or program crashes.",
+            "The webpage will look ugly."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 85,
+        "question": "Can `file I/O` be used to implement complex data structures?",
+        "options": [
+            "No, it's for UI rendering.",
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "Yes, `file I/O` is foundational for things like trees and graphs."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'Yes, `file I/O` is foundational for things like trees and graphs.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 86,
+        "question": "How does `file I/O` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 87,
+        "question": "Is `file I/O` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 88,
+        "question": "Which standard library header is commonly associated with `file I/O`?",
+        "options": [
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<sql.h>`",
+            "`<css.h>`"
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "file I/O",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 89,
+        "question": "What is a common alternative to using `file I/O`?",
+        "options": [
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches.",
+            "Using HTML tables.",
+            "Using CSS flexbox."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 90,
+        "question": "Does `file I/O` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature.",
+            "Yes, exactly the same way.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "file I/O",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `file I/O` in this context."
+    },
+    {
+        "id": 91,
+        "question": "What is the primary use of `linked lists` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To build a React component.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 92,
+        "question": "Why is `linked lists` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 93,
+        "question": "How is `linked lists` typically declared in C?",
+        "options": [
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS.",
+            "Using HTML tags.",
+            "Using specific C syntax and standard libraries."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 94,
+        "question": "What happens if you forget to properly handle `linked lists`?",
+        "options": [
+            "The database will not normalize.",
+            "React will throw a Hook error.",
+            "The webpage will look ugly.",
+            "Undefined behavior or program crashes."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 95,
+        "question": "Can `linked lists` be used to implement complex data structures?",
+        "options": [
+            "Yes, `linked lists` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering.",
+            "Only in Python."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'Yes, `linked lists` is foundational for things like trees and graphs.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 96,
+        "question": "How does `linked lists` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 97,
+        "question": "Is `linked lists` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 98,
+        "question": "Which standard library header is commonly associated with `linked lists`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "linked lists",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 99,
+        "question": "What is a common alternative to using `linked lists`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using JavaScript instead.",
+            "Using HTML tables.",
+            "Using CSS flexbox."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 100,
+        "question": "Does `linked lists` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "linked lists",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `linked lists` in this context."
+    },
+    {
+        "id": 101,
+        "question": "What is the primary use of `recursion` in C programming?",
+        "options": [
+            "To build a React component.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow.",
+            "To run a SQL query."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 102,
+        "question": "Why is `recursion` considered powerful but dangerous?",
+        "options": [
+            "It slows down JavaScript execution.",
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 103,
+        "question": "How is `recursion` typically declared in C?",
+        "options": [
+            "Using HTML tags.",
+            "Using specific C syntax and standard libraries.",
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 104,
+        "question": "What happens if you forget to properly handle `recursion`?",
+        "options": [
+            "The webpage will look ugly.",
+            "React will throw a Hook error.",
+            "The database will not normalize.",
+            "Undefined behavior or program crashes."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 105,
+        "question": "Can `recursion` be used to implement complex data structures?",
+        "options": [
+            "No, it's for UI rendering.",
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "Yes, `recursion` is foundational for things like trees and graphs."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'Yes, `recursion` is foundational for things like trees and graphs.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 106,
+        "question": "How does `recursion` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory.",
+            "It is stored in localStorage."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 107,
+        "question": "Is `recursion` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 108,
+        "question": "Which standard library header is commonly associated with `recursion`?",
+        "options": [
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`",
+            "`<sql.h>`",
+            "`<css.h>`"
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "recursion",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 109,
+        "question": "What is a common alternative to using `recursion`?",
+        "options": [
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "Using CSS flexbox.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 110,
+        "question": "Does `recursion` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "recursion",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `recursion` in this context."
+    },
+    {
+        "id": 111,
+        "question": "What is the primary use of `switch statements` in C programming?",
+        "options": [
+            "To style a webpage.",
+            "To run a SQL query.",
+            "To manage memory, data structures, or program flow.",
+            "To build a React component."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 112,
+        "question": "Why is `switch statements` considered powerful but dangerous?",
+        "options": [
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 113,
+        "question": "How is `switch statements` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 114,
+        "question": "What happens if you forget to properly handle `switch statements`?",
+        "options": [
+            "React will throw a Hook error.",
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "The webpage will look ugly."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 115,
+        "question": "Can `switch statements` be used to implement complex data structures?",
+        "options": [
+            "Only in Python.",
+            "No, it's for UI rendering.",
+            "Yes, `switch statements` is foundational for things like trees and graphs.",
+            "No, it's only for basic math."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'Yes, `switch statements` is foundational for things like trees and graphs.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 116,
+        "question": "How does `switch statements` interact with memory?",
+        "options": [
+            "It is stored in localStorage.",
+            "It often deals directly with stack or heap memory.",
+            "It only exists in the database.",
+            "It runs in the Virtual DOM."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 117,
+        "question": "Is `switch statements` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 118,
+        "question": "Which standard library header is commonly associated with `switch statements`?",
+        "options": [
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<css.h>`",
+            "`<sql.h>`"
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "switch statements",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 119,
+        "question": "What is a common alternative to using `switch statements`?",
+        "options": [
+            "Using HTML tables.",
+            "Using CSS flexbox.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 120,
+        "question": "Does `switch statements` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "switch statements",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `switch statements` in this context."
+    },
+    {
+        "id": 121,
+        "question": "What is the primary use of `for loops` in C programming?",
+        "options": [
+            "To build a React component.",
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To run a SQL query."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 122,
+        "question": "Why is `for loops` considered powerful but dangerous?",
+        "options": [
+            "It slows down JavaScript execution.",
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 123,
+        "question": "How is `for loops` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 124,
+        "question": "What happens if you forget to properly handle `for loops`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error.",
+            "The database will not normalize."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 125,
+        "question": "Can `for loops` be used to implement complex data structures?",
+        "options": [
+            "Yes, `for loops` is foundational for things like trees and graphs.",
+            "Only in Python.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'Yes, `for loops` is foundational for things like trees and graphs.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 126,
+        "question": "How does `for loops` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM.",
+            "It only exists in the database.",
+            "It is stored in localStorage."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 127,
+        "question": "Is `for loops` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 128,
+        "question": "Which standard library header is commonly associated with `for loops`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "for loops",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 129,
+        "question": "What is a common alternative to using `for loops`?",
+        "options": [
+            "Using CSS flexbox.",
+            "There might be safer but less efficient approaches.",
+            "Using JavaScript instead.",
+            "Using HTML tables."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 130,
+        "question": "Does `for loops` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it's a web-only feature.",
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "for loops",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `for loops` in this context."
+    },
+    {
+        "id": 131,
+        "question": "What is the primary use of `while loops` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To build a React component.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 132,
+        "question": "Why is `while loops` considered powerful but dangerous?",
+        "options": [
+            "It slows down JavaScript execution.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can cause SQL injections."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 133,
+        "question": "How is `while loops` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 134,
+        "question": "What happens if you forget to properly handle `while loops`?",
+        "options": [
+            "The database will not normalize.",
+            "Undefined behavior or program crashes.",
+            "React will throw a Hook error.",
+            "The webpage will look ugly."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 135,
+        "question": "Can `while loops` be used to implement complex data structures?",
+        "options": [
+            "Yes, `while loops` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering.",
+            "Only in Python."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'Yes, `while loops` is foundational for things like trees and graphs.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 136,
+        "question": "How does `while loops` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 137,
+        "question": "Is `while loops` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It is evaluated by the SQL engine.",
+            "It is evaluated by the browser at render time.",
+            "It depends; some aspects are compile-time, others run-time."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 138,
+        "question": "Which standard library header is commonly associated with `while loops`?",
+        "options": [
+            "`<react.h>`",
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "while loops",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 139,
+        "question": "What is a common alternative to using `while loops`?",
+        "options": [
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "Using CSS flexbox.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 140,
+        "question": "Does `while loops` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it was invented for SQL."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "while loops",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `while loops` in this context."
+    },
+    {
+        "id": 141,
+        "question": "What is the primary use of `header files` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To run a SQL query.",
+            "To build a React component.",
+            "To style a webpage."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header files",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 142,
+        "question": "Why is `header files` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "header files",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 143,
+        "question": "How is `header files` typically declared in C?",
+        "options": [
+            "Using the `const` keyword in JS.",
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "header files",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 144,
+        "question": "What happens if you forget to properly handle `header files`?",
+        "options": [
+            "The database will not normalize.",
+            "Undefined behavior or program crashes.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "header files",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 145,
+        "question": "Can `header files` be used to implement complex data structures?",
+        "options": [
+            "No, it's only for basic math.",
+            "Only in Python.",
+            "Yes, `header files` is foundational for things like trees and graphs.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "header files",
+        "explanation": "The correct answer is 'Yes, `header files` is foundational for things like trees and graphs.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 146,
+        "question": "How does `header files` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "header files",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 147,
+        "question": "Is `header files` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header files",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 148,
+        "question": "Which standard library header is commonly associated with `header files`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "header files",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 149,
+        "question": "What is a common alternative to using `header files`?",
+        "options": [
+            "Using CSS flexbox.",
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "header files",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 150,
+        "question": "Does `header files` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "header files",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `header files` in this context."
+    },
+    {
+        "id": 151,
+        "question": "What is the primary use of `type casting` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To run a SQL query.",
+            "To build a React component."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 152,
+        "question": "Why is `type casting` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It slows down JavaScript execution.",
+            "It can break CSS layouts."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 153,
+        "question": "How is `type casting` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 154,
+        "question": "What happens if you forget to properly handle `type casting`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "React will throw a Hook error.",
+            "The database will not normalize.",
+            "The webpage will look ugly."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 155,
+        "question": "Can `type casting` be used to implement complex data structures?",
+        "options": [
+            "Yes, `type casting` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "Only in Python.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'Yes, `type casting` is foundational for things like trees and graphs.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 156,
+        "question": "How does `type casting` interact with memory?",
+        "options": [
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It only exists in the database.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 157,
+        "question": "Is `type casting` evaluated at compile-time or run-time?",
+        "options": [
+            "It is evaluated by the browser at render time.",
+            "It is interpreted by Node.js.",
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 158,
+        "question": "Which standard library header is commonly associated with `type casting`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "type casting",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 159,
+        "question": "What is a common alternative to using `type casting`?",
+        "options": [
+            "Using CSS flexbox.",
+            "There might be safer but less efficient approaches.",
+            "Using HTML tables.",
+            "Using JavaScript instead."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 160,
+        "question": "Does `type casting` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "type casting",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `type casting` in this context."
+    },
+    {
+        "id": 161,
+        "question": "What is the primary use of `enums` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To build a React component.",
+            "To style a webpage.",
+            "To manage memory, data structures, or program flow."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "enums",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 162,
+        "question": "Why is `enums` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "enums",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 163,
+        "question": "How is `enums` typically declared in C?",
+        "options": [
+            "Using a SELECT statement.",
+            "Using specific C syntax and standard libraries.",
+            "Using the `const` keyword in JS.",
+            "Using HTML tags."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "enums",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 164,
+        "question": "What happens if you forget to properly handle `enums`?",
+        "options": [
+            "The database will not normalize.",
+            "React will throw a Hook error.",
+            "Undefined behavior or program crashes.",
+            "The webpage will look ugly."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "enums",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 165,
+        "question": "Can `enums` be used to implement complex data structures?",
+        "options": [
+            "Yes, `enums` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering.",
+            "Only in Python."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "enums",
+        "explanation": "The correct answer is 'Yes, `enums` is foundational for things like trees and graphs.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 166,
+        "question": "How does `enums` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory.",
+            "It is stored in localStorage."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "enums",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 167,
+        "question": "Is `enums` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js.",
+            "It is evaluated by the browser at render time."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "enums",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 168,
+        "question": "Which standard library header is commonly associated with `enums`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "enums",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 169,
+        "question": "What is a common alternative to using `enums`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using HTML tables.",
+            "Using CSS flexbox.",
+            "Using JavaScript instead."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "enums",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 170,
+        "question": "Does `enums` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "enums",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `enums` in this context."
+    },
+    {
+        "id": 171,
+        "question": "What is the primary use of `unions` in C programming?",
+        "options": [
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component.",
+            "To run a SQL query."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "unions",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 172,
+        "question": "Why is `unions` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can break CSS layouts.",
+            "It can cause SQL injections.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "unions",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 173,
+        "question": "How is `unions` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using the `const` keyword in JS.",
+            "Using a SELECT statement.",
+            "Using HTML tags."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "unions",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 174,
+        "question": "What happens if you forget to properly handle `unions`?",
+        "options": [
+            "The webpage will look ugly.",
+            "React will throw a Hook error.",
+            "The database will not normalize.",
+            "Undefined behavior or program crashes."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "unions",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 175,
+        "question": "Can `unions` be used to implement complex data structures?",
+        "options": [
+            "No, it's only for basic math.",
+            "No, it's for UI rendering.",
+            "Only in Python.",
+            "Yes, `unions` is foundational for things like trees and graphs."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "unions",
+        "explanation": "The correct answer is 'Yes, `unions` is foundational for things like trees and graphs.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 176,
+        "question": "How does `unions` interact with memory?",
+        "options": [
+            "It only exists in the database.",
+            "It is stored in localStorage.",
+            "It runs in the Virtual DOM.",
+            "It often deals directly with stack or heap memory."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "unions",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 177,
+        "question": "Is `unions` evaluated at compile-time or run-time?",
+        "options": [
+            "It is interpreted by Node.js.",
+            "It is evaluated by the browser at render time.",
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "unions",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 178,
+        "question": "Which standard library header is commonly associated with `unions`?",
+        "options": [
+            "`<sql.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<css.h>`",
+            "`<react.h>`"
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "unions",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 179,
+        "question": "What is a common alternative to using `unions`?",
+        "options": [
+            "Using CSS flexbox.",
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "unions",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 180,
+        "question": "Does `unions` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it was invented for SQL.",
+            "No, it's a web-only feature.",
+            "Yes, exactly the same way.",
+            "Often yes, but abstracted away to prevent direct memory access."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "unions",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `unions` in this context."
+    },
+    {
+        "id": 181,
+        "question": "What is the primary use of `static variables` in C programming?",
+        "options": [
+            "To style a webpage.",
+            "To build a React component.",
+            "To manage memory, data structures, or program flow.",
+            "To run a SQL query."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 182,
+        "question": "Why is `static variables` considered powerful but dangerous?",
+        "options": [
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "It slows down JavaScript execution.",
+            "Improper use can lead to memory leaks or segmentation faults."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 183,
+        "question": "How is `static variables` typically declared in C?",
+        "options": [
+            "Using a SELECT statement.",
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 184,
+        "question": "What happens if you forget to properly handle `static variables`?",
+        "options": [
+            "React will throw a Hook error.",
+            "The webpage will look ugly.",
+            "The database will not normalize.",
+            "Undefined behavior or program crashes."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 185,
+        "question": "Can `static variables` be used to implement complex data structures?",
+        "options": [
+            "Only in Python.",
+            "Yes, `static variables` is foundational for things like trees and graphs.",
+            "No, it's only for basic math.",
+            "No, it's for UI rendering."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'Yes, `static variables` is foundational for things like trees and graphs.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 186,
+        "question": "How does `static variables` interact with memory?",
+        "options": [
+            "It often deals directly with stack or heap memory.",
+            "It runs in the Virtual DOM.",
+            "It is stored in localStorage.",
+            "It only exists in the database."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 187,
+        "question": "Is `static variables` evaluated at compile-time or run-time?",
+        "options": [
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the browser at render time.",
+            "It is evaluated by the SQL engine.",
+            "It is interpreted by Node.js."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 188,
+        "question": "Which standard library header is commonly associated with `static variables`?",
+        "options": [
+            "`<stdio.h>` or `<stdlib.h>` depending on usage.",
+            "`<react.h>`",
+            "`<sql.h>`",
+            "`<css.h>`"
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "static variables",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 189,
+        "question": "What is a common alternative to using `static variables`?",
+        "options": [
+            "Using CSS flexbox.",
+            "Using HTML tables.",
+            "Using JavaScript instead.",
+            "There might be safer but less efficient approaches."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 190,
+        "question": "Does `static variables` exist in modern languages like Python or Java?",
+        "options": [
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "Yes, exactly the same way.",
+            "No, it's a web-only feature.",
+            "No, it was invented for SQL."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "static variables",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `static variables` in this context."
+    },
+    {
+        "id": 191,
+        "question": "What is the primary use of `global variables` in C programming?",
+        "options": [
+            "To run a SQL query.",
+            "To manage memory, data structures, or program flow.",
+            "To style a webpage.",
+            "To build a React component."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'To manage memory, data structures, or program flow.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 192,
+        "question": "Why is `global variables` considered powerful but dangerous?",
+        "options": [
+            "Improper use can lead to memory leaks or segmentation faults.",
+            "It can cause SQL injections.",
+            "It can break CSS layouts.",
+            "It slows down JavaScript execution."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'Improper use can lead to memory leaks or segmentation faults.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 193,
+        "question": "How is `global variables` typically declared in C?",
+        "options": [
+            "Using specific C syntax and standard libraries.",
+            "Using HTML tags.",
+            "Using a SELECT statement.",
+            "Using the `const` keyword in JS."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'Using specific C syntax and standard libraries.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 194,
+        "question": "What happens if you forget to properly handle `global variables`?",
+        "options": [
+            "Undefined behavior or program crashes.",
+            "The database will not normalize.",
+            "The webpage will look ugly.",
+            "React will throw a Hook error."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'Undefined behavior or program crashes.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 195,
+        "question": "Can `global variables` be used to implement complex data structures?",
+        "options": [
+            "Only in Python.",
+            "No, it's for UI rendering.",
+            "No, it's only for basic math.",
+            "Yes, `global variables` is foundational for things like trees and graphs."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'Yes, `global variables` is foundational for things like trees and graphs.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 196,
+        "question": "How does `global variables` interact with memory?",
+        "options": [
+            "It is stored in localStorage.",
+            "It often deals directly with stack or heap memory.",
+            "It only exists in the database.",
+            "It runs in the Virtual DOM."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'It often deals directly with stack or heap memory.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 197,
+        "question": "Is `global variables` evaluated at compile-time or run-time?",
+        "options": [
+            "It is evaluated by the browser at render time.",
+            "It is interpreted by Node.js.",
+            "It depends; some aspects are compile-time, others run-time.",
+            "It is evaluated by the SQL engine."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'It depends; some aspects are compile-time, others run-time.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 198,
+        "question": "Which standard library header is commonly associated with `global variables`?",
+        "options": [
+            "`<css.h>`",
+            "`<sql.h>`",
+            "`<react.h>`",
+            "`<stdio.h>` or `<stdlib.h>` depending on usage."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "global variables",
+        "explanation": "The correct answer is '`<stdio.h>` or `<stdlib.h>` depending on usage.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 199,
+        "question": "What is a common alternative to using `global variables`?",
+        "options": [
+            "There might be safer but less efficient approaches.",
+            "Using JavaScript instead.",
+            "Using HTML tables.",
+            "Using CSS flexbox."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'There might be safer but less efficient approaches.' because it accurately describes `global variables` in this context."
+    },
+    {
+        "id": 200,
+        "question": "Does `global variables` exist in modern languages like Python or Java?",
+        "options": [
+            "No, it's a web-only feature.",
+            "Often yes, but abstracted away to prevent direct memory access.",
+            "No, it was invented for SQL.",
+            "Yes, exactly the same way."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "global variables",
+        "explanation": "The correct answer is 'Often yes, but abstracted away to prevent direct memory access.' because it accurately describes `global variables` in this context."
+    }
+]

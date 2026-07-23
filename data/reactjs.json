@@ -1,0 +1,2802 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary role of `useState` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To manage UI components, state, or side effects.",
+            "To define basic HTML structure.",
+            "To write backend SQL queries."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useState",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 2,
+        "question": "How does `useState` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It changes the CSS grid layout directly.",
+            "It prevents HTML from loading.",
+            "It shuts down the Node server."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useState",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 3,
+        "question": "What is the correct way to use `useState`?",
+        "options": [
+            "Using it in a C++ class.",
+            "Placing it inside a vanilla JS loop.",
+            "Following React's rules and component lifecycle.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 4,
+        "question": "Can you use `useState` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "Yes, hooks work in class components.",
+            "Some concepts like `useState` are specific to functional components (e.g., Hooks).",
+            "No, React doesn't have class components."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Some concepts like `useState` are specific to functional components (e.g., Hooks).' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 5,
+        "question": "Why was `useState` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useState",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 6,
+        "question": "What is a common mistake when dealing with `useState`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 7,
+        "question": "How does `useState` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useState",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 8,
+        "question": "Is `useState` considered a best practice?",
+        "options": [
+            "No, it slows down CSS rendering.",
+            "Yes, when used according to official React documentation.",
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 9,
+        "question": "Which pattern is often used alongside `useState`?",
+        "options": [
+            "CSS animations.",
+            "Object-oriented inheritance in C++.",
+            "Composition and custom hooks.",
+            "SQL JOINs."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 10,
+        "question": "Does `useState` work well with TypeScript?",
+        "options": [
+            "Only in backend code.",
+            "Yes, React and `useState` have excellent TypeScript support.",
+            "No, TypeScript bans `useState`.",
+            "TypeScript replaces `useState`."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useState",
+        "explanation": "The correct answer is 'Yes, React and `useState` have excellent TypeScript support.' because it accurately describes `useState` in this context."
+    },
+    {
+        "id": 11,
+        "question": "What is the primary role of `useEffect` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To allocate memory in C.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 12,
+        "question": "How does `useEffect` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 13,
+        "question": "What is the correct way to use `useEffect`?",
+        "options": [
+            "Using it in a C++ class.",
+            "Placing it inside a vanilla JS loop.",
+            "Writing it inside a SQL trigger.",
+            "Following React's rules and component lifecycle."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 14,
+        "question": "Can you use `useEffect` in a class component?",
+        "options": [
+            "No, React doesn't have class components.",
+            "Yes, hooks work in class components.",
+            "Only if using Redux.",
+            "Some concepts like `useEffect` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Some concepts like `useEffect` are specific to functional components (e.g., Hooks).' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 15,
+        "question": "Why was `useEffect` introduced in React?",
+        "options": [
+            "To replace JavaScript entirely.",
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS.",
+            "To solve specific UI state and lifecycle management problems."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 16,
+        "question": "What is a common mistake when dealing with `useEffect`?",
+        "options": [
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Incorrect HTML attributes.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 17,
+        "question": "How does `useEffect` interact with the Virtual DOM?",
+        "options": [
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 18,
+        "question": "Is `useEffect` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 19,
+        "question": "Which pattern is often used alongside `useEffect`?",
+        "options": [
+            "Object-oriented inheritance in C++.",
+            "CSS animations.",
+            "Composition and custom hooks.",
+            "SQL JOINs."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 20,
+        "question": "Does `useEffect` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `useEffect`.",
+            "No, TypeScript bans `useEffect`.",
+            "Yes, React and `useEffect` have excellent TypeScript support.",
+            "Only in backend code."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "useEffect",
+        "explanation": "The correct answer is 'Yes, React and `useEffect` have excellent TypeScript support.' because it accurately describes `useEffect` in this context."
+    },
+    {
+        "id": 21,
+        "question": "What is the primary role of `useContext` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 22,
+        "question": "How does `useContext` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 23,
+        "question": "What is the correct way to use `useContext`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 24,
+        "question": "Can you use `useContext` in a class component?",
+        "options": [
+            "No, React doesn't have class components.",
+            "Yes, hooks work in class components.",
+            "Only if using Redux.",
+            "Some concepts like `useContext` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Some concepts like `useContext` are specific to functional components (e.g., Hooks).' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 25,
+        "question": "Why was `useContext` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To replace JavaScript entirely.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 26,
+        "question": "What is a common mistake when dealing with `useContext`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 27,
+        "question": "How does `useContext` interact with the Virtual DOM?",
+        "options": [
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 28,
+        "question": "Is `useContext` considered a best practice?",
+        "options": [
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation.",
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 29,
+        "question": "Which pattern is often used alongside `useContext`?",
+        "options": [
+            "SQL JOINs.",
+            "Object-oriented inheritance in C++.",
+            "CSS animations.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 30,
+        "question": "Does `useContext` work well with TypeScript?",
+        "options": [
+            "Only in backend code.",
+            "No, TypeScript bans `useContext`.",
+            "Yes, React and `useContext` have excellent TypeScript support.",
+            "TypeScript replaces `useContext`."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "useContext",
+        "explanation": "The correct answer is 'Yes, React and `useContext` have excellent TypeScript support.' because it accurately describes `useContext` in this context."
+    },
+    {
+        "id": 31,
+        "question": "What is the primary role of `useReducer` in a React application?",
+        "options": [
+            "To define basic HTML structure.",
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To allocate memory in C."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 32,
+        "question": "How does `useReducer` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 33,
+        "question": "What is the correct way to use `useReducer`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 34,
+        "question": "Can you use `useReducer` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "No, React doesn't have class components.",
+            "Yes, hooks work in class components.",
+            "Some concepts like `useReducer` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Some concepts like `useReducer` are specific to functional components (e.g., Hooks).' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 35,
+        "question": "Why was `useReducer` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 36,
+        "question": "What is a common mistake when dealing with `useReducer`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 37,
+        "question": "How does `useReducer` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 38,
+        "question": "Is `useReducer` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 39,
+        "question": "Which pattern is often used alongside `useReducer`?",
+        "options": [
+            "CSS animations.",
+            "SQL JOINs.",
+            "Object-oriented inheritance in C++.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 40,
+        "question": "Does `useReducer` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `useReducer`.",
+            "Only in backend code.",
+            "No, TypeScript bans `useReducer`.",
+            "Yes, React and `useReducer` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useReducer",
+        "explanation": "The correct answer is 'Yes, React and `useReducer` have excellent TypeScript support.' because it accurately describes `useReducer` in this context."
+    },
+    {
+        "id": 41,
+        "question": "What is the primary role of `useMemo` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 42,
+        "question": "How does `useMemo` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 43,
+        "question": "What is the correct way to use `useMemo`?",
+        "options": [
+            "Writing it inside a SQL trigger.",
+            "Using it in a C++ class.",
+            "Placing it inside a vanilla JS loop.",
+            "Following React's rules and component lifecycle."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 44,
+        "question": "Can you use `useMemo` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "Some concepts like `useMemo` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Some concepts like `useMemo` are specific to functional components (e.g., Hooks).' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 45,
+        "question": "Why was `useMemo` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 46,
+        "question": "What is a common mistake when dealing with `useMemo`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 47,
+        "question": "How does `useMemo` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 48,
+        "question": "Is `useMemo` considered a best practice?",
+        "options": [
+            "Yes, when used according to official React documentation.",
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 49,
+        "question": "Which pattern is often used alongside `useMemo`?",
+        "options": [
+            "Composition and custom hooks.",
+            "CSS animations.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 50,
+        "question": "Does `useMemo` work well with TypeScript?",
+        "options": [
+            "Only in backend code.",
+            "No, TypeScript bans `useMemo`.",
+            "TypeScript replaces `useMemo`.",
+            "Yes, React and `useMemo` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useMemo",
+        "explanation": "The correct answer is 'Yes, React and `useMemo` have excellent TypeScript support.' because it accurately describes `useMemo` in this context."
+    },
+    {
+        "id": 51,
+        "question": "What is the primary role of `useCallback` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To allocate memory in C.",
+            "To define basic HTML structure."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 52,
+        "question": "How does `useCallback` affect component rendering?",
+        "options": [
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 53,
+        "question": "What is the correct way to use `useCallback`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Writing it inside a SQL trigger.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 54,
+        "question": "Can you use `useCallback` in a class component?",
+        "options": [
+            "Yes, hooks work in class components.",
+            "Some concepts like `useCallback` are specific to functional components (e.g., Hooks).",
+            "No, React doesn't have class components.",
+            "Only if using Redux."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Some concepts like `useCallback` are specific to functional components (e.g., Hooks).' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 55,
+        "question": "Why was `useCallback` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace JavaScript entirely.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 56,
+        "question": "What is a common mistake when dealing with `useCallback`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 57,
+        "question": "How does `useCallback` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 58,
+        "question": "Is `useCallback` considered a best practice?",
+        "options": [
+            "No, it is deprecated since React 15.",
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 59,
+        "question": "Which pattern is often used alongside `useCallback`?",
+        "options": [
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 60,
+        "question": "Does `useCallback` work well with TypeScript?",
+        "options": [
+            "Yes, React and `useCallback` have excellent TypeScript support.",
+            "No, TypeScript bans `useCallback`.",
+            "Only in backend code.",
+            "TypeScript replaces `useCallback`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useCallback",
+        "explanation": "The correct answer is 'Yes, React and `useCallback` have excellent TypeScript support.' because it accurately describes `useCallback` in this context."
+    },
+    {
+        "id": 61,
+        "question": "What is the primary role of `useRef` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To allocate memory in C.",
+            "To define basic HTML structure."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 62,
+        "question": "How does `useRef` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly.",
+            "It prevents HTML from loading."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 63,
+        "question": "What is the correct way to use `useRef`?",
+        "options": [
+            "Writing it inside a SQL trigger.",
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 64,
+        "question": "Can you use `useRef` in a class component?",
+        "options": [
+            "Some concepts like `useRef` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "Only if using Redux.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Some concepts like `useRef` are specific to functional components (e.g., Hooks).' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 65,
+        "question": "Why was `useRef` introduced in React?",
+        "options": [
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 66,
+        "question": "What is a common mistake when dealing with `useRef`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Incorrect HTML attributes.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 67,
+        "question": "How does `useRef` interact with the Virtual DOM?",
+        "options": [
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM.",
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 68,
+        "question": "Is `useRef` considered a best practice?",
+        "options": [
+            "No, it slows down CSS rendering.",
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 69,
+        "question": "Which pattern is often used alongside `useRef`?",
+        "options": [
+            "Composition and custom hooks.",
+            "CSS animations.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 70,
+        "question": "Does `useRef` work well with TypeScript?",
+        "options": [
+            "No, TypeScript bans `useRef`.",
+            "TypeScript replaces `useRef`.",
+            "Only in backend code.",
+            "Yes, React and `useRef` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "useRef",
+        "explanation": "The correct answer is 'Yes, React and `useRef` have excellent TypeScript support.' because it accurately describes `useRef` in this context."
+    },
+    {
+        "id": 71,
+        "question": "What is the primary role of `JSX` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To define basic HTML structure.",
+            "To write backend SQL queries.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 72,
+        "question": "How does `JSX` affect component rendering?",
+        "options": [
+            "It shuts down the Node server.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It changes the CSS grid layout directly.",
+            "It prevents HTML from loading."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 73,
+        "question": "What is the correct way to use `JSX`?",
+        "options": [
+            "Placing it inside a vanilla JS loop.",
+            "Following React's rules and component lifecycle.",
+            "Writing it inside a SQL trigger.",
+            "Using it in a C++ class."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 74,
+        "question": "Can you use `JSX` in a class component?",
+        "options": [
+            "Yes, hooks work in class components.",
+            "Some concepts like `JSX` are specific to functional components (e.g., Hooks).",
+            "Only if using Redux.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Some concepts like `JSX` are specific to functional components (e.g., Hooks).' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 75,
+        "question": "Why was `JSX` introduced in React?",
+        "options": [
+            "To replace JavaScript entirely.",
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS.",
+            "To solve specific UI state and lifecycle management problems."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 76,
+        "question": "What is a common mistake when dealing with `JSX`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 77,
+        "question": "How does `JSX` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 78,
+        "question": "Is `JSX` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 79,
+        "question": "Which pattern is often used alongside `JSX`?",
+        "options": [
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 80,
+        "question": "Does `JSX` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `JSX`.",
+            "Only in backend code.",
+            "No, TypeScript bans `JSX`.",
+            "Yes, React and `JSX` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "JSX",
+        "explanation": "The correct answer is 'Yes, React and `JSX` have excellent TypeScript support.' because it accurately describes `JSX` in this context."
+    },
+    {
+        "id": 81,
+        "question": "What is the primary role of `Virtual DOM` in a React application?",
+        "options": [
+            "To define basic HTML structure.",
+            "To write backend SQL queries.",
+            "To allocate memory in C.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 82,
+        "question": "How does `Virtual DOM` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 83,
+        "question": "What is the correct way to use `Virtual DOM`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger.",
+            "Placing it inside a vanilla JS loop."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 84,
+        "question": "Can you use `Virtual DOM` in a class component?",
+        "options": [
+            "Some concepts like `Virtual DOM` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components.",
+            "Only if using Redux."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Some concepts like `Virtual DOM` are specific to functional components (e.g., Hooks).' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 85,
+        "question": "Why was `Virtual DOM` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To replace JavaScript entirely."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 86,
+        "question": "What is a common mistake when dealing with `Virtual DOM`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 87,
+        "question": "How does `Virtual DOM` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 88,
+        "question": "Is `Virtual DOM` considered a best practice?",
+        "options": [
+            "Yes, when used according to official React documentation.",
+            "No, it is deprecated since React 15.",
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 89,
+        "question": "Which pattern is often used alongside `Virtual DOM`?",
+        "options": [
+            "SQL JOINs.",
+            "CSS animations.",
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 90,
+        "question": "Does `Virtual DOM` work well with TypeScript?",
+        "options": [
+            "Yes, React and `Virtual DOM` have excellent TypeScript support.",
+            "TypeScript replaces `Virtual DOM`.",
+            "No, TypeScript bans `Virtual DOM`.",
+            "Only in backend code."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Virtual DOM",
+        "explanation": "The correct answer is 'Yes, React and `Virtual DOM` have excellent TypeScript support.' because it accurately describes `Virtual DOM` in this context."
+    },
+    {
+        "id": 91,
+        "question": "What is the primary role of `Components` in a React application?",
+        "options": [
+            "To write backend SQL queries.",
+            "To define basic HTML structure.",
+            "To manage UI components, state, or side effects.",
+            "To allocate memory in C."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Components",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 92,
+        "question": "How does `Components` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Components",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 93,
+        "question": "What is the correct way to use `Components`?",
+        "options": [
+            "Placing it inside a vanilla JS loop.",
+            "Writing it inside a SQL trigger.",
+            "Following React's rules and component lifecycle.",
+            "Using it in a C++ class."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 94,
+        "question": "Can you use `Components` in a class component?",
+        "options": [
+            "Some concepts like `Components` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components.",
+            "Only if using Redux."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Some concepts like `Components` are specific to functional components (e.g., Hooks).' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 95,
+        "question": "Why was `Components` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Components",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 96,
+        "question": "What is a common mistake when dealing with `Components`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 97,
+        "question": "How does `Components` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Components",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 98,
+        "question": "Is `Components` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 99,
+        "question": "Which pattern is often used alongside `Components`?",
+        "options": [
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "CSS animations.",
+            "SQL JOINs."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 100,
+        "question": "Does `Components` work well with TypeScript?",
+        "options": [
+            "Yes, React and `Components` have excellent TypeScript support.",
+            "TypeScript replaces `Components`.",
+            "No, TypeScript bans `Components`.",
+            "Only in backend code."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Components",
+        "explanation": "The correct answer is 'Yes, React and `Components` have excellent TypeScript support.' because it accurately describes `Components` in this context."
+    },
+    {
+        "id": 101,
+        "question": "What is the primary role of `Props` in a React application?",
+        "options": [
+            "To define basic HTML structure.",
+            "To allocate memory in C.",
+            "To write backend SQL queries.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Props",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 102,
+        "question": "How does `Props` affect component rendering?",
+        "options": [
+            "It prevents HTML from loading.",
+            "It changes the CSS grid layout directly.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It shuts down the Node server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Props",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 103,
+        "question": "What is the correct way to use `Props`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 104,
+        "question": "Can you use `Props` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "Some concepts like `Props` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Some concepts like `Props` are specific to functional components (e.g., Hooks).' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 105,
+        "question": "Why was `Props` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Props",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 106,
+        "question": "What is a common mistake when dealing with `Props`?",
+        "options": [
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 107,
+        "question": "How does `Props` interact with the Virtual DOM?",
+        "options": [
+            "It converts the Virtual DOM to an SQL table.",
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Props",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 108,
+        "question": "Is `Props` considered a best practice?",
+        "options": [
+            "Yes, when used according to official React documentation.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering.",
+            "Yes, for database normalization."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 109,
+        "question": "Which pattern is often used alongside `Props`?",
+        "options": [
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 110,
+        "question": "Does `Props` work well with TypeScript?",
+        "options": [
+            "Yes, React and `Props` have excellent TypeScript support.",
+            "Only in backend code.",
+            "No, TypeScript bans `Props`.",
+            "TypeScript replaces `Props`."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Props",
+        "explanation": "The correct answer is 'Yes, React and `Props` have excellent TypeScript support.' because it accurately describes `Props` in this context."
+    },
+    {
+        "id": 111,
+        "question": "What is the primary role of `State` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To define basic HTML structure.",
+            "To allocate memory in C.",
+            "To write backend SQL queries."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "State",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 112,
+        "question": "How does `State` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It shuts down the Node server."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "State",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 113,
+        "question": "What is the correct way to use `State`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Writing it inside a SQL trigger.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "State",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 114,
+        "question": "Can you use `State` in a class component?",
+        "options": [
+            "Some concepts like `State` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components.",
+            "Only if using Redux."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "State",
+        "explanation": "The correct answer is 'Some concepts like `State` are specific to functional components (e.g., Hooks).' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 115,
+        "question": "Why was `State` introduced in React?",
+        "options": [
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "State",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 116,
+        "question": "What is a common mistake when dealing with `State`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "State",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 117,
+        "question": "How does `State` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "State",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 118,
+        "question": "Is `State` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "State",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 119,
+        "question": "Which pattern is often used alongside `State`?",
+        "options": [
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "State",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 120,
+        "question": "Does `State` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `State`.",
+            "Only in backend code.",
+            "No, TypeScript bans `State`.",
+            "Yes, React and `State` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "State",
+        "explanation": "The correct answer is 'Yes, React and `State` have excellent TypeScript support.' because it accurately describes `State` in this context."
+    },
+    {
+        "id": 121,
+        "question": "What is the primary role of `React Router` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 122,
+        "question": "How does `React Router` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 123,
+        "question": "What is the correct way to use `React Router`?",
+        "options": [
+            "Writing it inside a SQL trigger.",
+            "Placing it inside a vanilla JS loop.",
+            "Following React's rules and component lifecycle.",
+            "Using it in a C++ class."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 124,
+        "question": "Can you use `React Router` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components.",
+            "Some concepts like `React Router` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Some concepts like `React Router` are specific to functional components (e.g., Hooks).' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 125,
+        "question": "Why was `React Router` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 126,
+        "question": "What is a common mistake when dealing with `React Router`?",
+        "options": [
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 127,
+        "question": "How does `React Router` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 128,
+        "question": "Is `React Router` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 129,
+        "question": "Which pattern is often used alongside `React Router`?",
+        "options": [
+            "SQL JOINs.",
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "CSS animations."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 130,
+        "question": "Does `React Router` work well with TypeScript?",
+        "options": [
+            "No, TypeScript bans `React Router`.",
+            "TypeScript replaces `React Router`.",
+            "Yes, React and `React Router` have excellent TypeScript support.",
+            "Only in backend code."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "React Router",
+        "explanation": "The correct answer is 'Yes, React and `React Router` have excellent TypeScript support.' because it accurately describes `React Router` in this context."
+    },
+    {
+        "id": 131,
+        "question": "What is the primary role of `Context API` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To define basic HTML structure.",
+            "To write backend SQL queries.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 132,
+        "question": "How does `Context API` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly.",
+            "It prevents HTML from loading."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 133,
+        "question": "What is the correct way to use `Context API`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Writing it inside a SQL trigger.",
+            "Using it in a C++ class."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 134,
+        "question": "Can you use `Context API` in a class component?",
+        "options": [
+            "Only if using Redux.",
+            "No, React doesn't have class components.",
+            "Yes, hooks work in class components.",
+            "Some concepts like `Context API` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Some concepts like `Context API` are specific to functional components (e.g., Hooks).' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 135,
+        "question": "Why was `Context API` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 136,
+        "question": "What is a common mistake when dealing with `Context API`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 137,
+        "question": "How does `Context API` interact with the Virtual DOM?",
+        "options": [
+            "It converts the Virtual DOM to an SQL table.",
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM.",
+            "It deletes the Virtual DOM."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 138,
+        "question": "Is `Context API` considered a best practice?",
+        "options": [
+            "Yes, when used according to official React documentation.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering.",
+            "Yes, for database normalization."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 139,
+        "question": "Which pattern is often used alongside `Context API`?",
+        "options": [
+            "CSS animations.",
+            "SQL JOINs.",
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 140,
+        "question": "Does `Context API` work well with TypeScript?",
+        "options": [
+            "Yes, React and `Context API` have excellent TypeScript support.",
+            "No, TypeScript bans `Context API`.",
+            "Only in backend code.",
+            "TypeScript replaces `Context API`."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Context API",
+        "explanation": "The correct answer is 'Yes, React and `Context API` have excellent TypeScript support.' because it accurately describes `Context API` in this context."
+    },
+    {
+        "id": 141,
+        "question": "What is the primary role of `React.memo` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 142,
+        "question": "How does `React.memo` affect component rendering?",
+        "options": [
+            "It prevents HTML from loading.",
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 143,
+        "question": "What is the correct way to use `React.memo`?",
+        "options": [
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger.",
+            "Placing it inside a vanilla JS loop.",
+            "Following React's rules and component lifecycle."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 144,
+        "question": "Can you use `React.memo` in a class component?",
+        "options": [
+            "Some concepts like `React.memo` are specific to functional components (e.g., Hooks).",
+            "Only if using Redux.",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Some concepts like `React.memo` are specific to functional components (e.g., Hooks).' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 145,
+        "question": "Why was `React.memo` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace JavaScript entirely.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 146,
+        "question": "What is a common mistake when dealing with `React.memo`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 147,
+        "question": "How does `React.memo` interact with the Virtual DOM?",
+        "options": [
+            "It deletes the Virtual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It helps React efficiently update the actual DOM."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 148,
+        "question": "Is `React.memo` considered a best practice?",
+        "options": [
+            "No, it is deprecated since React 15.",
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 149,
+        "question": "Which pattern is often used alongside `React.memo`?",
+        "options": [
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 150,
+        "question": "Does `React.memo` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `React.memo`.",
+            "Yes, React and `React.memo` have excellent TypeScript support.",
+            "No, TypeScript bans `React.memo`.",
+            "Only in backend code."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "React.memo",
+        "explanation": "The correct answer is 'Yes, React and `React.memo` have excellent TypeScript support.' because it accurately describes `React.memo` in this context."
+    },
+    {
+        "id": 151,
+        "question": "What is the primary role of `Error Boundaries` in a React application?",
+        "options": [
+            "To write backend SQL queries.",
+            "To manage UI components, state, or side effects.",
+            "To define basic HTML structure.",
+            "To allocate memory in C."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 152,
+        "question": "How does `Error Boundaries` affect component rendering?",
+        "options": [
+            "It shuts down the Node server.",
+            "It prevents HTML from loading.",
+            "It changes the CSS grid layout directly.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 153,
+        "question": "What is the correct way to use `Error Boundaries`?",
+        "options": [
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger.",
+            "Following React's rules and component lifecycle."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 154,
+        "question": "Can you use `Error Boundaries` in a class component?",
+        "options": [
+            "Some concepts like `Error Boundaries` are specific to functional components (e.g., Hooks).",
+            "Only if using Redux.",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Some concepts like `Error Boundaries` are specific to functional components (e.g., Hooks).' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 155,
+        "question": "Why was `Error Boundaries` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 156,
+        "question": "What is a common mistake when dealing with `Error Boundaries`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 157,
+        "question": "How does `Error Boundaries` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 158,
+        "question": "Is `Error Boundaries` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation.",
+            "No, it slows down CSS rendering."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 159,
+        "question": "Which pattern is often used alongside `Error Boundaries`?",
+        "options": [
+            "Object-oriented inheritance in C++.",
+            "SQL JOINs.",
+            "CSS animations.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 160,
+        "question": "Does `Error Boundaries` work well with TypeScript?",
+        "options": [
+            "No, TypeScript bans `Error Boundaries`.",
+            "Yes, React and `Error Boundaries` have excellent TypeScript support.",
+            "TypeScript replaces `Error Boundaries`.",
+            "Only in backend code."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Error Boundaries",
+        "explanation": "The correct answer is 'Yes, React and `Error Boundaries` have excellent TypeScript support.' because it accurately describes `Error Boundaries` in this context."
+    },
+    {
+        "id": 161,
+        "question": "What is the primary role of `Fragments` in a React application?",
+        "options": [
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 162,
+        "question": "How does `Fragments` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 163,
+        "question": "What is the correct way to use `Fragments`?",
+        "options": [
+            "Writing it inside a SQL trigger.",
+            "Using it in a C++ class.",
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 164,
+        "question": "Can you use `Fragments` in a class component?",
+        "options": [
+            "Some concepts like `Fragments` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "No, React doesn't have class components.",
+            "Only if using Redux."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Some concepts like `Fragments` are specific to functional components (e.g., Hooks).' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 165,
+        "question": "Why was `Fragments` introduced in React?",
+        "options": [
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace JavaScript entirely.",
+            "To interact directly with SQL Server.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 166,
+        "question": "What is a common mistake when dealing with `Fragments`?",
+        "options": [
+            "Incorrect HTML attributes.",
+            "Memory leaks via malloc.",
+            "Missing a semicolon in SQL.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 167,
+        "question": "How does `Fragments` interact with the Virtual DOM?",
+        "options": [
+            "It converts the Virtual DOM to an SQL table.",
+            "It deletes the Virtual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 168,
+        "question": "Is `Fragments` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it slows down CSS rendering.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 169,
+        "question": "Which pattern is often used alongside `Fragments`?",
+        "options": [
+            "CSS animations.",
+            "SQL JOINs.",
+            "Object-oriented inheritance in C++.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 170,
+        "question": "Does `Fragments` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `Fragments`.",
+            "Only in backend code.",
+            "No, TypeScript bans `Fragments`.",
+            "Yes, React and `Fragments` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Fragments",
+        "explanation": "The correct answer is 'Yes, React and `Fragments` have excellent TypeScript support.' because it accurately describes `Fragments` in this context."
+    },
+    {
+        "id": 171,
+        "question": "What is the primary role of `Portals` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To manage UI components, state, or side effects.",
+            "To write backend SQL queries.",
+            "To define basic HTML structure."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 172,
+        "question": "How does `Portals` affect component rendering?",
+        "options": [
+            "It can trigger re-renders or optimize rendering performance.",
+            "It prevents HTML from loading.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 173,
+        "question": "What is the correct way to use `Portals`?",
+        "options": [
+            "Using it in a C++ class.",
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 174,
+        "question": "Can you use `Portals` in a class component?",
+        "options": [
+            "No, React doesn't have class components.",
+            "Some concepts like `Portals` are specific to functional components (e.g., Hooks).",
+            "Only if using Redux.",
+            "Yes, hooks work in class components."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Some concepts like `Portals` are specific to functional components (e.g., Hooks).' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 175,
+        "question": "Why was `Portals` introduced in React?",
+        "options": [
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS.",
+            "To interact directly with SQL Server."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 176,
+        "question": "What is a common mistake when dealing with `Portals`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 177,
+        "question": "How does `Portals` interact with the Virtual DOM?",
+        "options": [
+            "It helps React efficiently update the actual DOM.",
+            "It deletes the Virtual DOM.",
+            "It bypasses the Virtual DOM entirely.",
+            "It converts the Virtual DOM to an SQL table."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 178,
+        "question": "Is `Portals` considered a best practice?",
+        "options": [
+            "Yes, when used according to official React documentation.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering.",
+            "Yes, for database normalization."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 179,
+        "question": "Which pattern is often used alongside `Portals`?",
+        "options": [
+            "CSS animations.",
+            "SQL JOINs.",
+            "Object-oriented inheritance in C++.",
+            "Composition and custom hooks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 180,
+        "question": "Does `Portals` work well with TypeScript?",
+        "options": [
+            "Yes, React and `Portals` have excellent TypeScript support.",
+            "Only in backend code.",
+            "TypeScript replaces `Portals`.",
+            "No, TypeScript bans `Portals`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Portals",
+        "explanation": "The correct answer is 'Yes, React and `Portals` have excellent TypeScript support.' because it accurately describes `Portals` in this context."
+    },
+    {
+        "id": 181,
+        "question": "What is the primary role of `Custom Hooks` in a React application?",
+        "options": [
+            "To allocate memory in C.",
+            "To define basic HTML structure.",
+            "To write backend SQL queries.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 182,
+        "question": "How does `Custom Hooks` affect component rendering?",
+        "options": [
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance.",
+            "It shuts down the Node server.",
+            "It changes the CSS grid layout directly."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 183,
+        "question": "What is the correct way to use `Custom Hooks`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 184,
+        "question": "Can you use `Custom Hooks` in a class component?",
+        "options": [
+            "Yes, hooks work in class components.",
+            "Only if using Redux.",
+            "No, React doesn't have class components.",
+            "Some concepts like `Custom Hooks` are specific to functional components (e.g., Hooks)."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Some concepts like `Custom Hooks` are specific to functional components (e.g., Hooks).' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 185,
+        "question": "Why was `Custom Hooks` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 186,
+        "question": "What is a common mistake when dealing with `Custom Hooks`?",
+        "options": [
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes.",
+            "Stale closures or infinite render loops."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 187,
+        "question": "How does `Custom Hooks` interact with the Virtual DOM?",
+        "options": [
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It helps React efficiently update the actual DOM.",
+            "It bypasses the Virtual DOM entirely."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 188,
+        "question": "Is `Custom Hooks` considered a best practice?",
+        "options": [
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "No, it slows down CSS rendering.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 189,
+        "question": "Which pattern is often used alongside `Custom Hooks`?",
+        "options": [
+            "SQL JOINs.",
+            "Object-oriented inheritance in C++.",
+            "Composition and custom hooks.",
+            "CSS animations."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 190,
+        "question": "Does `Custom Hooks` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `Custom Hooks`.",
+            "No, TypeScript bans `Custom Hooks`.",
+            "Yes, React and `Custom Hooks` have excellent TypeScript support.",
+            "Only in backend code."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Custom Hooks",
+        "explanation": "The correct answer is 'Yes, React and `Custom Hooks` have excellent TypeScript support.' because it accurately describes `Custom Hooks` in this context."
+    },
+    {
+        "id": 191,
+        "question": "What is the primary role of `Strict Mode` in a React application?",
+        "options": [
+            "To write backend SQL queries.",
+            "To allocate memory in C.",
+            "To define basic HTML structure.",
+            "To manage UI components, state, or side effects."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'To manage UI components, state, or side effects.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 192,
+        "question": "How does `Strict Mode` affect component rendering?",
+        "options": [
+            "It changes the CSS grid layout directly.",
+            "It shuts down the Node server.",
+            "It prevents HTML from loading.",
+            "It can trigger re-renders or optimize rendering performance."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'It can trigger re-renders or optimize rendering performance.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 193,
+        "question": "What is the correct way to use `Strict Mode`?",
+        "options": [
+            "Following React's rules and component lifecycle.",
+            "Placing it inside a vanilla JS loop.",
+            "Using it in a C++ class.",
+            "Writing it inside a SQL trigger."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Following React's rules and component lifecycle.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 194,
+        "question": "Can you use `Strict Mode` in a class component?",
+        "options": [
+            "No, React doesn't have class components.",
+            "Some concepts like `Strict Mode` are specific to functional components (e.g., Hooks).",
+            "Yes, hooks work in class components.",
+            "Only if using Redux."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Some concepts like `Strict Mode` are specific to functional components (e.g., Hooks).' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 195,
+        "question": "Why was `Strict Mode` introduced in React?",
+        "options": [
+            "To interact directly with SQL Server.",
+            "To replace JavaScript entirely.",
+            "To solve specific UI state and lifecycle management problems.",
+            "To replace HTML and CSS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'To solve specific UI state and lifecycle management problems.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 196,
+        "question": "What is a common mistake when dealing with `Strict Mode`?",
+        "options": [
+            "Stale closures or infinite render loops.",
+            "Missing a semicolon in SQL.",
+            "Memory leaks via malloc.",
+            "Incorrect HTML attributes."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Stale closures or infinite render loops.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 197,
+        "question": "How does `Strict Mode` interact with the Virtual DOM?",
+        "options": [
+            "It deletes the Virtual DOM.",
+            "It converts the Virtual DOM to an SQL table.",
+            "It bypasses the Virtual DOM entirely.",
+            "It helps React efficiently update the actual DOM."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'It helps React efficiently update the actual DOM.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 198,
+        "question": "Is `Strict Mode` considered a best practice?",
+        "options": [
+            "No, it slows down CSS rendering.",
+            "Yes, for database normalization.",
+            "No, it is deprecated since React 15.",
+            "Yes, when used according to official React documentation."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Yes, when used according to official React documentation.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 199,
+        "question": "Which pattern is often used alongside `Strict Mode`?",
+        "options": [
+            "SQL JOINs.",
+            "CSS animations.",
+            "Composition and custom hooks.",
+            "Object-oriented inheritance in C++."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Composition and custom hooks.' because it accurately describes `Strict Mode` in this context."
+    },
+    {
+        "id": 200,
+        "question": "Does `Strict Mode` work well with TypeScript?",
+        "options": [
+            "TypeScript replaces `Strict Mode`.",
+            "Only in backend code.",
+            "No, TypeScript bans `Strict Mode`.",
+            "Yes, React and `Strict Mode` have excellent TypeScript support."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Strict Mode",
+        "explanation": "The correct answer is 'Yes, React and `Strict Mode` have excellent TypeScript support.' because it accurately describes `Strict Mode` in this context."
+    }
+]

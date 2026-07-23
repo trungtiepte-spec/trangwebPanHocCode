@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ExamCore - Active Examination</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#484c4e",
+                    "inverse-surface": "#233144",
+                    "surface-dim": "#ccdbf3",
+                    "primary-fixed-dim": "#b8c4ff",
+                    "surface-container-low": "#eff4ff",
+                    "primary-fixed": "#dde1ff",
+                    "on-tertiary-container": "#b9bcbe",
+                    "surface-tint": "#3755c3",
+                    "surface-container-highest": "#d5e3fc",
+                    "on-secondary": "#ffffff",
+                    "tertiary": "#323537",
+                    "secondary-fixed": "#d3e5f1",
+                    "surface-variant": "#d5e3fc",
+                    "on-tertiary-fixed": "#191c1e",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-fixed-dim": "#b7c9d5",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#0c1e26",
+                    "on-primary-fixed": "#001453",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#d3e5f1",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#0d1c2e",
+                    "surface-container": "#e6eeff",
+                    "on-secondary-container": "#566771",
+                    "secondary": "#50616b",
+                    "on-tertiary-fixed-variant": "#444749",
+                    "on-surface-variant": "#444653",
+                    "surface-bright": "#f8f9ff",
+                    "on-primary-container": "#a8b8ff",
+                    "primary": "#00288e",
+                    "inverse-on-surface": "#eaf1ff",
+                    "inverse-primary": "#b8c4ff",
+                    "surface": "#f8f9ff",
+                    "primary-container": "#1e40af",
+                    "surface-container-high": "#dce9ff",
+                    "outline-variant": "#c4c5d5",
+                    "on-error": "#ffffff",
+                    "on-background": "#0d1c2e",
+                    "outline": "#757684",
+                    "tertiary-fixed-dim": "#c4c7c9",
+                    "on-primary": "#ffffff",
+                    "on-primary-fixed-variant": "#173bab",
+                    "error-container": "#ffdad6",
+                    "background": "#f8f9ff",
+                    "on-secondary-fixed-variant": "#384953",
+                    "tertiary-fixed": "#e0e3e5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "32px",
+                    "xxl": "48px",
+                    "lg": "24px",
+                    "gutter": "24px",
+                    "md": "16px",
+                    "sm": "8px",
+                    "xs": "4px",
+                    "base": "4px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "headline-sm": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9ff; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .timer-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .7; } }
+        .option-card:hover { border-color: #00288e; }
+        .option-selected { border-color: #00288e; background-color: #eff4ff; border-width: 2px; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar (Fixed Header) -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface border-b border-outline-variant shadow-sm transition-all duration-200">
+<div class="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
+<div class="flex items-center gap-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">ExamCore</span>
+<div class="h-6 w-px bg-outline-variant hidden md:block mx-sm"></div>
+<div class="hidden md:flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Advanced Psychometrics 101</span>
+<span class="font-label-sm text-label-sm text-secondary">Section: Statistical Foundations</span>
+</div>
+</div>
+<div class="flex items-center gap-lg">
+<!-- Progress Indicator -->
+<div class="hidden sm:flex flex-col items-end mr-md">
+<span class="font-label-md text-label-md text-on-surface">Question 5 of 20</span>
+<div class="w-32 h-2 bg-secondary-container rounded-full mt-1 overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 25%"></div>
+</div>
+</div>
+<!-- Timer -->
+<div class="flex items-center gap-sm bg-surface-container-high px-md py-sm rounded-lg border border-outline-variant">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">timer</span>
+<span class="font-headline-sm text-headline-sm text-primary tabular-nums" id="countdown">44:02</span>
+</div>
+<div class="flex items-center gap-md text-on-surface-variant">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary transition-colors">account_circle</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-grow pt-xxl pb-xxl px-md mt-md">
+<div class="max-w-3xl mx-auto mt-lg">
+<!-- Question Card -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl shadow-sm p-xl mb-lg animate-in fade-in slide-in-from-bottom-4 duration-500">
+<div class="flex justify-between items-start mb-lg">
+<span class="bg-secondary-container text-on-secondary-container px-md py-xs rounded-full font-label-md text-label-md">
+                        Part A: Multiple Choice
+                    </span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-xs">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+<span class="font-label-md text-label-md">Flag for review</span>
+</button>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-xl leading-relaxed">
+                    Which of the following best describes the 'Flynn Effect' in the context of standardized cognitive assessment?
+                </h2>
+<!-- Options List -->
+<div class="space-y-md" id="options-container">
+<label class="option-card relative flex items-center p-lg border border-outline-variant rounded-xl cursor-pointer transition-all active:scale-[0.99] group">
+<input class="hidden" name="exam-option" onclick="selectOption(this)" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant flex items-center justify-center mr-lg group-hover:border-primary transition-colors">
+<div class="w-3 h-3 rounded-full bg-primary opacity-0 transition-opacity"></div>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">The observed historical increase in average IQ scores over time.</span>
+</label>
+<label class="option-card relative flex items-center p-lg border border-outline-variant rounded-xl cursor-pointer transition-all active:scale-[0.99] group">
+<input class="hidden" name="exam-option" onclick="selectOption(this)" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant flex items-center justify-center mr-lg group-hover:border-primary transition-colors">
+<div class="w-3 h-3 rounded-full bg-primary opacity-0 transition-opacity"></div>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">The tendency for test-takers to perform better on the second attempt of an exam.</span>
+</label>
+<label class="option-card relative flex items-center p-lg border border-outline-variant rounded-xl cursor-pointer transition-all active:scale-[0.99] group">
+<input class="hidden" name="exam-option" onclick="selectOption(this)" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant flex items-center justify-center mr-lg group-hover:border-primary transition-colors">
+<div class="w-3 h-3 rounded-full bg-primary opacity-0 transition-opacity"></div>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">The psychological bias where an individual overestimates their own ability.</span>
+</label>
+<label class="option-card relative flex items-center p-lg border border-outline-variant rounded-xl cursor-pointer transition-all active:scale-[0.99] group">
+<input class="hidden" name="exam-option" onclick="selectOption(this)" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant flex items-center justify-center mr-lg group-hover:border-primary transition-colors">
+<div class="w-3 h-3 rounded-full bg-primary opacity-0 transition-opacity"></div>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">The correlation between socioeconomic status and verbal reasoning proficiency.</span>
+</label>
+</div>
+</div>
+<!-- Contextual Information (Bento/Modern detail card) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md opacity-80">
+<div class="bg-surface-container-low p-md rounded-xl border border-outline-variant flex items-start gap-md">
+<span class="material-symbols-outlined text-secondary">info</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface">Reference Material</h4>
+<p class="font-label-sm text-label-sm text-secondary">This question relates to Module 4: Intelligence Theories.</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-md rounded-xl border border-outline-variant flex items-start gap-md">
+<span class="material-symbols-outlined text-secondary">history</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface">Recent Status</h4>
+<p class="font-label-sm text-label-sm text-secondary">You spent 45 seconds on this question so far.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Sticky Bottom Navigation -->
+<footer class="fixed bottom-0 left-0 right-0 z-50 bg-surface border-t border-outline-variant">
+<div class="w-full py-md px-lg flex justify-between items-center max-w-container-max mx-auto">
+<button class="flex items-center gap-sm px-lg py-md border border-outline rounded-lg text-on-surface font-label-md text-label-md hover:bg-surface-container transition-all active:opacity-80">
+<span class="material-symbols-outlined">chevron_left</span>
+                Previous
+            </button>
+<div class="flex items-center gap-md">
+<button class="hidden sm:flex items-center gap-sm px-lg py-md text-on-surface font-label-md text-label-md hover:underline decoration-primary underline-offset-4">
+                    Jump to Question...
+                </button>
+<button class="flex items-center gap-sm px-xl py-md bg-primary text-on-primary rounded-lg font-label-md text-label-md shadow-sm hover:opacity-90 transition-all active:scale-95">
+                    Next Question
+                    <span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+<button class="hidden md:flex items-center gap-sm px-lg py-md bg-error text-on-error rounded-lg font-label-md text-label-md shadow-sm hover:bg-error/90 transition-all active:scale-95" onclick="confirmFinish()">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                Finish Exam
+            </button>
+</div>
+</footer>
+<!-- Overlay for Finish Confirmation (Hidden by default) -->
+<div class="fixed inset-0 z-[100] bg-on-surface/40 backdrop-blur-sm hidden flex items-center justify-center p-md" id="finish-modal">
+<div class="bg-surface p-xl rounded-xl shadow-xl max-w-md w-full border border-outline-variant animate-in zoom-in-95 duration-200">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-md">Finish Examination?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-xl">
+                You have 15 unanswered questions. Are you sure you want to submit your exam now? This action cannot be undone.
+            </p>
+<div class="flex flex-col sm:flex-row gap-md">
+<button class="flex-1 py-md border border-outline rounded-lg font-label-md text-label-md text-on-surface hover:bg-surface-container transition-colors" onclick="closeModal()">
+                    Go Back
+                </button>
+<button class="flex-1 py-md bg-error text-on-error rounded-lg font-label-md text-label-md hover:bg-error/90 transition-colors">
+                    Yes, Finish Exam
+                </button>
+</div>
+</div>
+</div>
+<script>
+        // UI Logic for Radio Options
+        function selectOption(input) {
+            // Reset all cards
+            const allOptions = document.querySelectorAll('.option-card');
+            allOptions.forEach(card => {
+                card.classList.remove('option-selected');
+                card.querySelector('.w-3').classList.add('opacity-0');
+            });
+
+            // Set active card
+            const selectedCard = input.closest('.option-card');
+            selectedCard.classList.add('option-selected');
+            selectedCard.querySelector('.w-3').classList.remove('opacity-0');
+        }
+
+        // Modal Logic
+        function confirmFinish() {
+            document.getElementById('finish-modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('finish-modal').classList.add('hidden');
+        }
+
+        // Countdown Timer Logic
+        let timeInSeconds = 44 * 60 + 2;
+        const timerDisplay = document.getElementById('countdown');
+        
+        const countdownInterval = setInterval(() => {
+            timeInSeconds--;
+            
+            const minutes = Math.floor(timeInSeconds / 60);
+            const seconds = timeInSeconds % 60;
+            
+            timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+            if (timeInSeconds < 300) { // Under 5 minutes
+                timerDisplay.parentElement.classList.add('text-error', 'timer-pulse');
+                timerDisplay.parentElement.classList.remove('text-primary');
+                timerDisplay.classList.add('text-error');
+                timerDisplay.classList.remove('text-primary');
+            }
+
+            if (timeInSeconds <= 0) {
+                clearInterval(countdownInterval);
+                alert('Time is up! Your exam will be submitted automatically.');
+            }
+        }, 1000);
+
+        // Simple Keyboard Shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                // Logic for next
+            }
+            if (e.key === 'ArrowLeft') {
+                // Logic for previous
+            }
+        });
+    </script>
+</body></html>

@@ -1,0 +1,2802 @@
+[
+    {
+        "id": 1,
+        "question": "What is the main purpose of `let` in JavaScript?",
+        "options": [
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents.",
+            "To query a SQL database."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "let",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 2,
+        "question": "How does `let` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By generating CSS automatically.",
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "let",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 3,
+        "question": "Which scenario is best suited for `let`?",
+        "options": [
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema.",
+            "When allocating raw memory bytes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "let",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 4,
+        "question": "What is a common pitfall when using `let`?",
+        "options": [
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "let",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 5,
+        "question": "Can `let` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "Yes, `let` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "let",
+        "explanation": "The correct answer is 'Yes, `let` is valid in standard JavaScript environments including Node.js.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 6,
+        "question": "How does `let` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "`let` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "let",
+        "explanation": "The correct answer is '`let` is a key feature or concept in modern JavaScript.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 7,
+        "question": "What happens if you misuse `let`?",
+        "options": [
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The HTML fails to render."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "let",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 8,
+        "question": "Is `let` synchronous or asynchronous?",
+        "options": [
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It is a database trigger.",
+            "It depends on the specific implementation of `let`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "let",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `let`.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 9,
+        "question": "Which built-in JavaScript object is most related to `let`?",
+        "options": [
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "The C struct.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "let",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 10,
+        "question": "Why do developers prefer `let` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "let",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `let` in this context."
+    },
+    {
+        "id": 11,
+        "question": "What is the main purpose of `const` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "const",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 12,
+        "question": "How does `const` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "const",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 13,
+        "question": "Which scenario is best suited for `const`?",
+        "options": [
+            "When defining a database schema.",
+            "When allocating raw memory bytes.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "const",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 14,
+        "question": "What is a common pitfall when using `const`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "const",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 15,
+        "question": "Can `const` be used in Node.js?",
+        "options": [
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Yes, `const` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "const",
+        "explanation": "The correct answer is 'Yes, `const` is valid in standard JavaScript environments including Node.js.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 16,
+        "question": "How does `const` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was removed in ES6.",
+            "It is a CSS3 property.",
+            "`const` is a key feature or concept in modern JavaScript.",
+            "It was introduced in HTML5."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "const",
+        "explanation": "The correct answer is '`const` is a key feature or concept in modern JavaScript.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 17,
+        "question": "What happens if you misuse `const`?",
+        "options": [
+            "The HTML fails to render.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "const",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 18,
+        "question": "Is `const` synchronous or asynchronous?",
+        "options": [
+            "It depends on the specific implementation of `const`.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It is a database trigger."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "const",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `const`.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 19,
+        "question": "Which built-in JavaScript object is most related to `const`?",
+        "options": [
+            "The SQLConnection object.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct.",
+            "The HTMLDivElement."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "const",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 20,
+        "question": "Why do developers prefer `const` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "const",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `const` in this context."
+    },
+    {
+        "id": 21,
+        "question": "What is the main purpose of `var` in JavaScript?",
+        "options": [
+            "To implement logic or manage data in applications.",
+            "To query a SQL database.",
+            "To define CSS styles.",
+            "To structure HTML documents."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "var",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 22,
+        "question": "How does `var` improve JavaScript code?",
+        "options": [
+            "By generating CSS automatically.",
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "var",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 23,
+        "question": "Which scenario is best suited for `var`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When defining a database schema.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "var",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 24,
+        "question": "What is a common pitfall when using `var`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "var",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 25,
+        "question": "Can `var` be used in Node.js?",
+        "options": [
+            "Yes, `var` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "var",
+        "explanation": "The correct answer is 'Yes, `var` is valid in standard JavaScript environments including Node.js.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 26,
+        "question": "How does `var` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was introduced in HTML5.",
+            "It was removed in ES6.",
+            "`var` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "var",
+        "explanation": "The correct answer is '`var` is a key feature or concept in modern JavaScript.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 27,
+        "question": "What happens if you misuse `var`?",
+        "options": [
+            "It can lead to runtime errors or unexpected behavior.",
+            "The HTML fails to render.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "var",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 28,
+        "question": "Is `var` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It depends on the specific implementation of `var`.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "var",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `var`.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 29,
+        "question": "Which built-in JavaScript object is most related to `var`?",
+        "options": [
+            "It interacts well with standard JS objects and arrays.",
+            "The HTMLDivElement.",
+            "The SQLConnection object.",
+            "The C struct."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "var",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 30,
+        "question": "Why do developers prefer `var` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "var",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `var` in this context."
+    },
+    {
+        "id": 31,
+        "question": "What is the main purpose of `arrow functions` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To structure HTML documents.",
+            "To define CSS styles.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 32,
+        "question": "How does `arrow functions` improve JavaScript code?",
+        "options": [
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By generating CSS automatically."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 33,
+        "question": "Which scenario is best suited for `arrow functions`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When defining a database schema.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 34,
+        "question": "What is a common pitfall when using `arrow functions`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 35,
+        "question": "Can `arrow functions` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "No, it requires a C compiler.",
+            "No, it only works in the browser.",
+            "Yes, `arrow functions` is valid in standard JavaScript environments including Node.js."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'Yes, `arrow functions` is valid in standard JavaScript environments including Node.js.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 36,
+        "question": "How does `arrow functions` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`arrow functions` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property.",
+            "It was introduced in HTML5.",
+            "It was removed in ES6."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is '`arrow functions` is a key feature or concept in modern JavaScript.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 37,
+        "question": "What happens if you misuse `arrow functions`?",
+        "options": [
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "The HTML fails to render.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 38,
+        "question": "Is `arrow functions` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It is always a CSS transition.",
+            "It always pauses the CPU.",
+            "It depends on the specific implementation of `arrow functions`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `arrow functions`.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 39,
+        "question": "Which built-in JavaScript object is most related to `arrow functions`?",
+        "options": [
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 40,
+        "question": "Why do developers prefer `arrow functions` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "arrow functions",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `arrow functions` in this context."
+    },
+    {
+        "id": 41,
+        "question": "What is the main purpose of `promises` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents.",
+            "To define CSS styles."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "promises",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 42,
+        "question": "How does `promises` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "promises",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 43,
+        "question": "Which scenario is best suited for `promises`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "promises",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 44,
+        "question": "What is a common pitfall when using `promises`?",
+        "options": [
+            "Missing a closing HTML tag.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "promises",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 45,
+        "question": "Can `promises` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "No, it requires a C compiler.",
+            "No, it only works in the browser.",
+            "Yes, `promises` is valid in standard JavaScript environments including Node.js."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "promises",
+        "explanation": "The correct answer is 'Yes, `promises` is valid in standard JavaScript environments including Node.js.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 46,
+        "question": "How does `promises` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was removed in ES6.",
+            "`promises` is a key feature or concept in modern JavaScript.",
+            "It was introduced in HTML5.",
+            "It is a CSS3 property."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "promises",
+        "explanation": "The correct answer is '`promises` is a key feature or concept in modern JavaScript.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 47,
+        "question": "What happens if you misuse `promises`?",
+        "options": [
+            "The database drops all tables.",
+            "The HTML fails to render.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "promises",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 48,
+        "question": "Is `promises` synchronous or asynchronous?",
+        "options": [
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `promises`.",
+            "It is a database trigger."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "promises",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `promises`.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 49,
+        "question": "Which built-in JavaScript object is most related to `promises`?",
+        "options": [
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct.",
+            "The SQLConnection object."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "promises",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 50,
+        "question": "Why do developers prefer `promises` over older techniques?",
+        "options": [
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "promises",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `promises` in this context."
+    },
+    {
+        "id": 51,
+        "question": "What is the main purpose of `async/await` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 52,
+        "question": "How does `async/await` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 53,
+        "question": "Which scenario is best suited for `async/await`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 54,
+        "question": "What is a common pitfall when using `async/await`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 55,
+        "question": "Can `async/await` be used in Node.js?",
+        "options": [
+            "No, it only works in the browser.",
+            "Yes, `async/await` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'Yes, `async/await` is valid in standard JavaScript environments including Node.js.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 56,
+        "question": "How does `async/await` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`async/await` is a key feature or concept in modern JavaScript.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "It is a CSS3 property."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "async/await",
+        "explanation": "The correct answer is '`async/await` is a key feature or concept in modern JavaScript.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 57,
+        "question": "What happens if you misuse `async/await`?",
+        "options": [
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The database drops all tables.",
+            "The HTML fails to render."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 58,
+        "question": "Is `async/await` synchronous or asynchronous?",
+        "options": [
+            "It depends on the specific implementation of `async/await`.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It is a database trigger."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `async/await`.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 59,
+        "question": "Which built-in JavaScript object is most related to `async/await`?",
+        "options": [
+            "It interacts well with standard JS objects and arrays.",
+            "The HTMLDivElement.",
+            "The SQLConnection object.",
+            "The C struct."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 60,
+        "question": "Why do developers prefer `async/await` over older techniques?",
+        "options": [
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It replaces the need for HTML.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "async/await",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `async/await` in this context."
+    },
+    {
+        "id": 61,
+        "question": "What is the main purpose of `closures` in JavaScript?",
+        "options": [
+            "To implement logic or manage data in applications.",
+            "To define CSS styles.",
+            "To structure HTML documents.",
+            "To query a SQL database."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "closures",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 62,
+        "question": "How does `closures` improve JavaScript code?",
+        "options": [
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By generating CSS automatically.",
+            "By converting HTML to C++."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "closures",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 63,
+        "question": "Which scenario is best suited for `closures`?",
+        "options": [
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema.",
+            "When allocating raw memory bytes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "closures",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 64,
+        "question": "What is a common pitfall when using `closures`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "Missing a closing HTML tag."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "closures",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 65,
+        "question": "Can `closures` be used in Node.js?",
+        "options": [
+            "Yes, `closures` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "closures",
+        "explanation": "The correct answer is 'Yes, `closures` is valid in standard JavaScript environments including Node.js.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 66,
+        "question": "How does `closures` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It is a CSS3 property.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "`closures` is a key feature or concept in modern JavaScript."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "closures",
+        "explanation": "The correct answer is '`closures` is a key feature or concept in modern JavaScript.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 67,
+        "question": "What happens if you misuse `closures`?",
+        "options": [
+            "The browser's CSS parser crashes.",
+            "The database drops all tables.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The HTML fails to render."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "closures",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 68,
+        "question": "Is `closures` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `closures`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "closures",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `closures`.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 69,
+        "question": "Which built-in JavaScript object is most related to `closures`?",
+        "options": [
+            "It interacts well with standard JS objects and arrays.",
+            "The HTMLDivElement.",
+            "The SQLConnection object.",
+            "The C struct."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "closures",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 70,
+        "question": "Why do developers prefer `closures` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "closures",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `closures` in this context."
+    },
+    {
+        "id": 71,
+        "question": "What is the main purpose of `callbacks` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents.",
+            "To define CSS styles."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 72,
+        "question": "How does `callbacks` improve JavaScript code?",
+        "options": [
+            "By making the code execute on the GPU.",
+            "By generating CSS automatically.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By converting HTML to C++."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 73,
+        "question": "Which scenario is best suited for `callbacks`?",
+        "options": [
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When allocating raw memory bytes.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 74,
+        "question": "What is a common pitfall when using `callbacks`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 75,
+        "question": "Can `callbacks` be used in Node.js?",
+        "options": [
+            "No, it requires a C compiler.",
+            "No, it only works in the browser.",
+            "Yes, `callbacks` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'Yes, `callbacks` is valid in standard JavaScript environments including Node.js.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 76,
+        "question": "How does `callbacks` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`callbacks` is a key feature or concept in modern JavaScript.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "It is a CSS3 property."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "callbacks",
+        "explanation": "The correct answer is '`callbacks` is a key feature or concept in modern JavaScript.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 77,
+        "question": "What happens if you misuse `callbacks`?",
+        "options": [
+            "The database drops all tables.",
+            "The HTML fails to render.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 78,
+        "question": "Is `callbacks` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `callbacks`."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `callbacks`.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 79,
+        "question": "Which built-in JavaScript object is most related to `callbacks`?",
+        "options": [
+            "The SQLConnection object.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct.",
+            "The HTMLDivElement."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 80,
+        "question": "Why do developers prefer `callbacks` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "callbacks",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `callbacks` in this context."
+    },
+    {
+        "id": 81,
+        "question": "What is the main purpose of `map` in JavaScript?",
+        "options": [
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents.",
+            "To query a SQL database."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "map",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 82,
+        "question": "How does `map` improve JavaScript code?",
+        "options": [
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "map",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 83,
+        "question": "Which scenario is best suited for `map`?",
+        "options": [
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When allocating raw memory bytes.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "map",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 84,
+        "question": "What is a common pitfall when using `map`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "map",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 85,
+        "question": "Can `map` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "Yes, `map` is valid in standard JavaScript environments including Node.js.",
+            "No, it requires a C compiler.",
+            "No, it only works in the browser."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "map",
+        "explanation": "The correct answer is 'Yes, `map` is valid in standard JavaScript environments including Node.js.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 86,
+        "question": "How does `map` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`map` is a key feature or concept in modern JavaScript.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "It is a CSS3 property."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "map",
+        "explanation": "The correct answer is '`map` is a key feature or concept in modern JavaScript.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 87,
+        "question": "What happens if you misuse `map`?",
+        "options": [
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The HTML fails to render."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "map",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 88,
+        "question": "Is `map` synchronous or asynchronous?",
+        "options": [
+            "It depends on the specific implementation of `map`.",
+            "It is always a CSS transition.",
+            "It always pauses the CPU.",
+            "It is a database trigger."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "map",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `map`.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 89,
+        "question": "Which built-in JavaScript object is most related to `map`?",
+        "options": [
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays.",
+            "The SQLConnection object.",
+            "The C struct."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "map",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 90,
+        "question": "Why do developers prefer `map` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "map",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `map` in this context."
+    },
+    {
+        "id": 91,
+        "question": "What is the main purpose of `filter` in JavaScript?",
+        "options": [
+            "To define CSS styles.",
+            "To structure HTML documents.",
+            "To implement logic or manage data in applications.",
+            "To query a SQL database."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "filter",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 92,
+        "question": "How does `filter` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By generating CSS automatically.",
+            "By converting HTML to C++."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "filter",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 93,
+        "question": "Which scenario is best suited for `filter`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When defining a database schema."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "filter",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 94,
+        "question": "What is a common pitfall when using `filter`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "filter",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 95,
+        "question": "Can `filter` be used in Node.js?",
+        "options": [
+            "Yes, `filter` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "filter",
+        "explanation": "The correct answer is 'Yes, `filter` is valid in standard JavaScript environments including Node.js.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 96,
+        "question": "How does `filter` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`filter` is a key feature or concept in modern JavaScript.",
+            "It was introduced in HTML5.",
+            "It was removed in ES6.",
+            "It is a CSS3 property."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "filter",
+        "explanation": "The correct answer is '`filter` is a key feature or concept in modern JavaScript.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 97,
+        "question": "What happens if you misuse `filter`?",
+        "options": [
+            "The database drops all tables.",
+            "The HTML fails to render.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The browser's CSS parser crashes."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "filter",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 98,
+        "question": "Is `filter` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `filter`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "filter",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `filter`.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 99,
+        "question": "Which built-in JavaScript object is most related to `filter`?",
+        "options": [
+            "The C struct.",
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "filter",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 100,
+        "question": "Why do developers prefer `filter` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "filter",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `filter` in this context."
+    },
+    {
+        "id": 101,
+        "question": "What is the main purpose of `reduce` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To structure HTML documents.",
+            "To define CSS styles.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 102,
+        "question": "How does `reduce` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By generating CSS automatically.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 103,
+        "question": "Which scenario is best suited for `reduce`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When defining a database schema.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 104,
+        "question": "What is a common pitfall when using `reduce`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 105,
+        "question": "Can `reduce` be used in Node.js?",
+        "options": [
+            "No, it only works in the browser.",
+            "Only in SQL Server.",
+            "Yes, `reduce` is valid in standard JavaScript environments including Node.js.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'Yes, `reduce` is valid in standard JavaScript environments including Node.js.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 106,
+        "question": "How does `reduce` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was introduced in HTML5.",
+            "It is a CSS3 property.",
+            "It was removed in ES6.",
+            "`reduce` is a key feature or concept in modern JavaScript."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "reduce",
+        "explanation": "The correct answer is '`reduce` is a key feature or concept in modern JavaScript.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 107,
+        "question": "What happens if you misuse `reduce`?",
+        "options": [
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The database drops all tables.",
+            "The HTML fails to render."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 108,
+        "question": "Is `reduce` synchronous or asynchronous?",
+        "options": [
+            "It always pauses the CPU.",
+            "It is a database trigger.",
+            "It depends on the specific implementation of `reduce`.",
+            "It is always a CSS transition."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `reduce`.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 109,
+        "question": "Which built-in JavaScript object is most related to `reduce`?",
+        "options": [
+            "The SQLConnection object.",
+            "The C struct.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 110,
+        "question": "Why do developers prefer `reduce` over older techniques?",
+        "options": [
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "reduce",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `reduce` in this context."
+    },
+    {
+        "id": 111,
+        "question": "What is the main purpose of `DOM manipulation` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To structure HTML documents."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 112,
+        "question": "How does `DOM manipulation` improve JavaScript code?",
+        "options": [
+            "By generating CSS automatically.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By converting HTML to C++."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 113,
+        "question": "Which scenario is best suited for `DOM manipulation`?",
+        "options": [
+            "When styling a webpage.",
+            "When defining a database schema.",
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 114,
+        "question": "What is a common pitfall when using `DOM manipulation`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 115,
+        "question": "Can `DOM manipulation` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "No, it only works in the browser.",
+            "Yes, `DOM manipulation` is valid in standard JavaScript environments including Node.js.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'Yes, `DOM manipulation` is valid in standard JavaScript environments including Node.js.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 116,
+        "question": "How does `DOM manipulation` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`DOM manipulation` is a key feature or concept in modern JavaScript.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5.",
+            "It is a CSS3 property."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is '`DOM manipulation` is a key feature or concept in modern JavaScript.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 117,
+        "question": "What happens if you misuse `DOM manipulation`?",
+        "options": [
+            "The HTML fails to render.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 118,
+        "question": "Is `DOM manipulation` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It depends on the specific implementation of `DOM manipulation`.",
+            "It is always a CSS transition.",
+            "It always pauses the CPU."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `DOM manipulation`.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 119,
+        "question": "Which built-in JavaScript object is most related to `DOM manipulation`?",
+        "options": [
+            "The C struct.",
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 120,
+        "question": "Why do developers prefer `DOM manipulation` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "DOM manipulation",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `DOM manipulation` in this context."
+    },
+    {
+        "id": 121,
+        "question": "What is the main purpose of `event listeners` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To structure HTML documents.",
+            "To implement logic or manage data in applications.",
+            "To define CSS styles."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 122,
+        "question": "How does `event listeners` improve JavaScript code?",
+        "options": [
+            "By generating CSS automatically.",
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 123,
+        "question": "Which scenario is best suited for `event listeners`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 124,
+        "question": "What is a common pitfall when using `event listeners`?",
+        "options": [
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 125,
+        "question": "Can `event listeners` be used in Node.js?",
+        "options": [
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Yes, `event listeners` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'Yes, `event listeners` is valid in standard JavaScript environments including Node.js.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 126,
+        "question": "How does `event listeners` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was removed in ES6.",
+            "`event listeners` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property.",
+            "It was introduced in HTML5."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "event listeners",
+        "explanation": "The correct answer is '`event listeners` is a key feature or concept in modern JavaScript.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 127,
+        "question": "What happens if you misuse `event listeners`?",
+        "options": [
+            "It can lead to runtime errors or unexpected behavior.",
+            "The browser's CSS parser crashes.",
+            "The database drops all tables.",
+            "The HTML fails to render."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 128,
+        "question": "Is `event listeners` synchronous or asynchronous?",
+        "options": [
+            "It depends on the specific implementation of `event listeners`.",
+            "It is always a CSS transition.",
+            "It always pauses the CPU.",
+            "It is a database trigger."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `event listeners`.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 129,
+        "question": "Which built-in JavaScript object is most related to `event listeners`?",
+        "options": [
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 130,
+        "question": "Why do developers prefer `event listeners` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "event listeners",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `event listeners` in this context."
+    },
+    {
+        "id": 131,
+        "question": "What is the main purpose of `hoisting` in JavaScript?",
+        "options": [
+            "To structure HTML documents.",
+            "To define CSS styles.",
+            "To query a SQL database.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 132,
+        "question": "How does `hoisting` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 133,
+        "question": "Which scenario is best suited for `hoisting`?",
+        "options": [
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When allocating raw memory bytes.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 134,
+        "question": "What is a common pitfall when using `hoisting`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 135,
+        "question": "Can `hoisting` be used in Node.js?",
+        "options": [
+            "No, it requires a C compiler.",
+            "No, it only works in the browser.",
+            "Yes, `hoisting` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'Yes, `hoisting` is valid in standard JavaScript environments including Node.js.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 136,
+        "question": "How does `hoisting` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was removed in ES6.",
+            "It is a CSS3 property.",
+            "`hoisting` is a key feature or concept in modern JavaScript.",
+            "It was introduced in HTML5."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "hoisting",
+        "explanation": "The correct answer is '`hoisting` is a key feature or concept in modern JavaScript.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 137,
+        "question": "What happens if you misuse `hoisting`?",
+        "options": [
+            "It can lead to runtime errors or unexpected behavior.",
+            "The browser's CSS parser crashes.",
+            "The database drops all tables.",
+            "The HTML fails to render."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 138,
+        "question": "Is `hoisting` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It depends on the specific implementation of `hoisting`.",
+            "It is always a CSS transition."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `hoisting`.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 139,
+        "question": "Which built-in JavaScript object is most related to `hoisting`?",
+        "options": [
+            "The SQLConnection object.",
+            "It interacts well with standard JS objects and arrays.",
+            "The C struct.",
+            "The HTMLDivElement."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 140,
+        "question": "Why do developers prefer `hoisting` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "hoisting",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `hoisting` in this context."
+    },
+    {
+        "id": 141,
+        "question": "What is the main purpose of `prototypes` in JavaScript?",
+        "options": [
+            "To structure HTML documents.",
+            "To define CSS styles.",
+            "To query a SQL database.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 142,
+        "question": "How does `prototypes` improve JavaScript code?",
+        "options": [
+            "By generating CSS automatically.",
+            "By converting HTML to C++.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 143,
+        "question": "Which scenario is best suited for `prototypes`?",
+        "options": [
+            "When styling a webpage.",
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When defining a database schema."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 144,
+        "question": "What is a common pitfall when using `prototypes`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "Missing a closing HTML tag."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 145,
+        "question": "Can `prototypes` be used in Node.js?",
+        "options": [
+            "Yes, `prototypes` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'Yes, `prototypes` is valid in standard JavaScript environments including Node.js.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 146,
+        "question": "How does `prototypes` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "`prototypes` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property.",
+            "It was removed in ES6.",
+            "It was introduced in HTML5."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "prototypes",
+        "explanation": "The correct answer is '`prototypes` is a key feature or concept in modern JavaScript.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 147,
+        "question": "What happens if you misuse `prototypes`?",
+        "options": [
+            "It can lead to runtime errors or unexpected behavior.",
+            "The browser's CSS parser crashes.",
+            "The database drops all tables.",
+            "The HTML fails to render."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 148,
+        "question": "Is `prototypes` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `prototypes`."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `prototypes`.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 149,
+        "question": "Which built-in JavaScript object is most related to `prototypes`?",
+        "options": [
+            "The SQLConnection object.",
+            "It interacts well with standard JS objects and arrays.",
+            "The HTMLDivElement.",
+            "The C struct."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 150,
+        "question": "Why do developers prefer `prototypes` over older techniques?",
+        "options": [
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "prototypes",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `prototypes` in this context."
+    },
+    {
+        "id": 151,
+        "question": "What is the main purpose of `classes` in JavaScript?",
+        "options": [
+            "To structure HTML documents.",
+            "To define CSS styles.",
+            "To query a SQL database.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "classes",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 152,
+        "question": "How does `classes` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "classes",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 153,
+        "question": "Which scenario is best suited for `classes`?",
+        "options": [
+            "When allocating raw memory bytes.",
+            "When defining a database schema.",
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "classes",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 154,
+        "question": "What is a common pitfall when using `classes`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "classes",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 155,
+        "question": "Can `classes` be used in Node.js?",
+        "options": [
+            "Only in SQL Server.",
+            "Yes, `classes` is valid in standard JavaScript environments including Node.js.",
+            "No, it requires a C compiler.",
+            "No, it only works in the browser."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "classes",
+        "explanation": "The correct answer is 'Yes, `classes` is valid in standard JavaScript environments including Node.js.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 156,
+        "question": "How does `classes` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It is a CSS3 property.",
+            "It was introduced in HTML5.",
+            "It was removed in ES6.",
+            "`classes` is a key feature or concept in modern JavaScript."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "classes",
+        "explanation": "The correct answer is '`classes` is a key feature or concept in modern JavaScript.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 157,
+        "question": "What happens if you misuse `classes`?",
+        "options": [
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The HTML fails to render.",
+            "The database drops all tables."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "classes",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 158,
+        "question": "Is `classes` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `classes`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "classes",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `classes`.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 159,
+        "question": "Which built-in JavaScript object is most related to `classes`?",
+        "options": [
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "The C struct.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "classes",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 160,
+        "question": "Why do developers prefer `classes` over older techniques?",
+        "options": [
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "classes",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `classes` in this context."
+    },
+    {
+        "id": 161,
+        "question": "What is the main purpose of `modules` in JavaScript?",
+        "options": [
+            "To implement logic or manage data in applications.",
+            "To define CSS styles.",
+            "To structure HTML documents.",
+            "To query a SQL database."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "modules",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 162,
+        "question": "How does `modules` improve JavaScript code?",
+        "options": [
+            "By converting HTML to C++.",
+            "By generating CSS automatically.",
+            "By making the code execute on the GPU.",
+            "By providing better patterns for writing clean and efficient code."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "modules",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 163,
+        "question": "Which scenario is best suited for `modules`?",
+        "options": [
+            "When defining a database schema.",
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "modules",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 164,
+        "question": "What is a common pitfall when using `modules`?",
+        "options": [
+            "Misunderstanding its asynchronous nature or scope.",
+            "Forgetting the CSS syntax.",
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "modules",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 165,
+        "question": "Can `modules` be used in Node.js?",
+        "options": [
+            "Yes, `modules` is valid in standard JavaScript environments including Node.js.",
+            "Only in SQL Server.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "modules",
+        "explanation": "The correct answer is 'Yes, `modules` is valid in standard JavaScript environments including Node.js.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 166,
+        "question": "How does `modules` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It was introduced in HTML5.",
+            "`modules` is a key feature or concept in modern JavaScript.",
+            "It is a CSS3 property.",
+            "It was removed in ES6."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "modules",
+        "explanation": "The correct answer is '`modules` is a key feature or concept in modern JavaScript.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 167,
+        "question": "What happens if you misuse `modules`?",
+        "options": [
+            "The HTML fails to render.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "modules",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 168,
+        "question": "Is `modules` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `modules`."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "modules",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `modules`.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 169,
+        "question": "Which built-in JavaScript object is most related to `modules`?",
+        "options": [
+            "The C struct.",
+            "The SQLConnection object.",
+            "It interacts well with standard JS objects and arrays.",
+            "The HTMLDivElement."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "modules",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 170,
+        "question": "Why do developers prefer `modules` over older techniques?",
+        "options": [
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "modules",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `modules` in this context."
+    },
+    {
+        "id": 171,
+        "question": "What is the main purpose of `fetch API` in JavaScript?",
+        "options": [
+            "To define CSS styles.",
+            "To implement logic or manage data in applications.",
+            "To query a SQL database.",
+            "To structure HTML documents."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 172,
+        "question": "How does `fetch API` improve JavaScript code?",
+        "options": [
+            "By making the code execute on the GPU.",
+            "By generating CSS automatically.",
+            "By converting HTML to C++.",
+            "By providing better patterns for writing clean and efficient code."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 173,
+        "question": "Which scenario is best suited for `fetch API`?",
+        "options": [
+            "When styling a webpage.",
+            "When solving specific programming logic or asynchronous tasks.",
+            "When allocating raw memory bytes.",
+            "When defining a database schema."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 174,
+        "question": "What is a common pitfall when using `fetch API`?",
+        "options": [
+            "SQL injection vulnerabilities.",
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 175,
+        "question": "Can `fetch API` be used in Node.js?",
+        "options": [
+            "No, it only works in the browser.",
+            "Only in SQL Server.",
+            "Yes, `fetch API` is valid in standard JavaScript environments including Node.js.",
+            "No, it requires a C compiler."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'Yes, `fetch API` is valid in standard JavaScript environments including Node.js.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 176,
+        "question": "How does `fetch API` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It is a CSS3 property.",
+            "It was introduced in HTML5.",
+            "It was removed in ES6.",
+            "`fetch API` is a key feature or concept in modern JavaScript."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "fetch API",
+        "explanation": "The correct answer is '`fetch API` is a key feature or concept in modern JavaScript.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 177,
+        "question": "What happens if you misuse `fetch API`?",
+        "options": [
+            "The HTML fails to render.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 178,
+        "question": "Is `fetch API` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It depends on the specific implementation of `fetch API`.",
+            "It is always a CSS transition."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `fetch API`.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 179,
+        "question": "Which built-in JavaScript object is most related to `fetch API`?",
+        "options": [
+            "The C struct.",
+            "It interacts well with standard JS objects and arrays.",
+            "The SQLConnection object.",
+            "The HTMLDivElement."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 180,
+        "question": "Why do developers prefer `fetch API` over older techniques?",
+        "options": [
+            "It offers cleaner syntax and better predictability.",
+            "It runs faster than C.",
+            "It prevents all CSS bugs.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "fetch API",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `fetch API` in this context."
+    },
+    {
+        "id": 181,
+        "question": "What is the main purpose of `JSON` in JavaScript?",
+        "options": [
+            "To define CSS styles.",
+            "To structure HTML documents.",
+            "To query a SQL database.",
+            "To implement logic or manage data in applications."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 182,
+        "question": "How does `JSON` improve JavaScript code?",
+        "options": [
+            "By making the code execute on the GPU.",
+            "By generating CSS automatically.",
+            "By providing better patterns for writing clean and efficient code.",
+            "By converting HTML to C++."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 183,
+        "question": "Which scenario is best suited for `JSON`?",
+        "options": [
+            "When solving specific programming logic or asynchronous tasks.",
+            "When styling a webpage.",
+            "When defining a database schema.",
+            "When allocating raw memory bytes."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 184,
+        "question": "What is a common pitfall when using `JSON`?",
+        "options": [
+            "Forgetting the CSS syntax.",
+            "Missing a closing HTML tag.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 185,
+        "question": "Can `JSON` be used in Node.js?",
+        "options": [
+            "Yes, `JSON` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'Yes, `JSON` is valid in standard JavaScript environments including Node.js.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 186,
+        "question": "How does `JSON` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It is a CSS3 property.",
+            "It was removed in ES6.",
+            "`JSON` is a key feature or concept in modern JavaScript.",
+            "It was introduced in HTML5."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "JSON",
+        "explanation": "The correct answer is '`JSON` is a key feature or concept in modern JavaScript.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 187,
+        "question": "What happens if you misuse `JSON`?",
+        "options": [
+            "The HTML fails to render.",
+            "The database drops all tables.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 188,
+        "question": "Is `JSON` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It always pauses the CPU.",
+            "It is always a CSS transition.",
+            "It depends on the specific implementation of `JSON`."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `JSON`.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 189,
+        "question": "Which built-in JavaScript object is most related to `JSON`?",
+        "options": [
+            "The SQLConnection object.",
+            "The C struct.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 190,
+        "question": "Why do developers prefer `JSON` over older techniques?",
+        "options": [
+            "It replaces the need for HTML.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It prevents all CSS bugs."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "JSON",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `JSON` in this context."
+    },
+    {
+        "id": 191,
+        "question": "What is the main purpose of `localStorage` in JavaScript?",
+        "options": [
+            "To query a SQL database.",
+            "To implement logic or manage data in applications.",
+            "To define CSS styles.",
+            "To structure HTML documents."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'To implement logic or manage data in applications.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 192,
+        "question": "How does `localStorage` improve JavaScript code?",
+        "options": [
+            "By providing better patterns for writing clean and efficient code.",
+            "By making the code execute on the GPU.",
+            "By converting HTML to C++.",
+            "By generating CSS automatically."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'By providing better patterns for writing clean and efficient code.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 193,
+        "question": "Which scenario is best suited for `localStorage`?",
+        "options": [
+            "When defining a database schema.",
+            "When styling a webpage.",
+            "When allocating raw memory bytes.",
+            "When solving specific programming logic or asynchronous tasks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'When solving specific programming logic or asynchronous tasks.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 194,
+        "question": "What is a common pitfall when using `localStorage`?",
+        "options": [
+            "Missing a closing HTML tag.",
+            "Forgetting the CSS syntax.",
+            "Misunderstanding its asynchronous nature or scope.",
+            "SQL injection vulnerabilities."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'Misunderstanding its asynchronous nature or scope.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 195,
+        "question": "Can `localStorage` be used in Node.js?",
+        "options": [
+            "Yes, `localStorage` is valid in standard JavaScript environments including Node.js.",
+            "No, it only works in the browser.",
+            "No, it requires a C compiler.",
+            "Only in SQL Server."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'Yes, `localStorage` is valid in standard JavaScript environments including Node.js.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 196,
+        "question": "How does `localStorage` relate to ES6 (ECMAScript 2015) and beyond?",
+        "options": [
+            "It is a CSS3 property.",
+            "It was introduced in HTML5.",
+            "It was removed in ES6.",
+            "`localStorage` is a key feature or concept in modern JavaScript."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "localStorage",
+        "explanation": "The correct answer is '`localStorage` is a key feature or concept in modern JavaScript.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 197,
+        "question": "What happens if you misuse `localStorage`?",
+        "options": [
+            "The HTML fails to render.",
+            "The browser's CSS parser crashes.",
+            "It can lead to runtime errors or unexpected behavior.",
+            "The database drops all tables."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'It can lead to runtime errors or unexpected behavior.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 198,
+        "question": "Is `localStorage` synchronous or asynchronous?",
+        "options": [
+            "It is a database trigger.",
+            "It depends on the specific implementation of `localStorage`.",
+            "It is always a CSS transition.",
+            "It always pauses the CPU."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'It depends on the specific implementation of `localStorage`.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 199,
+        "question": "Which built-in JavaScript object is most related to `localStorage`?",
+        "options": [
+            "The C struct.",
+            "The SQLConnection object.",
+            "The HTMLDivElement.",
+            "It interacts well with standard JS objects and arrays."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'It interacts well with standard JS objects and arrays.' because it accurately describes `localStorage` in this context."
+    },
+    {
+        "id": 200,
+        "question": "Why do developers prefer `localStorage` over older techniques?",
+        "options": [
+            "It prevents all CSS bugs.",
+            "It runs faster than C.",
+            "It offers cleaner syntax and better predictability.",
+            "It replaces the need for HTML."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "localStorage",
+        "explanation": "The correct answer is 'It offers cleaner syntax and better predictability.' because it accurately describes `localStorage` in this context."
+    }
+]

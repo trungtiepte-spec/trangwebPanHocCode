@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules/
+react-project/node_modules/
+
+# Production / Build
+dist/
+react-project/dist/
+
+# OS/IDE files
+.DS_Store
+.vscode/
+.idea/
+.agent/
+antigravity-ide/

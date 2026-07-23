@@ -1,0 +1,2802 @@
+[
+    {
+        "id": 1,
+        "question": "What is the main purpose of using `SELECT` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 2,
+        "question": "How does `SELECT` affect database performance?",
+        "options": [
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 3,
+        "question": "Where is `SELECT` typically placed in a SQL query?",
+        "options": [
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag.",
+            "Inside a C `main()` function.",
+            "According to the strict SQL syntax order of operations."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 4,
+        "question": "Can `SELECT` be used to modify data?",
+        "options": [
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data.",
+            "No, it's strictly for UI."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 5,
+        "question": "What is a common error associated with `SELECT`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 6,
+        "question": "How does `SELECT` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It manages application state."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 7,
+        "question": "Is `SELECT` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property.",
+            "No, it's a C standard library function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 8,
+        "question": "What is the best practice when writing `SELECT`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 9,
+        "question": "Can `SELECT` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `SELECT` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'Yes, `SELECT` is commonly part of procedural SQL logic.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 10,
+        "question": "How does `SELECT` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It sets them to 0 in CSS.",
+            "It throws a React error."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "SELECT",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `SELECT` in this context."
+    },
+    {
+        "id": 11,
+        "question": "What is the main purpose of using `JOIN` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 12,
+        "question": "How does `JOIN` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 13,
+        "question": "Where is `JOIN` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 14,
+        "question": "Can `JOIN` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 15,
+        "question": "What is a common error associated with `JOIN`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 16,
+        "question": "How does `JOIN` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It manages application state.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 17,
+        "question": "Is `JOIN` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "No, it's a C standard library function.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 18,
+        "question": "What is the best practice when writing `JOIN`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS.",
+            "Using global variables in JS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 19,
+        "question": "Can `JOIN` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `JOIN` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'Yes, `JOIN` is commonly part of procedural SQL logic.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 20,
+        "question": "How does `JOIN` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It sets them to 0 in CSS.",
+            "It throws a React error."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "JOIN",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `JOIN` in this context."
+    },
+    {
+        "id": 21,
+        "question": "What is the main purpose of using `GROUP BY` in SQL Server?",
+        "options": [
+            "To allocate memory in C.",
+            "To query, manipulate, or structure database data.",
+            "To render a web page.",
+            "To create a React component."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 22,
+        "question": "How does `GROUP BY` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 23,
+        "question": "Where is `GROUP BY` typically placed in a SQL query?",
+        "options": [
+            "Inside a C `main()` function.",
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag.",
+            "According to the strict SQL syntax order of operations."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 24,
+        "question": "Can `GROUP BY` be used to modify data?",
+        "options": [
+            "Depending on the command, it reads or modifies data.",
+            "No, it's strictly for UI.",
+            "Yes, it modifies HTML.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 25,
+        "question": "What is a common error associated with `GROUP BY`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 26,
+        "question": "How does `GROUP BY` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It manages application state.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 27,
+        "question": "Is `GROUP BY` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property.",
+            "No, it's a C standard library function."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 28,
+        "question": "What is the best practice when writing `GROUP BY`?",
+        "options": [
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using `goto` statements in C.",
+            "Using global variables in JS."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 29,
+        "question": "Can `GROUP BY` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `GROUP BY` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'Yes, `GROUP BY` is commonly part of procedural SQL logic.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 30,
+        "question": "How does `GROUP BY` handle NULL values?",
+        "options": [
+            "It throws a React error.",
+            "It sets them to 0 in CSS.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "GROUP BY",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `GROUP BY` in this context."
+    },
+    {
+        "id": 31,
+        "question": "What is the main purpose of using `ORDER BY` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To allocate memory in C."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 32,
+        "question": "How does `ORDER BY` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 33,
+        "question": "Where is `ORDER BY` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 34,
+        "question": "Can `ORDER BY` be used to modify data?",
+        "options": [
+            "Depending on the command, it reads or modifies data.",
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 35,
+        "question": "What is a common error associated with `ORDER BY`?",
+        "options": [
+            "Dangling pointer.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 36,
+        "question": "How does `ORDER BY` relate to database normalization?",
+        "options": [
+            "It manages application state.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships.",
+            "It compiles C code."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 37,
+        "question": "Is `ORDER BY` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "No, it's a C standard library function.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 38,
+        "question": "What is the best practice when writing `ORDER BY`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Writing inline CSS.",
+            "Using global variables in JS.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 39,
+        "question": "Can `ORDER BY` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Yes, `ORDER BY` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'Yes, `ORDER BY` is commonly part of procedural SQL logic.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 40,
+        "question": "How does `ORDER BY` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It throws a React error.",
+            "It converts them to undefined in JS.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "ORDER BY",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `ORDER BY` in this context."
+    },
+    {
+        "id": 41,
+        "question": "What is the main purpose of using `HAVING` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 42,
+        "question": "How does `HAVING` affect database performance?",
+        "options": [
+            "It makes the CSS load faster.",
+            "It prevents C segmentation faults.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 43,
+        "question": "Where is `HAVING` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 44,
+        "question": "Can `HAVING` be used to modify data?",
+        "options": [
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 45,
+        "question": "What is a common error associated with `HAVING`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Infinite loop in a Hook.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 46,
+        "question": "How does `HAVING` relate to database normalization?",
+        "options": [
+            "It creates responsive layouts.",
+            "It compiles C code.",
+            "It helps enforce or utilize structured data relationships.",
+            "It manages application state."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 47,
+        "question": "Is `HAVING` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 48,
+        "question": "What is the best practice when writing `HAVING`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using global variables in JS.",
+            "Writing inline CSS."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 49,
+        "question": "Can `HAVING` be used within a Stored Procedure?",
+        "options": [
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Yes, `HAVING` is commonly part of procedural SQL logic.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'Yes, `HAVING` is commonly part of procedural SQL logic.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 50,
+        "question": "How does `HAVING` handle NULL values?",
+        "options": [
+            "It sets them to 0 in CSS.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It throws a React error."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "HAVING",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `HAVING` in this context."
+    },
+    {
+        "id": 51,
+        "question": "What is the main purpose of using `WHERE` in SQL Server?",
+        "options": [
+            "To allocate memory in C.",
+            "To create a React component.",
+            "To query, manipulate, or structure database data.",
+            "To render a web page."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 52,
+        "question": "How does `WHERE` affect database performance?",
+        "options": [
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 53,
+        "question": "Where is `WHERE` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 54,
+        "question": "Can `WHERE` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 55,
+        "question": "What is a common error associated with `WHERE`?",
+        "options": [
+            "Dangling pointer.",
+            "Infinite loop in a Hook.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 56,
+        "question": "How does `WHERE` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It manages application state.",
+            "It compiles C code."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 57,
+        "question": "Is `WHERE` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "Yes, it only works in React."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 58,
+        "question": "What is the best practice when writing `WHERE`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS.",
+            "Using `goto` statements in C.",
+            "Using global variables in JS."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 59,
+        "question": "Can `WHERE` be used within a Stored Procedure?",
+        "options": [
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Only if compiled with GCC.",
+            "Yes, `WHERE` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'Yes, `WHERE` is commonly part of procedural SQL logic.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 60,
+        "question": "How does `WHERE` handle NULL values?",
+        "options": [
+            "It throws a React error.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "WHERE",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `WHERE` in this context."
+    },
+    {
+        "id": 61,
+        "question": "What is the main purpose of using `INSERT` in SQL Server?",
+        "options": [
+            "To render a web page.",
+            "To allocate memory in C.",
+            "To query, manipulate, or structure database data.",
+            "To create a React component."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 62,
+        "question": "How does `INSERT` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 63,
+        "question": "Where is `INSERT` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 64,
+        "question": "Can `INSERT` be used to modify data?",
+        "options": [
+            "Yes, it alters CSS styles.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 65,
+        "question": "What is a common error associated with `INSERT`?",
+        "options": [
+            "Dangling pointer.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 66,
+        "question": "How does `INSERT` relate to database normalization?",
+        "options": [
+            "It manages application state.",
+            "It compiles C code.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 67,
+        "question": "Is `INSERT` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 68,
+        "question": "What is the best practice when writing `INSERT`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS.",
+            "Using global variables in JS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 69,
+        "question": "Can `INSERT` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `INSERT` is commonly part of procedural SQL logic.",
+            "Only if compiled with GCC.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'Yes, `INSERT` is commonly part of procedural SQL logic.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 70,
+        "question": "How does `INSERT` handle NULL values?",
+        "options": [
+            "It sets them to 0 in CSS.",
+            "It throws a React error.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "INSERT",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `INSERT` in this context."
+    },
+    {
+        "id": 71,
+        "question": "What is the main purpose of using `UPDATE` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To render a web page.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 72,
+        "question": "How does `UPDATE` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 73,
+        "question": "Where is `UPDATE` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 74,
+        "question": "Can `UPDATE` be used to modify data?",
+        "options": [
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML.",
+            "Yes, it alters CSS styles.",
+            "No, it's strictly for UI."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 75,
+        "question": "What is a common error associated with `UPDATE`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Dangling pointer.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 76,
+        "question": "How does `UPDATE` relate to database normalization?",
+        "options": [
+            "It manages application state.",
+            "It helps enforce or utilize structured data relationships.",
+            "It compiles C code.",
+            "It creates responsive layouts."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 77,
+        "question": "Is `UPDATE` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Yes, it only works in React.",
+            "No, it's a C standard library function.",
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "No, it's a CSS property."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 78,
+        "question": "What is the best practice when writing `UPDATE`?",
+        "options": [
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using global variables in JS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 79,
+        "question": "Can `UPDATE` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `UPDATE` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'Yes, `UPDATE` is commonly part of procedural SQL logic.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 80,
+        "question": "How does `UPDATE` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It throws a React error.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "UPDATE",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `UPDATE` in this context."
+    },
+    {
+        "id": 81,
+        "question": "What is the main purpose of using `DELETE` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To allocate memory in C."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 82,
+        "question": "How does `DELETE` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 83,
+        "question": "Where is `DELETE` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 84,
+        "question": "Can `DELETE` be used to modify data?",
+        "options": [
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it alters CSS styles.",
+            "No, it's strictly for UI."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 85,
+        "question": "What is a common error associated with `DELETE`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 86,
+        "question": "How does `DELETE` relate to database normalization?",
+        "options": [
+            "It creates responsive layouts.",
+            "It compiles C code.",
+            "It helps enforce or utilize structured data relationships.",
+            "It manages application state."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 87,
+        "question": "Is `DELETE` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 88,
+        "question": "What is the best practice when writing `DELETE`?",
+        "options": [
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Using `goto` statements in C.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 89,
+        "question": "Can `DELETE` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `DELETE` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'Yes, `DELETE` is commonly part of procedural SQL logic.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 90,
+        "question": "How does `DELETE` handle NULL values?",
+        "options": [
+            "It converts them to undefined in JS.",
+            "It throws a React error.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "DELETE",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `DELETE` in this context."
+    },
+    {
+        "id": 91,
+        "question": "What is the main purpose of using `Stored Procedures` in SQL Server?",
+        "options": [
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To create a React component."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 92,
+        "question": "How does `Stored Procedures` affect database performance?",
+        "options": [
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 93,
+        "question": "Where is `Stored Procedures` typically placed in a SQL query?",
+        "options": [
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag.",
+            "Inside a C `main()` function.",
+            "According to the strict SQL syntax order of operations."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 94,
+        "question": "Can `Stored Procedures` be used to modify data?",
+        "options": [
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 95,
+        "question": "What is a common error associated with `Stored Procedures`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 96,
+        "question": "How does `Stored Procedures` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It manages application state.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 97,
+        "question": "Is `Stored Procedures` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property.",
+            "No, it's a C standard library function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 98,
+        "question": "What is the best practice when writing `Stored Procedures`?",
+        "options": [
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Using `goto` statements in C.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 99,
+        "question": "Can `Stored Procedures` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `Stored Procedures` is commonly part of procedural SQL logic.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'Yes, `Stored Procedures` is commonly part of procedural SQL logic.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 100,
+        "question": "How does `Stored Procedures` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It throws a React error.",
+            "It sets them to 0 in CSS.",
+            "It converts them to undefined in JS."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Stored Procedures",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Stored Procedures` in this context."
+    },
+    {
+        "id": 101,
+        "question": "What is the main purpose of using `Triggers` in SQL Server?",
+        "options": [
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 102,
+        "question": "How does `Triggers` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 103,
+        "question": "Where is `Triggers` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 104,
+        "question": "Can `Triggers` be used to modify data?",
+        "options": [
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 105,
+        "question": "What is a common error associated with `Triggers`?",
+        "options": [
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Infinite loop in a Hook.",
+            "Dangling pointer."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 106,
+        "question": "How does `Triggers` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It manages application state.",
+            "It compiles C code.",
+            "It creates responsive layouts."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 107,
+        "question": "Is `Triggers` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Yes, it only works in React.",
+            "No, it's a C standard library function.",
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "No, it's a CSS property."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 108,
+        "question": "What is the best practice when writing `Triggers`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 109,
+        "question": "Can `Triggers` be used within a Stored Procedure?",
+        "options": [
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC.",
+            "Yes, `Triggers` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'Yes, `Triggers` is commonly part of procedural SQL logic.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 110,
+        "question": "How does `Triggers` handle NULL values?",
+        "options": [
+            "It throws a React error.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Triggers",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Triggers` in this context."
+    },
+    {
+        "id": 111,
+        "question": "What is the main purpose of using `Views` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To render a web page.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Views",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 112,
+        "question": "How does `Views` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 113,
+        "question": "Where is `Views` typically placed in a SQL query?",
+        "options": [
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag.",
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Views",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 114,
+        "question": "Can `Views` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 115,
+        "question": "What is a common error associated with `Views`?",
+        "options": [
+            "Missing a closing `</div>`.",
+            "Dangling pointer.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 116,
+        "question": "How does `Views` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It manages application state.",
+            "It compiles C code."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Views",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 117,
+        "question": "Is `Views` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "No, it's a C standard library function.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 118,
+        "question": "What is the best practice when writing `Views`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 119,
+        "question": "Can `Views` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `Views` is commonly part of procedural SQL logic.",
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC.",
+            "No, it requires an HTML form."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Views",
+        "explanation": "The correct answer is 'Yes, `Views` is commonly part of procedural SQL logic.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 120,
+        "question": "How does `Views` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It sets them to 0 in CSS.",
+            "It throws a React error.",
+            "It converts them to undefined in JS."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Views",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Views` in this context."
+    },
+    {
+        "id": 121,
+        "question": "What is the main purpose of using `Indexes` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To create a React component.",
+            "To render a web page.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 122,
+        "question": "How does `Indexes` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 123,
+        "question": "Where is `Indexes` typically placed in a SQL query?",
+        "options": [
+            "Inside a C `main()` function.",
+            "Inside a React `useEffect`.",
+            "Inside the `<head>` tag.",
+            "According to the strict SQL syntax order of operations."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 124,
+        "question": "Can `Indexes` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 125,
+        "question": "What is a common error associated with `Indexes`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Dangling pointer.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 126,
+        "question": "How does `Indexes` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It compiles C code.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 127,
+        "question": "Is `Indexes` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 128,
+        "question": "What is the best practice when writing `Indexes`?",
+        "options": [
+            "Using global variables in JS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using `goto` statements in C.",
+            "Writing inline CSS."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 129,
+        "question": "Can `Indexes` be used within a Stored Procedure?",
+        "options": [
+            "No, it only runs in the browser.",
+            "Only if compiled with GCC.",
+            "No, it requires an HTML form.",
+            "Yes, `Indexes` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'Yes, `Indexes` is commonly part of procedural SQL logic.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 130,
+        "question": "How does `Indexes` handle NULL values?",
+        "options": [
+            "It sets them to 0 in CSS.",
+            "It throws a React error.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Indexes",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Indexes` in this context."
+    },
+    {
+        "id": 131,
+        "question": "What is the main purpose of using `Primary Keys` in SQL Server?",
+        "options": [
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To create a React component."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 132,
+        "question": "How does `Primary Keys` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 133,
+        "question": "Where is `Primary Keys` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 134,
+        "question": "Can `Primary Keys` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 135,
+        "question": "What is a common error associated with `Primary Keys`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Infinite loop in a Hook.",
+            "Dangling pointer."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 136,
+        "question": "How does `Primary Keys` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It manages application state."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 137,
+        "question": "Is `Primary Keys` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "No, it's a C standard library function.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 138,
+        "question": "What is the best practice when writing `Primary Keys`?",
+        "options": [
+            "Using `goto` statements in C.",
+            "Using global variables in JS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 139,
+        "question": "Can `Primary Keys` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Yes, `Primary Keys` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'Yes, `Primary Keys` is commonly part of procedural SQL logic.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 140,
+        "question": "How does `Primary Keys` handle NULL values?",
+        "options": [
+            "It throws a React error.",
+            "It sets them to 0 in CSS.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Primary Keys",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Primary Keys` in this context."
+    },
+    {
+        "id": 141,
+        "question": "What is the main purpose of using `Foreign Keys` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To render a web page.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 142,
+        "question": "How does `Foreign Keys` affect database performance?",
+        "options": [
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 143,
+        "question": "Where is `Foreign Keys` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 144,
+        "question": "Can `Foreign Keys` be used to modify data?",
+        "options": [
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 145,
+        "question": "What is a common error associated with `Foreign Keys`?",
+        "options": [
+            "Dangling pointer.",
+            "Infinite loop in a Hook.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 146,
+        "question": "How does `Foreign Keys` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It compiles C code.",
+            "It creates responsive layouts.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 147,
+        "question": "Is `Foreign Keys` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a CSS property.",
+            "No, it's a C standard library function.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 148,
+        "question": "What is the best practice when writing `Foreign Keys`?",
+        "options": [
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 149,
+        "question": "Can `Foreign Keys` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it requires an HTML form.",
+            "Yes, `Foreign Keys` is commonly part of procedural SQL logic.",
+            "No, it only runs in the browser."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'Yes, `Foreign Keys` is commonly part of procedural SQL logic.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 150,
+        "question": "How does `Foreign Keys` handle NULL values?",
+        "options": [
+            "It sets them to 0 in CSS.",
+            "It throws a React error.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Foreign Keys",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Foreign Keys` in this context."
+    },
+    {
+        "id": 151,
+        "question": "What is the main purpose of using `Transactions` in SQL Server?",
+        "options": [
+            "To render a web page.",
+            "To query, manipulate, or structure database data.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 1,
+        "level": "medium",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 152,
+        "question": "How does `Transactions` affect database performance?",
+        "options": [
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 153,
+        "question": "Where is `Transactions` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 154,
+        "question": "Can `Transactions` be used to modify data?",
+        "options": [
+            "Yes, it modifies HTML.",
+            "No, it's strictly for UI.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 155,
+        "question": "What is a common error associated with `Transactions`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Infinite loop in a Hook.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 156,
+        "question": "How does `Transactions` relate to database normalization?",
+        "options": [
+            "It compiles C code.",
+            "It manages application state.",
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 157,
+        "question": "Is `Transactions` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 158,
+        "question": "What is the best practice when writing `Transactions`?",
+        "options": [
+            "Using global variables in JS.",
+            "Using `goto` statements in C.",
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 159,
+        "question": "Can `Transactions` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Yes, `Transactions` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'Yes, `Transactions` is commonly part of procedural SQL logic.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 160,
+        "question": "How does `Transactions` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It converts them to undefined in JS.",
+            "It sets them to 0 in CSS.",
+            "It throws a React error."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Transactions",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Transactions` in this context."
+    },
+    {
+        "id": 161,
+        "question": "What is the main purpose of using `Normalization` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To create a React component.",
+            "To render a web page.",
+            "To allocate memory in C."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 162,
+        "question": "How does `Normalization` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 163,
+        "question": "Where is `Normalization` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 164,
+        "question": "Can `Normalization` be used to modify data?",
+        "options": [
+            "Yes, it alters CSS styles.",
+            "Depending on the command, it reads or modifies data.",
+            "No, it's strictly for UI.",
+            "Yes, it modifies HTML."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 165,
+        "question": "What is a common error associated with `Normalization`?",
+        "options": [
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 2,
+        "level": "easy",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 166,
+        "question": "How does `Normalization` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It compiles C code.",
+            "It creates responsive layouts.",
+            "It manages application state."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 167,
+        "question": "Is `Normalization` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Yes, it only works in React.",
+            "No, it's a CSS property.",
+            "No, it's a C standard library function.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 168,
+        "question": "What is the best practice when writing `Normalization`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS.",
+            "Using global variables in JS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 169,
+        "question": "Can `Normalization` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `Normalization` is commonly part of procedural SQL logic.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Only if compiled with GCC."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'Yes, `Normalization` is commonly part of procedural SQL logic.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 170,
+        "question": "How does `Normalization` handle NULL values?",
+        "options": [
+            "It sets them to 0 in CSS.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It throws a React error."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Normalization",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Normalization` in this context."
+    },
+    {
+        "id": 171,
+        "question": "What is the main purpose of using `Subqueries` in SQL Server?",
+        "options": [
+            "To create a React component.",
+            "To allocate memory in C.",
+            "To render a web page.",
+            "To query, manipulate, or structure database data."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 172,
+        "question": "How does `Subqueries` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents JavaScript errors.",
+            "It prevents C segmentation faults."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 173,
+        "question": "Where is `Subqueries` typically placed in a SQL query?",
+        "options": [
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`.",
+            "Inside a C `main()` function."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 174,
+        "question": "Can `Subqueries` be used to modify data?",
+        "options": [
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data.",
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 175,
+        "question": "What is a common error associated with `Subqueries`?",
+        "options": [
+            "Syntax errors or logical errors in data retrieval.",
+            "Dangling pointer.",
+            "Missing a closing `</div>`.",
+            "Infinite loop in a Hook."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 176,
+        "question": "How does `Subqueries` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It compiles C code.",
+            "It manages application state.",
+            "It creates responsive layouts."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 177,
+        "question": "Is `Subqueries` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property.",
+            "No, it's a C standard library function."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 178,
+        "question": "What is the best practice when writing `Subqueries`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using global variables in JS.",
+            "Writing inline CSS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 179,
+        "question": "Can `Subqueries` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it only runs in the browser.",
+            "No, it requires an HTML form.",
+            "Yes, `Subqueries` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'Yes, `Subqueries` is commonly part of procedural SQL logic.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 180,
+        "question": "How does `Subqueries` handle NULL values?",
+        "options": [
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It sets them to 0 in CSS.",
+            "It converts them to undefined in JS.",
+            "It throws a React error."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Subqueries",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Subqueries` in this context."
+    },
+    {
+        "id": 181,
+        "question": "What is the main purpose of using `CTEs` in SQL Server?",
+        "options": [
+            "To render a web page.",
+            "To create a React component.",
+            "To query, manipulate, or structure database data.",
+            "To allocate memory in C."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 182,
+        "question": "How does `CTEs` affect database performance?",
+        "options": [
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors.",
+            "It makes the CSS load faster.",
+            "Proper use optimizes queries; improper use causes slow execution."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 183,
+        "question": "Where is `CTEs` typically placed in a SQL query?",
+        "options": [
+            "Inside a C `main()` function.",
+            "According to the strict SQL syntax order of operations.",
+            "Inside the `<head>` tag.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 184,
+        "question": "Can `CTEs` be used to modify data?",
+        "options": [
+            "No, it's strictly for UI.",
+            "Yes, it alters CSS styles.",
+            "Yes, it modifies HTML.",
+            "Depending on the command, it reads or modifies data."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 185,
+        "question": "What is a common error associated with `CTEs`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Syntax errors or logical errors in data retrieval.",
+            "Missing a closing `</div>`.",
+            "Dangling pointer."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 186,
+        "question": "How does `CTEs` relate to database normalization?",
+        "options": [
+            "It creates responsive layouts.",
+            "It helps enforce or utilize structured data relationships.",
+            "It manages application state.",
+            "It compiles C code."
+        ],
+        "answer": 1,
+        "level": "easy",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 187,
+        "question": "Is `CTEs` specific to SQL Server (T-SQL)?",
+        "options": [
+            "Many are standard SQL, but some syntax is T-SQL specific.",
+            "No, it's a C standard library function.",
+            "Yes, it only works in React.",
+            "No, it's a CSS property."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 188,
+        "question": "What is the best practice when writing `CTEs`?",
+        "options": [
+            "Writing inline CSS.",
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Using `goto` statements in C.",
+            "Using global variables in JS."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 189,
+        "question": "Can `CTEs` be used within a Stored Procedure?",
+        "options": [
+            "Only if compiled with GCC.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser.",
+            "Yes, `CTEs` is commonly part of procedural SQL logic."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'Yes, `CTEs` is commonly part of procedural SQL logic.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 190,
+        "question": "How does `CTEs` handle NULL values?",
+        "options": [
+            "It throws a React error.",
+            "It sets them to 0 in CSS.",
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation."
+        ],
+        "answer": 3,
+        "level": "medium",
+        "topic": "CTEs",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `CTEs` in this context."
+    },
+    {
+        "id": 191,
+        "question": "What is the main purpose of using `Functions` in SQL Server?",
+        "options": [
+            "To query, manipulate, or structure database data.",
+            "To render a web page.",
+            "To allocate memory in C.",
+            "To create a React component."
+        ],
+        "answer": 0,
+        "level": "hard",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'To query, manipulate, or structure database data.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 192,
+        "question": "How does `Functions` affect database performance?",
+        "options": [
+            "Proper use optimizes queries; improper use causes slow execution.",
+            "It makes the CSS load faster.",
+            "It prevents C segmentation faults.",
+            "It prevents JavaScript errors."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Proper use optimizes queries; improper use causes slow execution.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 193,
+        "question": "Where is `Functions` typically placed in a SQL query?",
+        "options": [
+            "Inside a C `main()` function.",
+            "Inside the `<head>` tag.",
+            "According to the strict SQL syntax order of operations.",
+            "Inside a React `useEffect`."
+        ],
+        "answer": 2,
+        "level": "medium",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'According to the strict SQL syntax order of operations.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 194,
+        "question": "Can `Functions` be used to modify data?",
+        "options": [
+            "Yes, it alters CSS styles.",
+            "No, it's strictly for UI.",
+            "Depending on the command, it reads or modifies data.",
+            "Yes, it modifies HTML."
+        ],
+        "answer": 2,
+        "level": "hard",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Depending on the command, it reads or modifies data.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 195,
+        "question": "What is a common error associated with `Functions`?",
+        "options": [
+            "Infinite loop in a Hook.",
+            "Missing a closing `</div>`.",
+            "Dangling pointer.",
+            "Syntax errors or logical errors in data retrieval."
+        ],
+        "answer": 3,
+        "level": "easy",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Syntax errors or logical errors in data retrieval.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 196,
+        "question": "How does `Functions` relate to database normalization?",
+        "options": [
+            "It helps enforce or utilize structured data relationships.",
+            "It creates responsive layouts.",
+            "It manages application state.",
+            "It compiles C code."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'It helps enforce or utilize structured data relationships.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 197,
+        "question": "Is `Functions` specific to SQL Server (T-SQL)?",
+        "options": [
+            "No, it's a C standard library function.",
+            "No, it's a CSS property.",
+            "Yes, it only works in React.",
+            "Many are standard SQL, but some syntax is T-SQL specific."
+        ],
+        "answer": 3,
+        "level": "hard",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Many are standard SQL, but some syntax is T-SQL specific.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 198,
+        "question": "What is the best practice when writing `Functions`?",
+        "options": [
+            "Ensuring clarity, efficiency, and avoiding locks.",
+            "Writing inline CSS.",
+            "Using global variables in JS.",
+            "Using `goto` statements in C."
+        ],
+        "answer": 0,
+        "level": "easy",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Ensuring clarity, efficiency, and avoiding locks.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 199,
+        "question": "Can `Functions` be used within a Stored Procedure?",
+        "options": [
+            "Yes, `Functions` is commonly part of procedural SQL logic.",
+            "Only if compiled with GCC.",
+            "No, it requires an HTML form.",
+            "No, it only runs in the browser."
+        ],
+        "answer": 0,
+        "level": "medium",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'Yes, `Functions` is commonly part of procedural SQL logic.' because it accurately describes `Functions` in this context."
+    },
+    {
+        "id": 200,
+        "question": "How does `Functions` handle NULL values?",
+        "options": [
+            "It converts them to undefined in JS.",
+            "SQL handles NULLs in specific ways depending on the operation.",
+            "It throws a React error.",
+            "It sets them to 0 in CSS."
+        ],
+        "answer": 1,
+        "level": "hard",
+        "topic": "Functions",
+        "explanation": "The correct answer is 'SQL handles NULLs in specific ways depending on the operation.' because it accurately describes `Functions` in this context."
+    }
+]
