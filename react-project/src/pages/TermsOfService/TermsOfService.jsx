@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import SakuraBackground from '../../components/SakuraBackground';
 import './TermsOfService.css';
 
 const LAST_UPDATED = 'July 21, 2026';
@@ -226,11 +227,12 @@ export default function TermsOfService() {
 
     return (
         <div className="tos-page">
+            <SakuraBackground intensity="medium" />
             {/* Hero */}
             <div className="tos-hero">
-                <h1>Terms of Service</h1>
+                <h1>Terms of Service 🌸</h1>
                 <p>Please read these terms carefully before using Pan Học Code.</p>
-                <span className="tos-badge">
+                <span className="tos-updated-badge">
                     <span className="material-symbols-outlined" style={{ fontSize: 15 }}>event</span>
                     Last Updated: {LAST_UPDATED}
                 </span>

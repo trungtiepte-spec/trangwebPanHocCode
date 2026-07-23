@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import SakuraBackground from '../../components/SakuraBackground';
 import './PrivacyPolicy.css';
 
 const LAST_UPDATED = 'July 21, 2026';
@@ -253,9 +254,10 @@ export default function PrivacyPolicy() {
 
     return (
         <div className="pp-page">
+            <SakuraBackground intensity="medium" />
             {/* Hero Banner */}
             <div className="pp-hero">
-                <h1>Privacy Policy</h1>
+                <h1>Privacy Policy 🌸</h1>
                 <p>How we collect, use, and protect your information on Pan Học Code.</p>
                 <span className="pp-updated-badge">
                     <span className="material-symbols-outlined" style={{ fontSize: 15 }}>event</span>

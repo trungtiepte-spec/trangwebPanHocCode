@@ -120,8 +120,9 @@ export default function MainLayout() {
                 <div className="flex flex-wrap justify-center gap-xl relative z-10">
                     <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/privacy">Privacy Policy</Link>
                     <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/terms">Terms of Service</Link>
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/accessibility">Accessibility</Link>
                     <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/help-center">Help Center</Link>
-                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="#">Accessibility</Link>
+                    <Link className="font-label-sm text-label-sm text-secondary hover:text-pink-600 transition-colors" to="/help-center">About Pan Học Code</Link>
                 </div>
             </footer>
         </div>

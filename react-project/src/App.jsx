@@ -12,6 +12,7 @@ import CourseQuestions from './pages/Courses/CourseQuestions';
 import HelpCenter from './pages/HelpCenter/HelpCenter';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService/TermsOfService';
+import Accessibility from './pages/Accessibility/Accessibility';
 import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import { QuizProvider } from './context/QuizContext';
@@ -37,6 +38,7 @@ function App() {
                 <Route path="/help-center" element={<HelpCenter />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
                 <Route path="/terms" element={<TermsOfService />} />
+                <Route path="/accessibility" element={<Accessibility />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
               </Route>

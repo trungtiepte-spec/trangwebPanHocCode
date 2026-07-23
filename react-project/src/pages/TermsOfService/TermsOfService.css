@@ -1,23 +1,21 @@
 /* ============================================================
-   Terms of Service Page Styles (reuses Privacy Policy patterns)
+   Terms of Service Page Styles (Sakura Pink Theme)
    ============================================================ */
-
-/* Reuse .pp-* classes from PrivacyPolicy.css are NOT available here
-   so we define our own .tos-* classes for isolation. */
 
 .tos-page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #f8f9ff;
+    background: transparent;
 }
 
-/* ── Hero ─────────────────────────────────────────────────── */
+/* ── Hero Banner ─────────────────────────────────────────────── */
 .tos-hero {
-    background: linear-gradient(135deg, #0f2b5b 0%, #00288e 100%);
+    background: linear-gradient(135deg, #F9A8D4 0%, #EC4899 100%);
     color: #fff;
-    padding: 52px 24px 44px;
+    padding: 56px 24px 48px;
     text-align: center;
+    border-bottom: 2px solid #fbcfe8;
 }
 
 .tos-hero h1 {
@@ -30,18 +28,18 @@
 
 .tos-hero p {
     font-size: 15px;
-    opacity: 0.9;
+    opacity: 0.95;
     margin: 0 0 20px;
     font-family: 'Inter', sans-serif;
 }
 
-.tos-badge {
+.tos-updated-badge {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
-    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 9999px;
     padding: 6px 16px;
     font-size: 13px;
@@ -50,10 +48,11 @@
     color: #fff;
 }
 
-/* ── Toolbar ─────────────────────────────────────────────── */
+/* ── Toolbar ─────────────────────────────────────────────────── */
 .tos-toolbar {
-    background: #fff;
-    border-bottom: 1px solid #e6eeff;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #fbcfe8;
     padding: 12px 24px;
     display: flex;
     align-items: center;
@@ -63,14 +62,14 @@
     position: sticky;
     top: 0;
     z-index: 40;
-    box-shadow: 0 2px 10px rgba(0,40,142,0.06);
+    box-shadow: 0 2px 10px rgba(236, 72, 153, 0.08);
 }
 
 .tos-search-wrap {
     position: relative;
     flex: 1;
-    max-width: 360px;
-    min-width: 180px;
+    max-width: 380px;
+    min-width: 200px;
 }
 
 .tos-search-icon {
@@ -79,463 +78,215 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #757684;
+    color: #EC4899;
     pointer-events: none;
 }
 
 .tos-search-input {
     width: 100%;
     padding: 9px 14px 9px 38px;
-    border: 1.5px solid #c4c5d5;
+    border: 1.5px solid #fbcfe8;
     border-radius: 9999px;
     font-size: 13px;
     font-family: 'Inter', sans-serif;
     outline: none;
-    background: #f8f9ff;
-    transition: border-color 0.2s;
+    background: #FFF1F7;
+    transition: all 0.2s;
     box-sizing: border-box;
 }
 
 .tos-search-input:focus {
-    border-color: #00288e;
+    border-color: #EC4899;
     background: #fff;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.12);
 }
 
 .tos-toolbar-actions {
     display: flex;
-    gap: 8px;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.tos-btn {
+.tos-btn-icon {
     display: inline-flex;
     align-items: center;
     gap: 6px;
     padding: 8px 14px;
-    border-radius: 8px;
+    border-radius: 9999px;
+    border: 1.5px solid #fbcfe8;
+    background: #fff;
+    color: #9d174d;
     font-size: 13px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    border: 1.5px solid #c4c5d5;
-    background: #fff;
-    color: #0d1c2e;
     transition: all 0.15s;
-    white-space: nowrap;
 }
 
-.tos-btn:hover {
-    border-color: #00288e;
-    color: #00288e;
-    background: #eff4ff;
+.tos-btn-icon:hover {
+    border-color: #EC4899;
+    background: #FFF1F7;
+    color: #EC4899;
 }
 
-.tos-btn .material-symbols-outlined {
-    font-size: 17px;
-}
-
-/* ── Body ─────────────────────────────────────────────────── */
-.tos-body {
-    display: flex;
-    flex: 1;
-    max-width: 1200px;
+/* ── Content Layout ─────────────────────────────────────────── */
+.tos-container {
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px 24px 60px;
-    gap: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    align-items: flex-start;
-}
-
-/* ── ToC Sidebar ─────────────────────────────────────────── */
-.tos-toc {
-    width: 260px;
-    flex-shrink: 0;
-    position: sticky;
-    top: 72px;
-    background: #fff;
-    border: 1.5px solid #e6eeff;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 4px 16px rgba(0,40,142,0.06);
-}
-
-.tos-toc-header {
-    padding: 14px 18px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: #50616b;
-    font-family: 'Inter', sans-serif;
-    border-bottom: 1px solid #e6eeff;
-    background: #f8f9ff;
-}
-
-.tos-toc-list {
-    list-style: none;
-    margin: 0;
-    padding: 8px 0;
-}
-
-.tos-toc-link {
+    padding: 36px 24px 60px;
     display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 9px 18px;
-    font-size: 13px;
-    font-family: 'Inter', sans-serif;
-    color: #444653;
-    cursor: pointer;
-    transition: all 0.15s;
-    border-left: 3px solid transparent;
-    font-weight: 500;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
 }
 
-.tos-toc-link:hover {
-    color: #00288e;
-    background: #eff4ff;
-}
-
-.tos-toc-link.active {
-    color: #00288e;
-    background: #eff4ff;
-    border-left-color: #00288e;
-    font-weight: 700;
-}
-
-.tos-toc-num {
-    font-size: 11px;
-    font-weight: 700;
-    color: #00288e;
-    background: #e6eeff;
-    border-radius: 5px;
-    padding: 1px 6px;
-    flex-shrink: 0;
-}
-
-/* ── Content ─────────────────────────────────────────────── */
-.tos-content {
-    flex: 1;
-    min-width: 0;
-}
-
-/* ── Section Card (collapsible) ──────────────────────────── */
-.tos-section {
-    background: #fff;
-    border: 1.5px solid #e6eeff;
-    border-radius: 14px;
-    margin-bottom: 14px;
-    overflow: hidden;
-    scroll-margin-top: 80px;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 10px rgba(0,40,142,0.03);
-}
-
-.tos-section.open {
-    border-color: #00288e;
-    box-shadow: 0 4px 20px rgba(0,40,142,0.08);
-}
-
-.tos-section-header {
+/* ── Agreement Banner ───────────────────────────────────────── */
+.tos-agree-banner {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border: 2px solid #fbcfe8;
+    border-radius: 16px;
+    padding: 20px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 24px;
-    cursor: pointer;
-    gap: 12px;
-    background: transparent;
-    border: none;
-    width: 100%;
-    text-align: left;
+    flex-wrap: wrap;
+    gap: 16px;
+    box-shadow: 0 4px 20px rgba(236, 72, 153, 0.08);
 }
 
-.tos-section-header:hover {
-    background: #f8f9ff;
-}
-
-.tos-section-left {
+.tos-agree-check {
     display: flex;
     align-items: center;
     gap: 10px;
-    min-width: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9d174d;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.tos-agree-check input {
+    width: 20px;
+    height: 20px;
+    accent-color: #EC4899;
+    cursor: pointer;
+}
+
+/* ── Accordion Sections ─────────────────────────────────────── */
+.tos-section {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1.5px solid #fbcfe8;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(236, 72, 153, 0.05);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tos-section:hover {
+    border-color: #EC4899;
+    box-shadow: 0 6px 24px rgba(236, 72, 153, 0.12);
+}
+
+.tos-section-header {
+    width: 100%;
+    padding: 20px 24px;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: left;
+}
+
+.tos-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .tos-section-num {
-    font-size: 11px;
+    background: #FFF1F7;
+    color: #EC4899;
+    border: 1px solid #fbcfe8;
+    font-size: 12px;
     font-weight: 700;
-    color: #00288e;
-    background: #e6eeff;
-    border-radius: 6px;
-    padding: 3px 8px;
-    flex-shrink: 0;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    font-family: 'Inter', sans-serif;
 }
 
 .tos-section-title {
     font-size: 17px;
     font-weight: 700;
-    color: #0d1c2e;
+    color: #9d174d;
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
-.tos-section-right {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
+.tos-section-icon {
+    color: #EC4899;
+    font-size: 24px;
+    transition: transform 0.2s ease;
 }
 
-.tos-copy-btn {
-    background: none;
-    border: 1.5px solid #c4c5d5;
-    border-radius: 7px;
-    color: #50616b;
-    cursor: pointer;
-    padding: 5px 9px;
-    font-size: 12px;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    transition: all 0.15s;
-}
-
-.tos-copy-btn:hover {
-    border-color: #00288e;
-    color: #00288e;
-    background: #eff4ff;
-}
-
-.tos-copy-btn .material-symbols-outlined {
-    font-size: 15px;
-}
-
-.tos-chevron {
-    color: #00288e;
-    font-size: 22px;
-    transition: transform 0.25s ease;
-}
-
-.tos-section.open .tos-chevron {
+.tos-section.open .tos-section-icon {
     transform: rotate(180deg);
 }
 
 .tos-section-body {
-    padding: 0 24px 22px;
-    border-top: 1px solid #e6eeff;
+    padding: 0 24px 24px;
+    border-top: 1.5px solid #fce7f3;
+    padding-top: 16px;
 }
 
 .tos-section-body p {
     font-size: 14px;
-    line-height: 1.75;
-    color: #444653;
+    line-height: 1.65;
+    color: #374151;
     font-family: 'Inter', sans-serif;
-    margin: 14px 0 0;
+    margin: 0 0 12px;
 }
 
-.tos-section-body ul, .tos-section-body ol {
-    font-size: 14px;
-    line-height: 1.75;
-    color: #444653;
-    font-family: 'Inter', sans-serif;
+.tos-section-body ul {
+    margin: 12px 0 16px;
     padding-left: 20px;
-    margin: 12px 0 0;
-}
-
-.tos-section-body li { margin-bottom: 5px; }
-.tos-section-body strong { color: #0d1c2e; font-weight: 700; }
-
-.tos-info-box {
     display: flex;
-    gap: 10px;
-    background: #eff4ff;
-    border: 1px solid #c4c5d5;
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-top: 14px;
-    font-size: 13px;
-    color: #0d1c2e;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-}
-
-.tos-info-box .material-symbols-outlined {
-    color: #00288e;
-    font-size: 20px;
-    flex-shrink: 0;
-    margin-top: 1px;
-}
-
-/* ── Acceptance Section ───────────────────────────────────── */
-.tos-acceptance {
-    background: linear-gradient(135deg, #0f2b5b 0%, #00288e 100%);
-    border-radius: 16px;
-    padding: 32px 28px;
-    margin-bottom: 14px;
-    color: #fff;
-}
-
-.tos-acceptance h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0 0 8px;
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-}
-
-.tos-acceptance p {
-    font-size: 14px;
-    color: rgba(255,255,255,0.85);
-    margin: 0 0 20px;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-}
-
-.tos-check-label {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    font-weight: 600;
-    user-select: none;
-}
-
-.tos-check-label input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    accent-color: #fff;
-    cursor: pointer;
-    flex-shrink: 0;
-}
-
-.tos-acceptance-status {
-    margin-top: 14px;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 8px;
-    font-size: 13px;
+}
+
+.tos-section-body li {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #374151;
     font-family: 'Inter', sans-serif;
-    color: rgba(255,255,255,0.75);
 }
 
-.tos-acceptance-status.accepted {
-    color: #86efac;
-    font-weight: 700;
-}
-
-/* ── Highlight ─────────────────────────────────────────────── */
-.tos-highlight {
-    background: #fef08a;
-    border-radius: 3px;
-    padding: 0 2px;
-    color: #0d1c2e;
-}
-
-/* ── Back to Top ──────────────────────────────────────────── */
+/* Back to Top Button */
 .tos-back-top {
     position: fixed;
-    bottom: 92px;
-    right: 24px;
+    bottom: 32px;
+    right: 32px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: #00288e;
+    background: linear-gradient(135deg, #F9A8D4, #EC4899);
     color: #fff;
     border: none;
+    box-shadow: 0 4px 16px rgba(236, 72, 153, 0.35);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 14px rgba(0,40,142,0.35);
-    z-index: 999;
-    transition: transform 0.2s, opacity 0.25s;
+    z-index: 50;
+    transition: transform 0.2s, opacity 0.2s;
 }
 
 .tos-back-top:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,40,142,0.45);
-}
-
-.tos-back-top.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
-/* ── Copy Toast ───────────────────────────────────────────── */
-.tos-toast {
-    position: fixed;
-    bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #0d1c2e;
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 9999px;
-    font-size: 13px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    z-index: 9999;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.25);
-    animation: tossFade 0.25s ease;
-}
-
-@keyframes tossFade {
-    from { opacity: 0; transform: translate(-50%, 12px); }
-    to { opacity: 1; transform: translate(-50%, 0); }
-}
-
-/* ── Terms Banner (for Login page) ────────────────────────── */
-.tos-login-banner {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: #eff4ff;
-    border: 1.5px solid #00288e;
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-bottom: 18px;
-    font-size: 13px;
-    font-family: 'Inter', sans-serif;
-    color: #0d1c2e;
-    line-height: 1.5;
-}
-
-.tos-login-banner .material-symbols-outlined {
-    color: #00288e;
-    font-size: 20px;
-    flex-shrink: 0;
-}
-
-.tos-login-banner a {
-    color: #00288e;
-    font-weight: 700;
-    text-decoration: underline;
-    white-space: nowrap;
-}
-
-/* ── Responsive ───────────────────────────────────────────── */
-@media (max-width: 860px) {
-    .tos-body { flex-direction: column; }
-    .tos-toc { position: static; width: 100%; }
-    .tos-section-body { padding: 0 16px 18px; }
-}
-
-@media (max-width: 540px) {
-    .tos-hero h1 { font-size: 24px; }
-    .tos-toolbar { flex-direction: column; align-items: stretch; }
-    .tos-search-wrap { max-width: 100%; }
-}
-
-@media print {
-    .tos-toolbar, .tos-toc, .tos-back-top, .chat-widget-fab { display: none !important; }
-    .tos-body { display: block; }
-    .tos-section { border: 1px solid #ccc; box-shadow: none; margin-bottom: 12px; }
-    .tos-section-body { padding: 12px; }
-    .tos-hero { background: #0d1c2e; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(236, 72, 153, 0.45);
 }
