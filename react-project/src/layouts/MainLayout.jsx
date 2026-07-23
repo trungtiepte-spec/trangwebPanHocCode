@@ -1,13 +1,20 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Outlet, Link, NavLink, useNavigate } from 'react-router-dom';
+import { Outlet, Link, NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import ChatWidget from '../components/ChatWidget';
+import SakuraBackground from '../components/SakuraBackground';
 
 export default function MainLayout() {
     const { currentUser, logout } = useAuth();
     const navigate = useNavigate();
+    const location = useLocation();
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const dropdownRef = useRef(null);
+
+    const getSakuraIntensity = (pathname) => {
+        if (pathname === '/') return 'medium-high';
+        return 'medium';
+    };
 
     // Close dropdown on outside click
     useEffect(() => {
@@ -28,6 +35,7 @@ export default function MainLayout() {
 
     return (
         <div className="bg-background text-on-surface min-h-screen flex flex-col">
+            <SakuraBackground intensity={getSakuraIntensity(location.pathname)} />
             <header className="bg-surface dark:bg-on-surface border-b border-outline-variant dark:border-outline shadow-sm sticky top-0 z-50">
                 <div className="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
                     <div className="flex items-center gap-md">

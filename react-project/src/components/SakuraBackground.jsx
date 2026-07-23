@@ -5,11 +5,12 @@ const PETAL_COLORS = ['#F9A8D4', '#FBCFE8', '#FDA4AF'];
 
 export default function SakuraBackground({ intensity = 'medium' }) {
     const petalCount = useMemo(() => {
-        if (intensity === 'high') return 35;
-        if (intensity === 'medium') return 20;
+        if (intensity === 'high') return 55;
+        if (intensity === 'medium-high') return 35;
+        if (intensity === 'medium') return 22;
         if (intensity === 'low') return 10;
-        if (intensity === 'minimal') return 4;
-        return 20;
+        if (intensity === 'minimal') return 6;
+        return 22;
     }, [intensity]);
 
     const petals = useMemo(() => {
