@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { isTosAccepted } from '../TermsOfService/TermsOfService';
 import SakuraBackground from '../../components/SakuraBackground';
+import sakuraBg from '../../assets/backgrounds/sakura-background.png';
 import './Auth.css';
 
 
@@ -80,8 +81,16 @@ export default function Login() {
 
     return (
         <>
+            {/* Fixed Sakura background image with white overlay */}
+            <div style={{
+                position: 'fixed', top: 0, left: 0,
+                width: '100vw', height: '100vh',
+                backgroundImage: `linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), url(${sakuraBg})`,
+                backgroundSize: 'cover', backgroundPosition: 'center',
+                backgroundAttachment: 'fixed', zIndex: 0, pointerEvents: 'none',
+            }} />
             <SakuraBackground intensity="high" />
-            <div className="auth-page">
+            <div className="auth-page" style={{ position: 'relative', zIndex: 20 }}>
                 <div className="auth-card">
 
                     {/* Logo */}

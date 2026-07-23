@@ -3,6 +3,7 @@ import { Outlet, Link, NavLink, useNavigate, useLocation } from 'react-router-do
 import { useAuth } from '../context/AuthContext';
 import ChatWidget from '../components/ChatWidget';
 import SakuraBackground from '../components/SakuraBackground';
+import sakuraBg from '../assets/backgrounds/sakura-background.png';
 
 export default function MainLayout() {
     const { currentUser, logout } = useAuth();
@@ -34,9 +35,24 @@ export default function MainLayout() {
     };
 
     return (
-        <div className="bg-background text-on-surface min-h-screen flex flex-col">
+        <div className="text-on-surface min-h-screen flex flex-col" style={{ position: 'relative' }}>
+            {/* Layer 0: Fixed Sakura background image with white overlay */}
+            <div style={{
+                position: 'fixed',
+                top: 0, left: 0,
+                width: '100vw',
+                height: '100vh',
+                backgroundImage: `linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), url(${sakuraBg})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed',
+                zIndex: 0,
+                pointerEvents: 'none',
+            }} />
+            {/* Layer 1: Falling Sakura petals */}
             <SakuraBackground intensity={getSakuraIntensity(location.pathname)} />
-            <header className="bg-surface dark:bg-on-surface border-b border-outline-variant dark:border-outline shadow-sm sticky top-0 z-50">
+            {/* Layer 2: Header + main content */}
+            <header className="bg-white/80 backdrop-blur-sm border-b border-pink-100 shadow-sm sticky top-0" style={{ zIndex: 50 }}>
                 <div className="flex justify-between items-center w-full px-lg py-md max-w-container-max mx-auto">
                     <div className="flex items-center gap-md">
                         <img src="/logo.png" alt="Pan Học Code Logo" className="w-10 h-10 object-contain rounded-full shadow-sm" />
@@ -99,7 +115,7 @@ export default function MainLayout() {
                 </div>
             </header>
 
-            <div className="relative z-10 flex-grow flex flex-col">
+            <div className="relative flex-grow flex flex-col" style={{ zIndex: 20 }}>
                 <Outlet />
             </div>
 
